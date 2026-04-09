@@ -4,7 +4,7 @@
   "prev2DateStr": null,
   "prevLabel": "전일",
   "todayLabel": "4/9(당일)",
-  "excelPath": "/Users/yeook/Documents/ktm-crawler/output/요금제현황_20260409.xlsx",
+  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260409.xlsx",
   "totalToday": 558,
   "summary": {
     "newCount": 558,
