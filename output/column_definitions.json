@@ -1,0 +1,139 @@
+{
+  "title": "KT M모바일 요금제 수집 데이터 컬럼 정의서",
+  "version": "1.0",
+  "generated_at": "2026-04-09",
+  "columns": [
+    {
+      "field": "plan_name",
+      "type": "string",
+      "nullable": false,
+      "description": "요금제명 (페이지 표시 명칭 그대로, 공백 정리)",
+      "example": "모두다 맘껏 7GB+(밀리의 서재 FREE)"
+    },
+    {
+      "field": "plan_code",
+      "type": "string",
+      "nullable": false,
+      "description": "요금제 고유 상품코드 (rateAdsvcCd). 중복 제거 기준 키.",
+      "example": "PL235Q981"
+    },
+    {
+      "field": "data_allowance_raw",
+      "type": "string",
+      "nullable": true,
+      "description": "데이터 제공량 원문 (QoS 속도 포함 원본 문자열)",
+      "example": "7GB+최대1Mbps"
+    },
+    {
+      "field": "data_allowance_normalized",
+      "type": "string",
+      "nullable": true,
+      "description": "데이터 제공량 정규화 (QoS 부분 제거. 복합 데이터 구조는 그대로 유지)",
+      "example": "7GB",
+      "notes": "'11GB+일2GB' 같이 복합 데이터 구조는 + 이후도 데이터에 포함"
+    },
+    {
+      "field": "qos_raw",
+      "type": "string",
+      "nullable": true,
+      "description": "QoS 원문 (데이터 소진 후 속도제한 포함된 원본 문자열)",
+      "example": "7GB+최대1Mbps"
+    },
+    {
+      "field": "qos_speed",
+      "type": "string",
+      "nullable": true,
+      "description": "QoS 속도 정규화 값. QoS 없으면 null. 단위: Mbps 또는 Kbps",
+      "example": "1Mbps",
+      "possible_values": ["200Kbps", "400Kbps", "1Mbps", "3Mbps", "5Mbps", "10Mbps", null],
+      "parse_source": "xmlQosCnt(kbps 정수) 우선, 없으면 data_allowance_raw 문자열 정규식 파싱"
+    },
+    {
+      "field": "voice_allowance",
+      "type": "string",
+      "nullable": true,
+      "description": "음성 제공량. xmlCallCnt>=999999999이면 '무제한'",
+      "example": "무제한"
+    },
+    {
+      "field": "sms_allowance",
+      "type": "string",
+      "nullable": true,
+      "description": "문자 제공량",
+      "example": "기본제공"
+    },
+    {
+      "field": "base_price_text",
+      "type": "string",
+      "nullable": true,
+      "description": "기본금액 텍스트 (VAT 포함)",
+      "example": "월 35,200원"
+    },
+    {
+      "field": "base_price",
+      "type": "integer",
+      "nullable": true,
+      "description": "기본금액 숫자 (VAT 포함, 원 단위)",
+      "example": 35200
+    },
+    {
+      "field": "benefit_price_text",
+      "type": "string",
+      "nullable": true,
+      "description": "혜택가 텍스트 (프로모션 적용가)",
+      "example": "혜택가 월 16,300원"
+    },
+    {
+      "field": "benefit_price",
+      "type": "integer",
+      "nullable": true,
+      "description": "혜택가 숫자 (원 단위). 혜택가 없으면 null",
+      "example": 16300
+    },
+    {
+      "field": "plan_type",
+      "type": "array<string>",
+      "nullable": false,
+      "description": "가입 형태. 복수 분류 가능",
+      "possible_values": ["유심", "eSIM", "휴대폰"],
+      "example": ["유심"],
+      "esim_detection": "카테고리명 'e 요금제' 또는 요금제명 'e 5G...' 패턴 또는 addDivCd='E'"
+    },
+    {
+      "field": "partnership_flag",
+      "type": "boolean",
+      "nullable": false,
+      "description": "제휴 요금제 여부 (카테고리 체인에 '제휴' 포함 시 true)",
+      "example": true
+    },
+    {
+      "field": "network_type",
+      "type": "string",
+      "nullable": false,
+      "description": "네트워크 타입. depth-2 카테고리명 기반",
+      "possible_values": ["LTE", "5G", "3G"],
+      "example": "LTE"
+    },
+    {
+      "field": "product_group",
+      "type": "string",
+      "nullable": false,
+      "description": "상품 그룹명 (요금제가 속한 카테고리명)",
+      "example": "모두다 맘껏"
+    },
+    {
+      "field": "source_url",
+      "type": "string",
+      "nullable": false,
+      "description": "수집 출처 URL",
+      "example": "https://www.ktmmobile.com/rate/rateList.do"
+    },
+    {
+      "field": "collected_at",
+      "type": "string (ISO8601)",
+      "nullable": false,
+      "description": "수집 일시 (UTC)",
+      "example": "2026-04-09T03:28:26.086Z"
+    }
+  ]
+}

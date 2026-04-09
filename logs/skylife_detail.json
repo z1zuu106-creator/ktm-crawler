@@ -1,0 +1,245 @@
+{
+  "planCount": 24,
+  "plans": [
+    {
+      "slug": "pl234d620",
+      "href": "/product/mobile/goods/pl234d620",
+      "allText": "5G 모두 충분 200GB+",
+      "lines": [
+        "5G 모두 충분 200GB+"
+      ],
+      "dataLine": "5G 모두 충분 200GB+",
+      "fullHTML": "5G 모두 충분 200GB+"
+    },
+    {
+      "slug": "pl238p556",
+      "href": "/product/mobile/goods/pl238p556",
+      "allText": "5G 모두 충분 200GB+(밀리의서재)",
+      "lines": [
+        "5G 모두 충분 200GB+(밀리의서재)"
+      ],
+      "dataLine": "5G 모두 충분 200GB+(밀리의서재)",
+      "fullHTML": "5G 모두 충분 200GB+(밀리의서재)"
+    },
+    {
+      "slug": "pl231k975",
+      "href": "/product/mobile/goods/pl231k975",
+      "allText": "5G 모두 충분 110GB+",
+      "lines": [
+        "5G 모두 충분 110GB+"
+      ],
+      "dataLine": "5G 모두 충분 110GB+",
+      "fullHTML": "5G 모두 충분 110GB+"
+    },
+    {
+      "slug": "pl238p560",
+      "href": "/product/mobile/goods/pl238p560",
+      "allText": "5G 모두 충분 110GB+(밀리의서재)",
+      "lines": [
+        "5G 모두 충분 110GB+(밀리의서재)"
+      ],
+      "dataLine": "5G 모두 충분 110GB+(밀리의서재)",
+      "fullHTML": "5G 모두 충분 110GB+(밀리의서재)"
+    },
+    {
+      "slug": "pl2595321",
+      "href": "/product/mobile/goods/pl2595321",
+      "allText": "모두 충분 100GB+(지니뮤직)",
+      "lines": [
+        "모두 충분 100GB+(지니뮤직)"
+      ],
+      "dataLine": "모두 충분 100GB+(지니뮤직)",
+      "fullHTML": "모두 충분 100GB+(지니뮤직)"
+    },
+    {
+      "slug": "pl238p576",
+      "href": "/product/mobile/goods/pl238p576",
+      "allText": "모두 충분 100GB+(Pay_5000)",
+      "lines": [
+        "모두 충분 100GB+(Pay_5000)"
+      ],
+      "dataLine": "모두 충분 100GB+(Pay_5000)",
+      "fullHTML": "모두 충분 100GB+(Pay_5000)"
+    },
+    {
+      "slug": "pl237k291",
+      "href": "/product/mobile/goods/pl237k291",
+      "allText": "모두 충분 100GB+(웨이브)",
+      "lines": [
+        "모두 충분 100GB+(웨이브)"
+      ],
+      "dataLine": "모두 충분 100GB+(웨이브)",
+      "fullHTML": "모두 충분 100GB+(웨이브)"
+    },
+    {
+      "slug": "pl254t549",
+      "href": "/product/mobile/goods/pl254t549",
+      "allText": "모두 충분 100GB+(올리브영_5000)",
+      "lines": [
+        "모두 충분 100GB+(올리브영_5000)"
+      ],
+      "dataLine": "모두 충분 100GB+(올리브영_5000)",
+      "fullHTML": "모두 충분 100GB+(올리브영_5000)"
+    },
+    {
+      "slug": "pl254t547",
+      "href": "/product/mobile/goods/pl254t547",
+      "allText": "모두 충분 100GB+(다이소_5000)",
+      "lines": [
+        "모두 충분 100GB+(다이소_5000)"
+      ],
+      "dataLine": "모두 충분 100GB+(다이소_5000)",
+      "fullHTML": "모두 충분 100GB+(다이소_5000)"
+    },
+    {
+      "slug": "pl244n949",
+      "href": "/product/mobile/goods/pl244n949",
+      "allText": "모두 충분 100GB+(CU)",
+      "lines": [
+        "모두 충분 100GB+(CU)"
+      ],
+      "dataLine": "모두 충분 100GB+(CU)",
+      "fullHTML": "모두 충분 100GB+(CU)"
+    },
+    {
+      "slug": "pl235q977",
+      "href": "/product/mobile/goods/pl235q977",
+      "allText": "모두 충분 100GB+(밀리의서재)",
+      "lines": [
+        "모두 충분 100GB+(밀리의서재)"
+      ],
+      "dataLine": "모두 충분 100GB+(밀리의서재)",
+      "fullHTML": "모두 충분 100GB+(밀리의서재)"
+    },
+    {
+      "slug": "pl226t134",
+      "href": "/product/mobile/goods/pl226t134",
+      "allText": "모두 충분 11GB+(Pay_5000)",
+      "lines": [
+        "모두 충분 11GB+(Pay_5000)"
+      ],
+      "dataLine": "모두 충분 11GB+(Pay_5000)",
+      "fullHTML": "모두 충분 11GB+(Pay_5000)"
+    },
+    {
+      "slug": "pl227s452",
+      "href": "/product/mobile/goods/pl227s452",
+      "allText": "슬림 1GB/100분",
+      "lines": [
+        "슬림 1GB/100분"
+      ],
+      "dataLine": "슬림 1GB/100분",
+      "fullHTML": "슬림 1GB/100분"
+    },
+    {
+      "slug": "pl227s454",
+      "href": "/product/mobile/goods/pl227s454",
+      "allText": "슬림 2GB/200분",
+      "lines": [
+        "슬림 2GB/200분"
+      ],
+      "dataLine": "슬림 2GB/200분",
+      "fullHTML": "슬림 2GB/200분"
+    },
+    {
+      "slug": "pl227s453",
+      "href": "/product/mobile/goods/pl227s453",
+      "allText": "슬림 1.5GB/150분",
+      "lines": [
+        "슬림 1.5GB/150분"
+      ],
+      "dataLine": "슬림 1.5GB/150분",
+      "fullHTML": "슬림 1.5GB/150분"
+    },
+    {
+      "slug": "pl237i261",
+      "href": "/product/mobile/goods/pl237i261",
+      "allText": "스쿨 7GB+(밀리의 서재)",
+      "lines": [
+        "스쿨 7GB+(밀리의 서재)"
+      ],
+      "dataLine": "스쿨 7GB+(밀리의 서재)",
+      "fullHTML": "스쿨 7GB+(밀리의 서재)"
+    },
+    {
+      "slug": "pl226k881",
+      "href": "/product/mobile/goods/pl226k881",
+      "allText": "스쿨 2GB+",
+      "lines": [
+        "스쿨 2GB+"
+      ],
+      "dataLine": "스쿨 2GB+",
+      "fullHTML": "스쿨 2GB+"
+    },
+    {
+      "slug": "pl234d619",
+      "href": "/product/mobile/goods/pl234d619",
+      "allText": "SOS 스쿨 4GB+",
+      "lines": [
+        "SOS 스쿨 4GB+"
+      ],
+      "dataLine": "SOS 스쿨 4GB+",
+      "fullHTML": "SOS 스쿨 4GB+"
+    },
+    {
+      "slug": "pl234d616",
+      "href": "/product/mobile/goods/pl234d616",
+      "allText": "SOS 안심 골드 4GB+",
+      "lines": [
+        "SOS 안심 골드 4GB+"
+      ],
+      "dataLine": "SOS 안심 골드 4GB+",
+      "fullHTML": "SOS 안심 골드 4GB+"
+    },
+    {
+      "slug": "pl234d628",
+      "href": "/product/mobile/goods/pl234d628",
+      "allText": "SOS 안심 골드 2GB+",
+      "lines": [
+        "SOS 안심 골드 2GB+"
+      ],
+      "dataLine": "SOS 안심 골드 2GB+",
+      "fullHTML": "SOS 안심 골드 2GB+"
+    },
+    {
+      "slug": "pl225k719",
+      "href": "/product/mobile/goods/pl225k719",
+      "allText": "안심 골드 4GB+",
+      "lines": [
+        "안심 골드 4GB+"
+      ],
+      "dataLine": "안심 골드 4GB+",
+      "fullHTML": "안심 골드 4GB+"
+    },
+    {
+      "slug": "pl238p572",
+      "href": "/product/mobile/goods/pl238p572",
+      "allText": "모두 충분 7GB+(Pay_5000)",
+      "lines": [
+        "모두 충분 7GB+(Pay_5000)"
+      ],
+      "dataLine": "모두 충분 7GB+(Pay_5000)",
+      "fullHTML": "모두 충분 7GB+(Pay_5000)"
+    },
+    {
+      "slug": "pl2544316",
+      "href": "/product/mobile/goods/pl2544316",
+      "allText": "모두 충분 7GB+(올리브영_5000)",
+      "lines": [
+        "모두 충분 7GB+(올리브영_5000)"
+      ],
+      "dataLine": "모두 충분 7GB+(올리브영_5000)",
+      "fullHTML": "모두 충분 7GB+(올리브영_5000)"
+    },
+    {
+      "slug": "pl2544313",
+      "href": "/product/mobile/goods/pl2544313",
+      "allText": "모두 충분 7GB+(다이소_5000)",
+      "lines": [
+        "모두 충분 7GB+(다이소_5000)"
+      ],
+      "dataLine": "모두 충분 7GB+(다이소_5000)",
+      "fullHTML": "모두 충분 7GB+(다이소_5000)"
+    }
+  ]
+}

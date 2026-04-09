@@ -1,0 +1,111 @@
+{
+  "requests": [
+    {
+      "url": "https://kn.acrosspf.com/adn_health_jsonp_chk.ad?g=tags&t=59644531267",
+      "method": "GET",
+      "postData": null
+    },
+    {
+      "url": "https://direct.lghellovision.net/ajaxCommonBannerList.do",
+      "method": "POST",
+      "postData": "position=SIDE_QUICK"
+    },
+    {
+      "url": "https://direct.lghellovision.net/fund/ajaxRateList.do",
+      "method": "POST",
+      "postData": "reqRateType=U&reqTelecom=LGU&reqOrder=S1&reqUsimType=&reqDataSum=&reqDepleRateList=&reqCalls=&reqPriceGubunList=&reqMin=0&reqMax=70000&reqText="
+    },
+    {
+      "url": "https://nam.veta.naver.com/nac/2",
+      "method": "GET",
+      "postData": null
+    },
+    {
+      "url": "https://cdn.megadata.co.kr/dist/config/id/hellovision.json",
+      "method": "GET",
+      "postData": null
+    },
+    {
+      "url": "https://tk.mediacategory.com/aggregate/mssg/common",
+      "method": "POST",
+      "postData": "{\"adverId\":\"hellovision\",\"device\":\"B\",\"domain\":\"direct.lghellovision.net\",\"charSet\":\"UTF-8\",\"url\":\"https://direct.lghellovision.net/rate/rateViewUsim.do\",\"referrer\":\"\",\"referrerDomain\":\"\",\"cookieEnabled\":true,\"solutionType\":\"self_hosted\",\"siteCode\":\"497e7abe0d0e3a77dca6796045700151\",\"ver\":\"02\",\"slc\":2,\"llc\":0,\"_fcTE\":\"{\\\"rd\\\":\\\"o\\\"}\"}"
+    },
+    {
+      "url": "https://api.mediacategory.com/rtb/redirectUrl",
+      "method": "POST",
+      "postData": "{\"t\":\"\"}"
+    },
+    {
+      "url": "https://gum.criteo.com/sid/json?origin=onetag&domain=lghellovision.net&sn=ChromeSyncframe&so=undefined&topUrl=direct.lghellovision.net",
+      "method": "GET",
+      "postData": null
+    }
+  ],
+  "responses": [
+    {
+      "url": "https://kn.acrosspf.com/adn_health_jsonp_chk.ad?g=tags&t=59644531267",
+      "status": 200,
+      "body": "({\"health_status\":\"ok\"})"
+    },
+    {
+      "url": "https://direct.lghellovision.net/fund/ajaxRateList.do",
+      "status": 200,
+      "body": "{\"list\":[{\"idx\":\"295\",\"pidx\":\"139\",\"paymentcode\":\"PDLB000041\",\"salesName\":\"The 착한 데이터 유심 11GB\",\"salesBadge\":\"C\",\"telecom\":\"LGU\",\"title\":\"LTE USIM 요금제\",\"usimType\":\"LTE\",\"salesBadgeNm\":\"\",\"salesBadgeTextColor\":\"\",\"salesBadgeBgColor\":\"\",\"dedicatedPriceGubun\":\"N\",\"dedicatedMonthlyOfferGubun\":\"G\",\"dedicatedMonthlyOfferValue\":\"11\",\"dedicatedDailyOfferGubun\":\"G\",\"dedicatedDailyOfferValue\":\"2\",\"dedicatedOfferSumValue\":\"71\",\"dedicatedDataDepletionRate\":\"3\",\"dedicatedCallsGubun\":\"L\",\"dedicatedCallsValue\":\"\",\"dedicatedSmsGubun\":\"L\",\"dedicatedSmsValue\":\"\",\"dedicatedViedocallsGubun\":\"B\",\"dedicatedViedocallsValue\":\"300\",\"directPromotionDirectmallPrice\":\"32990\",\"directPromotionInfotext\":\"A\",\"directPromotionAfterMonthChk\":\"\",\"directPromotionAfterPrice\":\"\",\"benefitList\":[{\"idx\":\"295\",\"gubun\":\"B\",\"gubunTitle\":\"\",\"benefitPriceSum\":\"515000\",\"optionIdx\":\"3856\",\"detailIdx\":\"1821\",\"sort\":\"1\",\"benefitText\":\"프로모션 코드 입력 혜택\",\"benefitPrice\":\"150000\",\"lIconPath\":\"20250929124435360_evtbenefitIcon.png\",\"lIconAlt\":\"\",\"dIconPath\":\"20250929124816420_evtbenefitIcon.png\",\"dIconAlt\":\"\"},{\"idx\":\"295\",\"gubun\":\"B\",\"gubunTitle\":\"\",\"benefitPriceSum\":\"515000\",\"optionIdx\":\"3857\",\"detailIdx\":\"1821\",\"sort\":\"2\",\"benefitText\":\"친구추천 혜택\",\"benefitPrice\":\"300000\",\"lIconPath\":\"20250929124527520_evtbenefitIcon.png\",\"lIconAlt\":\"\",\"dIconPath\":\"20250929124714160_evtbenefitIcon.png\",\"dIconAlt\":\"\"},{\"idx\":\"295\",\"gubun\":\"B\",\"gubunTitle\":\"\",\"benefitPriceSum\":\"515000\",\"optionIdx\":\"3858\",\"detailIdx\":\"1821\",\"sort\":\"3\",\"benefitText\":\"갤럭시S26 구매후 요금제 가입시 혜택\",\"benefitPrice\":\"30000\",\"lIconPath\":\"20250929124435360_evtbenefitIcon.png\",\"lIconAlt\":\"\",\"dIconPath\":\"20250929124641180_evtbenefitIcon.png\",\"dIconAlt\":\"\"},{\"idx\":\"295\",\"gubun\":\"B\",\"gubunTitle\":\"\",\"benefitPriceSum\":\"515000\",\"optionIdx\":\"3859\",\"detailIdx\":\"1821\",\"sort\":\"4\",\"benefitText\":\"구글AI+도미노피자 구독권 할인쿠폰&#40;5천원*3개월&#41;\",\"benefitPrice\":\"15000\",\"lIconPath\":\"20250929124226460_evtbenefitIcon.png\",\"lIconAlt\":\"\",\"dIconPath\":\"20250929124816420_evtbenefitIcon.png\",\"dIconAlt\":\"\"},{\"idx\":\"295\",\"gubun\":\"B\",\"gubunTitle\":\"\",\"benefitPriceSum\":\"515000\",\"optionIdx\":\"3860\",\"detailIdx\":\"1821\",\"sort\":\"5\",\"benefitText\":\"hy 프레딧 할인쿠폰&amp;야쿠르트 무료교환쿠폰\",\"benefitPrice\":\"20000\",\"lIconPath\":\"20250929124226460_evtbenefitIcon.png\",\"lIconAlt\":\"\",\"dIconPath\":\"20250929124816420_evtbenefitIcon.png\",\"dIconAlt\":\"\"}]},{\"idx\":\"402\",\"pidx\":\"139\",\"paymentcode\":\"PDLB000179\",\"salesName\":\"DATA 걱정없는 유심 7GB\",\"salesBadge\":\"B\",\"telecom\":\"LGU\",\"title\":\"LTE USIM 요금제\",\"usimType\":\"LTE\",\"salesBadgeNm\":\"\",\"salesBadgeTextColor\":\"\",\"salesBadgeBgColor\":\"\",\"dedicatedPriceGubun\":\"N\",\"dedicatedMonthlyOfferGubun\":\"G\",\"dedicatedMonthlyOfferValue\":\"7\",\"dedicatedDailyOfferGubun\":\"G\",\"dedicatedDailyOfferValue\":\"\",\"dedicatedOfferSumValue\":\"7\",\"dedicatedDataDepletionRate\":\"2\",\"dedicatedCallsGubun\":\"L\",\"dedicatedCallsValue\":\"\",\"dedicatedSmsGubun\":\"L\",\"dedicatedSmsValue\":\"\",\"dedicatedViedocallsGubun\":\"B\",\"dedicatedViedocallsValue\":\"300\",\"directPromotionDirectmallPrice\":\"15900\",\"directPromotionInfotext\":\"A\",\"directPromotion"
+    },
+    {
+      "url": "https://direct.lghellovision.net/ajaxCommonBannerList.do",
+      "status": 200,
+      "body": "{\"bannerList\":[],\"uploadImageUrl\":\"https://directcdn.lghellovision.net/upload\"}"
+    },
+    {
+      "url": "https://nam.veta.naver.com/nac/2",
+      "status": 200,
+      "body": "{\"nac\":\"bi2NBAhrGsX3\"}\n"
+    },
+    {
+      "url": "https://cdn.megadata.co.kr/dist/config/id/hellovision.json",
+      "status": 200,
+      "body": "{\"version\":\"4.0\",\"hostingType\":\"self_hosted\",\"siteCode\":\"497e7abe0d0e3a77dca6796045700151\",\"dataParser\":\"\",\"dataValidator\":\"\",\"categoryParser\":\"\",\"tester\":false}"
+    },
+    {
+      "url": "https://tk.mediacategory.com/aggregate/mssg/common",
+      "status": 200,
+      "body": "{\"respMssg\":\"정상처리 되었습니다.\",\"parameters\":{\"_auid\":\"33949ad724c8ec1d-79545d1c19d70579ee3-23ea\",\"_ip_info\":\"1.232.245.216.236680\"},\"respCode\":\"MOIF0000\"}"
+    },
+    {
+      "url": "https://api.mediacategory.com/rtb/redirectUrl",
+      "status": 200,
+      "body": "{\"status\":true,\"redirectUrl\":\"//act.ds.kakao.com/match?d=104&uid=_%7C_%7C33949ad724c8ec1d-79545d1c19d70579ee3-23ea\",\"redirectUrl_g\":\"//cm.g.doubleclick.net/pixel?google_nid=enliple_tw&google_hm=X3xffDMzOTQ5YWQ3MjRjOGVjMWQtNzk1NDVkMWMxOWQ3MDU3OWVlMy0yM2Vh\",\"redirectUrl_k\":\"//act.ds.kakao.com/match?d=104&uid=_%7C_%7C33949ad724c8ec1d-79545d1c19d70579ee3-23ea\",\"send_rtb_date\":\"20260409124537\",\"msg\":\"ok\"}"
+    },
+    {
+      "url": "https://gum.criteo.com/sid/json?origin=onetag&domain=lghellovision.net&sn=ChromeSyncframe&so=undefined&topUrl=direct.lghellovision.net",
+      "status": 200,
+      "body": "{\"sid\":null,\"removeSid\":false,\"bundle\":\"r3VYgF9Ic0dvekRhQUFQVVVoS2JzWDZRUDJDZkg4NGVNUUJZSUtOenRLY3N0THJKQlh0NWFUUGlMOWVzSXhCJTJCREZyQ05wTWhSYWEydHFxQlNwN2V5eExoVzEzR3Z0VWJYJTJCWjZBWUdIQk5TVVlocnBkeWdVUjViNjJad1NveFVWZnNrRmxyVDZFSjBvU05Gdno5d0ZnJTJGb1lPUGpXUU9LSUt4ZVBRNzVTTkYlMkYlMkZPSllFYWFrJTJGT0p6MFZtcFA3V3RWJTJCTkpnRVpDMmNTSzk2dm5LWEpzYlBJQWljS2clM0QlM0Q\",\"info\":\"uTa9SF9Ic0dvekRhQUFQVVVoS2JzWDZRUDJDZkg4NGVNUUJZSUtOenRLY3N0THJKQlh0NWFUUGlMOWVzSXhCJTJCREZyQ04xWEpUdFhMYjVBbXlBMHQ4JTJCcnAxUkElM0QlM0Q\",\"optout\":false}"
+    }
+  ],
+  "dom": {
+    "itemCount": 68,
+    "sample": [
+      {
+        "html": "<li class=\"list-item\" id=\"list-item\">\t<div class=\"info-wrap\" onclick=\"openPop(this)\" data-detail=\"The 착한 데이터 유심 11GB&amp;300분&amp;PDLB000041&amp;L\">\t\t<div class=\"plan-rate-wrap\">\t\t\t<div class=\"plan-rate-name\">The 착한 데이터 유심 11GB</div>\t\t\t<div class=\"plan-badge-wrap\">\t\t\t<p class=\"complex\">U+결합할인</p>\t\t\t</div>\t\t</div>\t\t<div class=\"plan\">\t\t\t<div class=\"plan-title\">\t\t\t\t<h2 id=\"mTitle\">11GB<span class=\"add\"> +일 2GB +3Mbps 무제한</span></h2>\t\t\t\t<div class=\"sub-info\">\t\t\t\t\t<span class=\"net\" data-popnet=\"LG U+ 망\">LG U+ 망</span>\t\t\t\t\t<span class=\"gan\" data-popgan=\"LTE\">LTE</span>\t\t\t\t\t<span class=\"call\" data-popcall=\"기본제공\">통화  기본제공</span>\t\t\t\t\t<span class=\"text\" data-popsms=\"기본제공\">문자 기본제공</span>\t\t\t\t</div>\t\t\t</div>\t\t\t<div class=\"price\">\t\t\t\t<span class=\"type\" id=\"priceType\">평생요금</span>\t\t\t\t<div class=\"m-price\">",
+        "title": "11GB +일 2GB +3Mbps 무제한\t\t\t\t\t\t\t\t\tLG U+ 망\t\t\t\t\tLTE\t\t\t\t\t통화  기본제공\t\t\t\t\t문자 기본제공",
+        "net": "LG U+ 망",
+        "gan": "LTE",
+        "call": "통화  기본제공",
+        "text": "문자 기본제공",
+        "price": "평생요금",
+        "dataset": {}
+      },
+      {
+        "html": "<li class=\"item\">\t<div class=\"gift-title\" data-gubun=\"B\">\t\t<ul class=\"icon-list\">\t\t<li><img src=\"https://directcdn.lghellovision.net/upload/atcfile/event/benefit/20250929124435360_evtbenefitIcon.png\" alt=\"\"></li>\t\t<li><img src=\"https://directcdn.lghellovision.net/upload/atcfile/event/benefit/20250929124527520_evtbenefitIcon.png\" alt=\"\"></li>     <li class=\"num\"><span>+3</span></li>\t\t</ul>\t\t<p class=\"text\">\t\t지금 가입 시 최대 51.5만원 혜택\t\t</p>\t</div>\t<div class=\"gift-info\">\t\t<ul>\t\t<li data-imgpath=\"https://directcdn.lghellovision.net/upload/atcfile/event/benefit/20250929124816420_evtbenefitIcon.png\" data-imgalt=\"\">프로모션 코드 입력 혜택 15만원</li>\t\t<li data-imgpath=\"https://directcdn.lghellovision.net/upload/atcfile/event/benefit/20250929124714160_evtbenefitIcon.png\" data-imgalt=\"\">친구추천 혜택 30만원</li>\t\t<li data",
+        "text": "지금 가입 시 최대 51.5만원 혜택",
+        "dataset": {}
+      },
+      {
+        "html": "<li><img src=\"https://directcdn.lghellovision.net/upload/atcfile/event/benefit/20250929124435360_evtbenefitIcon.png\" alt=\"\"></li>",
+        "dataset": {}
+      }
+    ],
+    "bodyPreview": "\n\t\n\t<!-- Google Tag Manager (noscript) -->\n\t<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KZXM52C\"\n\theight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n\t<!-- End Google Tag Manager (noscript) -->\n\t\n\t<!-- ADN 클로징패널 설치  start -->\n\t<script type=\"text/javascript\">\n\tvar adn_panel_param = adn_panel_param || [];\n\tadn_panel_param.push([{\n\t ui:'102560',\t\n\t ci:'1025600003',\n\t gi:'37737'\n\t}]);\n\t</script>\n\t<script type=\"text/javascript\" async=\"\" src=\"//fin.rainbownine.net/js/across_adn_closed_pc_ad_1.0.4.js\"></script>\n\t<!-- ADN 클로징패널 설치 end -->\n\n\t\n<!--  contents  -->\n<div id=\"contents\">\n\n\t<!-- 상위메뉴 -->\n\t\n\n<style>\n\thtml {opacity:0;}\n</style>\n\n<script>\n\t$(document).ready(function() {\n\t\t$('html').delay(250).css({'opacity':'1'},250);\n\t\tgetRecentKeywords();\n\n\t\t//추천 검색어\n\t\t$('.recommend-keyword').on('click', 'li', function() {\t\t\t\n\t\t\tconst searchTxt = $(this).find('button').text(); \n\t\t\tsaveSearchKeyword(searchTxt); //최근 검색어 저장\t\t\t\n\t\t\t$(\"#sForm #reqSearchWord\").val(searchTxt);\n\t\t\t$('#sForm').submit();\n\t\t});\t\t\n\t\t//enter\n\t\t$('#mdmSearchText').on('keydown', e => {\n            if (e.key === \"Enter\") {\n                e.preventDefault();\n                mdmSearch();\n            }\n        })\t    \n\t});\n\n\n\t//gnb 검색 가능\n\tfunction mdmSearch(){\n\t    let searchTxt = $('#mdmSearchText').val().trim();\n\t\tif(searchTxt === ''){\n         \topenModal(\"no-result\");\n\t\t\treturn;\n\t    }\n\t\tsaveSearchKeyword(searchTxt); //최근 검색어 저장\n\t\t$(\"#sForm #reqSearchWord\").val(searchTxt);\n\t\t$('#sForm').submit();\t    \t\n\t}\n\n\t//최근검색어 li\n\tfunction recentKeywordSearch(el){\n\t\tvar $this = $(el);\n\t\tlet searchTxt = $this.text();\t    \n\t\tsaveSearchKeyword(searchTxt); //최근 검색어 저장\n\t\t$(\"#sForm #reqSearchWord\").val(searchTxt);\n\t\t$('#sForm').submit();\t    \t\n\t}\n\t\n\n\t/*** 최근 검색어 관련 start ****/\n\tconst COOKIE_NAME = 'recentKeywords'; //cookie name\n\tconst MAX_KEYWORDS = 6; //max cnt\n\n\t//get cookie\n\tfunction getCookie(name) {\n\t\tconst value = document.cookie.match('(^|;)\\\\s*' + name + '\\\\s*=\\\\s*([^"
+  }
+}

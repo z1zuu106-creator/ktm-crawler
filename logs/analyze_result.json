@@ -1,0 +1,237 @@
+{
+  "networkRequests": [
+    {
+      "url": "https://nam.veta.naver.com/nac/2",
+      "method": "GET",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "url": "https://www.google.com/rmkt/collect/862149999/?random=1775704704589&cv=11&fst=1775704704589&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&data=event%3Dgtag.config&gcp=5",
+      "method": "POST",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion/862149999/?random=1775704704604&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=7",
+      "method": "GET",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&scrsrc=www.googletagmanager.com&rnd=521625317.1775704705&dt=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&auid=1231808631.1775704705&navt=n&npa=0&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~117884344&apve=1&apvf=f&apvc=1&tids=AW-862149999&tid=AW-862149999&tft=1775704704608&tfd=776",
+      "method": "POST",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.ktmmobile.com/rate/getCtgXmlAllListAjax.do",
+      "method": "POST",
+      "resourceType": "xhr",
+      "postData": "rateAdsvcDivCd=RATE&rand=45406100000"
+    },
+    {
+      "url": "https://www.ktmmobile.com/getPopupListAjax.do",
+      "method": "POST",
+      "resourceType": "xhr",
+      "postData": "popupShowUrl=/rate/rateList.do&rand=327265100000"
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/862149999/?random=1166830867&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI9ZXZlbnQtc291cmNlLCBub3QtbmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgSN4b0t&fsk=ChEI8PnXzgYQm4a3v5jx98vSARIsAISviA7yZhhZpFFuwIpg2-PjHd2G3SM0sjn9SuG7KGYW1x4H8uMVHQOQbtAaAq76&pscrd=IhMIzJCVweffkwMVaE_DBh1BcjcFMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy5rdG1tb2JpbGUuY29tL0JXQ2hBSThQblh6Z1lRcmRicXZPLVc0cDlPRWkwQTBpVmlRalh2Z1BUM3ZqYlI0Y0JaRXBQcGRHWHk1NXhuTHlVZkVhbHMyaHNjckxISGlBOWZTRWFBY2xBegwICWIICAAQABgAIAA",
+      "method": "POST",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1257125105&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&ul=en-us&dt=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&sr=1280x720&vp=1280x720&_u=IGBAgEABAAAAACAAI~&jid=1975543422&gjid=1747311787&cid=303056704.1775704705&tid=UA-42090525-2&_gid=1846955813.1775704705&_slc=1&z=1958551881",
+      "method": "POST",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j102&tid=UA-42090525-2&cid=303056704.1775704705&jid=1975543422&gjid=1747311787&_gid=1846955813.1775704705&_u=IGBAgEABAAAAAGAAI~&z=316112060",
+      "method": "POST",
+      "resourceType": "xhr",
+      "postData": null
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&scrsrc=www.googletagmanager.com&rnd=521625317.1775704705&dt=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&auid=1231808631.1775704705&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6471h1v897182138za200zd897182138xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~118442251&apve=1&apvf=f&apvc=0&tft=1775704704933&tfd=1101",
+      "method": "POST",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-JF07Z48P27&gtm=45je6471h1v873997740z8897182138za20gzb897182138zd897182138&_p=1775704704235&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=303056704.1775704705&frm=0&pscdl=noapi&sr=1280x720&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468&sid=1775704705&sct=1&seg=0&dl=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&dt=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&en=page_view&_fv=1&_ss=1&tfd=1363",
+      "method": "POST",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.google.com/pagead/1p-conversion/862149999/?random=1166830867&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI9ZXZlbnQtc291cmNlLCBub3QtbmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgSN4b0t&fsk=ChEI8PnXzgYQm4a3v5jx98vSARIsAISviA7yZhhZpFFuwIpg2-PjHd2G3SM0sjn9SuG7KGYW1x4H8uMVHQOQbtAaAq76&pscrd=IhMIzJCVweffkwMVaE_DBh1BcjcFMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy5rdG1tb2JpbGUuY29tL0JXQ2hBSThQblh6Z1lRcmRicXZPLVc0cDlPRWkwQTBpVmlRalh2Z1BUM3ZqYlI0Y0JaRXBQcGRHWHk1NXhuTHlVZkVhbHMyaHNjckxISGlBOWZTRWFBY2xBegwICWIICAAQABgAIAA&is_vtc=1&cid=CAQSsAEABaugfRMZmIOJI5BRkYO3EpoZ1AOoUYj_IoAFXgu1XJlJuaIL27e4io4x9GSzwFlCRn4HBM9n_RsRNEHVomO-js9_GweEC2wvFcrB42UKk0Awbp520juqpxHsyw_THpL1jmqOcxPx6YStPPqngtyoLjo5HMGUr6HN_Gh37uqwzU9c-_OuhcNQW9Y6D3r4qfowruFby5VsZ7M1tjbw0_SPe7WSFnu3OZEWiKmo7ElYMw&random=318421819",
+      "method": "GET",
+      "resourceType": "fetch",
+      "postData": null
+    },
+    {
+      "url": "https://www.google.co.kr/pagead/1p-conversion/862149999/?random=1166830867&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI9ZXZlbnQtc291cmNlLCBub3QtbmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgSN4b0t&fsk=ChEI8PnXzgYQm4a3v5jx98vSARIsAISviA7yZhhZpFFuwIpg2-PjHd2G3SM0sjn9SuG7KGYW1x4H8uMVHQOQbtAaAq76&is_vtc=1&cid=CAQSsAEABaugfRMZmIOJI5BRkYO3EpoZ1AOoUYj_IoAFXgu1XJlJuaIL27e4io4x9GSzwFlCRn4HBM9n_RsRNEHVomO-js9_GweEC2wvFcrB42UKk0Awbp520juqpxHsyw_THpL1jmqOcxPx6YStPPqngtyoLjo5HMGUr6HN_Gh37uqwzU9c-_OuhcNQW9Y6D3r4qfowruFby5VsZ7M1tjbw0_SPe7WSFnu3OZEWiKmo7ElYMw&random=318421819&ipr=y&pscrd=IhMIzJCVweffkwMVaE_DBh1BcjcFMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy5rdG1tb2JpbGUuY29tL0JXQ2hBSThQblh6Z1lRcmRicXZPLVc0cDlPRWkwQTBpVmlRalh2Z1BUM3ZqYlI0Y0JaRXBQcGRHWHk1NXhuTHlVZkVhbHMyaHNjckxISGlBOWZTRWFBY2xBegwICWIICAAQABgAIACCAQVwAYgBAQ",
+      "method": "GET",
+      "resourceType": "fetch",
+      "postData": null
+    }
+  ],
+  "apiResponses": [
+    {
+      "url": "https://www.ktmmobile.com/rate/getCtgXmlAllListAjax.do",
+      "status": 200,
+      "body": "[{\"rateAdsvcCtgCd\":\"1\",\"rateAdsvcGdncSeq\":0,\"sortOdrg\":\"1\",\"useYn\":\"Y\",\"rateAdsvcImgNm\":null,\"rateAdsvcItemImgNm\":null,\"rateAdsvcBnfitItemCd\":null,\"pstngStartDate\":\"2021-11-01 00:00:00\",\"pstngEndDate\":\"9999-12-31 23:59:59\",\"rateAdsvcCtgNm\":\"유심/eSIM 요금제\",\"rateAdsvcCtgBasDesc\":null,\"rateAdsvcCtgDtlDesc\":null,\"depthKey\":1,\"ctgOutputCd\":\"CO00130001\",\"upRateAdsvcCtgCd\":null,\"rateAdsvcNm\":null,\"rateAdsvcDivCd\":\"RATE\",\"rateAdsvcCtgImgNm\":null,\"mmBasAmtDesc\":null,\"mmBasAmtVatDesc\":null,\"promotionAmtDesc\":null,\"promotionAmtVatDesc\":null,\"relCnt\":0,\"addDivCd\":null,\"selfYn\":null,\"freeYn\":null,\"dateType\":null,\"usePrd\":\"0\",\"lineType\":null,\"lineCnt\":\"0\",\"mtCd\":null,\"rateAdsvcBasDesc\":null,\"rateDtlList\":null},{\"rateAdsvcCtgCd\":\"2\",\"rateAdsvcGdncSeq\":0,\"sortOdrg\":\"2\",\"useYn\":\"Y\",\"rateAdsvcImgNm\":null,\"rateAdsvcItemImgNm\":null,\"rateAdsvcBnfitItemCd\":null,\"pstngStartDate\":\"2021-11-01 00:00:00\",\"pstngEndDate\":\"9999-12-31 23:59:59\",\"rateAdsvcCtgNm\":\"제휴 요금제\",\"rateAdsvcCtgBasDesc\":null,\"rateAdsvcCtgDtlDesc\":null,\"depthKey\":1,\"ctgOutputCd\":\"CO00130001\",\"upRateAdsvcCtgCd\":null,\"rateAdsvcNm\":null,\"rateAdsvcDivCd\":\"RATE\",\"rateAdsvcCtgImgNm\":null,\"mmBasAmtDesc\":null,\"mmBasAmtVatDesc\":null,\"promotionAmtDesc\":null,\"promotionAmtVatDesc\":null,\"relCnt\":0,\"addDivCd\":null,\"selfYn\":null,\"freeYn\":null,\"dateType\":null,\"usePrd\":\"0\",\"lineType\":null,\"lineCnt\":\"0\",\"mtCd\":null,\"rateAdsvcBasDesc\":null,\"rateDtlList\":null},{\"rateAdsvcCtgCd\":\"3\",\"rateAdsvcGdncSeq\":0,\"sortOdrg\":\"3\",\"useYn\":\"Y\",\"rateAdsvcImgNm\":null,\"rateAdsvcItemImgNm\":null,\"rateAdsvcBnfitItemCd\":null,\"pstngStartDate\":\"2021-11-01 00:00:00\",\"pstngEndDate\":\"9999-12-31 23:59:59\",\"rateAdsvcCtgNm\":\"휴대폰 요금제\",\"rateAdsvcCtgBasDesc\":null,\"rateAdsvcCtgDtlDesc\":null,\"depthKey\":1,\"ctgOutputCd\":\"CO00130001\",\"upRateAdsvcCtgCd\":null,\"rateAdsvcNm\":null,\"rateAdsvcDivCd\":\"RATE\",\"rateAdsvcCtgImgNm\":null,\"mmBasAmtDesc\":null,\"mmBasAmtVatDesc\":null,\"promotionAmtDesc\":null,\"promotionAmtVatDesc\":null,\"relCnt\":0,\"addDivCd\":null,\"selfYn\":null,\"freeYn\":null,\"dateType\":nul"
+    },
+    {
+      "url": "https://www.ktmmobile.com/getPopupListAjax.do",
+      "status": 200,
+      "body": "{\"message\":\"성공\",\"returnCode\":\"00\",\"resultMap\":null,\"result\":[]}"
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion/862149999/?random=1775704704604&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=7",
+      "status": 200,
+      "body": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/862149999/?random=1166830867&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&label=qif9CKnjxLYZEO-6jZsD&capi=1&gtm_ee=1&frm=0&tiba=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1231808631.1775704705&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&ec_mode=a&gcl_ctr=1~0~0~0&data=event%3Dconversion&category=acrcp_v1_512&em=tv.1&fmt=8&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKK3RyaWdnZXI9ZXZlbnQtc291cmNlLCBub3QtbmF2aWdhdGlvbi1zb3VyY2VaAwoBAWIDCgED&cerd=CgSN4b0t&fsk=ChEI8PnXzgYQm4a3v5jx98vSARIsAISviA7yZhhZpFFuwIpg2-PjHd2G3SM0sjn9SuG7KGYW1x4H8uMVHQOQbtAaAq76&pscrd=IhMIzJCVweffkwMVaE_DBh1BcjcFMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhpodHRwczovL3d3dy5rdG1tb2JpbGUuY29tL0JXQ2hBSThQblh6Z1lRcmRicXZPLVc0cDlPRWkwQTBpVmlRalh2Z1BUM3ZqYlI0Y0JaRXBQcGRHWHk1NXhuTHlVZkVhbHMyaHNjckxISGlBOWZTRWFBY2xBegwICWIICAAQABgAIAA\"],\"options\":{\"fallback_url\":\"https://www.google.com/pagead/1p-conversion/862149999/?random=1166830867&cv=11&fst=1775704704604&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6471v885715859za200zd885715859xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938465~115938469~116701382~117884344&u_w=1"
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1257125105&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ktmmobile.com%2Frate%2FrateList.do&ul=en-us&dt=%EC%9A%94%EA%B8%88%EC%A0%9C%20%EC%86%8C%EA%B0%9C%20%7C%20kt%20M%EB%AA%A8%EB%B0%94%EC%9D%BC%20%EA%B3%B5%EC%8B%9D%20%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8%EB%AA%B0&sr=1280x720&vp=1280x720&_u=IGBAgEABAAAAACAAI~&jid=1975543422&gjid=1747311787&cid=303056704.1775704705&tid=UA-42090525-2&_gid=1846955813.1775704705&_slc=1&z=1958551881",
+      "status": 200,
+      "body": "2,x"
+    }
+  ],
+  "domInfo": {
+    "[class*=\"rate\"]": {
+      "count": 23,
+      "firstHTML": "<div class=\"ly-content rate-page\" id=\"main-content\">\n            <div class=\"ly-page--title\">\n                <h2 class=\"c-page--title\">요금제</h2>\n            </div>\n            <div class=\"c-tabs c-tabs--type1\">\n                \n                <div id=\"mainTab\" class=\"c-tabs__list\" role=\"tablist\">\n                <button class=\"c-tabs__button is-active\" role=\"tab\" data-rate-adsvc-ctg-cd=\"1\" data-index-cnt=\"1\" id=\"rateListTab1\" aria-controls=\"rateListTabPanel\" aria-hidden=\"true\" aria-selected=\"tr"
+    },
+    "[class*=\"prod\"]": {
+      "count": 43,
+      "firstHTML": "<div class=\"c-accordion product\" id=\"accordionproduct_1_1\" data-ui-accordion=\"\">\n                <ul class=\"c-accordion__box\"><li class=\"c-accordion__item\">\n    <div class=\"c-accordion__head\">\n        <div class=\"product__title-wrap\">\n            <strong class=\"product__title\">모두다 맘껏</strong>\n            <span class=\"product__sub\">무제한, 선택의 폭을 넓히다</span>\n        </div>\n        <button class=\"runtime-data-insert c-accordion__button\" id=\"acc_header_a_1_11\" aria-controls=\"acc_content_a_1_11\" data-in"
+    },
+    "tabs": [
+      {
+        "tag": "BUTTON",
+        "text": "로그인",
+        "class": "ly-header__state-btn",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "통합검색 열기",
+        "class": "ly-header__search-btn",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "전체메뉴 열기",
+        "class": "ly-header__allmenu",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "class": "swiper-button-prev",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "class": "swiper-button-next",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "자동재생 정지",
+        "class": "swiper-button-pause",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "전체메뉴 열기",
+        "class": "",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "팝업닫기",
+        "class": "c-button",
+        "id": "freqCloseButton"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "전체메뉴 닫기",
+        "class": "ly-allmenu__close",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "초기화",
+        "class": "c-button c-button--reset",
+        "id": "resetBtn"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "검색",
+        "class": "c-button c-button-round--sm c-button--red",
+        "id": "searchInputBtn"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "팝업닫기",
+        "class": "c-button",
+        "id": ""
+      },
+      {
+        "tag": "BUTTON",
+        "text": "유심/eSIM 요금제 현재 선택됨",
+        "class": "c-tabs__button is-active",
+        "id": "rateListTab1"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "제휴 요금제",
+        "class": "c-tabs__button",
+        "id": "rateListTab2"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "휴대폰 요금제",
+        "class": "c-tabs__button",
+        "id": "rateListTab3"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "LTE 요금제 현재 선택됨",
+        "class": "c-tabs__button is-active",
+        "id": "subTab_8"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "5G 요금제",
+        "class": "c-tabs__button",
+        "id": "subTab_11"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "모두다 맘껏 펼쳐보기",
+        "class": "runtime-data-insert c-accordion__button",
+        "id": "acc_header_a_1_11"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "모두다 맘껏 안심 펼쳐보기",
+        "class": "runtime-data-insert c-accordion__button",
+        "id": "acc_header_a_1_12"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "모두다 맘껏 실속 펼쳐보기",
+        "class": "runtime-data-insert c-accordion__button",
+        "id": "acc_header_a_1_13"
+      }
+    ],
+    "bodyPreview": "\n\n<div id=\"skipNav\">\n  <a class=\"skip-link\" href=\"#main-content\">본문 바로가기</a>\n</div>\n\n                                \n<span itemscope=\"\" itemtype=\"http://schema.org/Organization\" class=\"c-hidden\">\n    <link itemprop=\"url\" href=\"https://www.ktmmobile.com\">\n    <a itemprop=\"sameAs\" href=\"https://cafe.naver.com/ktmmobile20\">네이버카페</a>\n    <a itemprop=\"sameAs\" href=\"https://blog.naver.com/ktmmobile20\">네이버</a>\n    <a itemprop=\"sameAs\" href=\"https://www.facebook.com/ktmmobile.official/\">facebook</a>\n    <a itemprop=\"sameAs\" href=\"https://www.instagram.com/kt_m_mobile/\">instagram</a>\n    <a itemprop=\"sameAs\" href=\"https://www.youtube.com/channel/UCSvOg4rSu395lPz6uMqBekw\">youtube</a>\n    <a itemprop=\"sameAs\" href=\"https://tv.naver.com/ktmmobile\">네이버TV</a>\n</span>\n\n\n\n\n\n\n    <input type=\"hidden\" id=\"gnbMCode\" value=\"0103\">\n\n    \n\n\n    <input type=\"hidden\" id=\"maskingSession\" name=\"maskingSession\" value=\"\">\n\n    \n    <input type=\"hidden\" id=\"AILandingUrl\" value=\"\">\n\n    <div class=\"ly-wrap fixed\">\n\n        \n\n        \n\n\n\n\n\n\n<script type=\"text/javascript\">\n    var leaveChkLayer = function (url){\n        $('#leaveUrl').val(url);\n        $('#chkLayerPopBtn').trigger('click');\n    }\n\n    var leaveUrlGo = function (){\n        KTM.LoadingSpinner.show();\n        location.href=$('#leaveUrl').val();\n    }\n</script>\n\n\n\n<input type=\"hidden\" name=\"leaveUrl\" id=\"leaveUrl\">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                                    \n\n<input type=\"hidden\" id=\"AIGnbMenuCode\" value=\"PCGNB0308\">\n<input type=\"hidden\" id=\"AIMenuCode\" value=\"PCMENU0308\">\n\n                                              \n\n\n                              \n    <header class=\"ly-header\">\n      <div class=\"ly-header__wrap\">\n        <a class=\"ly-header__logo\" href=\"/main.do\">\n\n\n          <img src=\"/resources/upload/banner/202509241717380629SkAXV.png\" alt=\"KT M Mobile 로고\">\n\n        </a>\n                            \n        <div class=\"ly-header__nav\">\n          <ul class=\"nav nav--depth1\">\n\n\n\n\n\n\n\n\n    \n    \n    \n        <li class=\"nav__item\">\n        \n            \n            \n                    <a href=\"/appForm/withoutUsim.do\">가입하기</a>\n            \n        \n    \n        \n            \n            \n            \n                \n                    <ul class=\"nav nav--depth2\">\n                \n            \n\n            \n\n            \n        \n            \n            \n            \n                \n            \n\n            \n\n            \n        \n            \n            \n            \n                \n            \n\n            \n\n            \n        \n            \n            \n            \n                \n            \n\n            \n\n            \n                        <li class=\"nav__item\">\n                \n                    <strong>USIM</strong>\n                    \n                        \n                        \n                        \n                            <ul class=\"nav nav--depth3\">\n                        \n                        \n                    \n                        \n                     "
+  }
+}

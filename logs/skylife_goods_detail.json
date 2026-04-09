@@ -1,0 +1,98 @@
+{
+  "priceEls": [],
+  "detailEls": [
+    {
+      "class": "flex flex-1 items-center justify-between py-4 font",
+      "text": "5G • 200GB+최대10Mbps\n데이터 기본 200GB를 다 쓰면 최대 10Mbps 속도로 무제한 이용 가능해요"
+    },
+    {
+      "class": "data-[state=closed]:animate-accordion-up data-[sta",
+      "text": ""
+    },
+    {
+      "class": "flex flex-1 items-center justify-between py-4 font",
+      "text": "통화, 문자 메시지는 기본 제공돼요"
+    },
+    {
+      "class": "data-[state=closed]:animate-accordion-up data-[sta",
+      "text": ""
+    },
+    {
+      "class": "flex flex-1 items-center justify-between py-4 font",
+      "text": "약정 없는 평생 요금\n약정 조건 없이 평생 이 요금 그대로 사용할 수 있어요"
+    },
+    {
+      "class": "data-[state=closed]:animate-accordion-up data-[sta",
+      "text": ""
+    },
+    {
+      "class": "flex flex-1 items-center justify-between transitio",
+      "text": "음성통화 이용 안내"
+    },
+    {
+      "class": "data-[state=closed]:animate-accordion-up data-[sta",
+      "text": ""
+    },
+    {
+      "class": "flex flex-1 items-center justify-between transitio",
+      "text": "문자메시지 이용 안내"
+    },
+    {
+      "class": "data-[state=closed]:animate-accordion-up data-[sta",
+      "text": ""
+    }
+  ],
+  "lines": [
+    "결합상품",
+    "인터넷/TV",
+    "모바일",
+    "이벤트/혜택",
+    "💡 스라꿀팁",
+    "고객지원",
+    "요금 · 납부",
+    "모바일",
+    "5G 모두 충분 200GB+",
+    "200 GB",
+    "월 51,700원",
+    "자세히",
+    "49,200",
+    "5G 속도로 빠르게, 데이터 통화 무제한 요금제",
+    "데이터 200 GB",
+    "통화 집/이동전화 기본제공",
+    "메시지 기본제공",
+    "상담 신청",
+    "셀프가입",
+    "혜택",
+    "혜택1",
+    "가입 혜택 S-머니 3만원",
+    "S-머니로 상품권과 2천 종이 넘는 상품으로 교환 가능해요",
+    "바로배송/바로유심인 경우 네이버페이포인트로 지급돼요.",
+    "ⓘ S-머니가 뭔가요?",
+    "혜택2",
+    "정기 혜택 S-머니 6만원(1만원씩X6개월)",
+    "1만원 이상 요금제 유지 시 매월 6개월간 드려요",
+    "혜택3",
+    "누구나결합하면 매월 데이터 20GB 추가 제공",
+    "ⓘ 혜택 받을 수 있는 조건 알아보기",
+    "혜택4",
+    "셀프개통하면 S-머니 3만원",
+    "3만원 이상 요금제 가입 시 드려요",
+    "혜택5",
+    "갤럭시S26로 개통하면 S-머니 5만원",
+    "3만원 이상 요금제로 4월 중 가입하고, 갤럭시 S26 시리즈 단말기 등록하면 드려요.",
+    "혜택6",
+    "데이터쿠폰 20GB x 4회",
+    "1만원 이상 해당 요금제 가입하면 드려요.",
+    "혜택7",
+    "최대 15,000원 카드 추가 할인",
+    "신한카드 전월 30만원 이상 사용하면 할인이 적용돼요",
+    "IPTV와 결합하면",
+    "혜택이 더 커져요",
+    "TV 요금 20% 할인 + 매월 데이터 20GB 추가 제공",
+    "요금 안내",
+    "요금제 특징",
+    "빠른 속도로 즐기는 5G 요금제!",
+    "데이터, 음성, 통화 모두 맘껏 즐기세요"
+  ],
+  "htmlPreview": "<!--$--><!--/$--><header class=\"sticky inset-0 top-0 z-20 min-w-[1248px] bg-white\"><div class=\"mx-auto flex h-20 w-[1248px] items-center justify-between\"><h1><a class=\"relative block h-10 w-[155px]\" href=\"/\"><img alt=\"스카이라이프\" loading=\"lazy\" width=\"155\" height=\"40\" decoding=\"async\" data-nimg=\"1\" class=\"animate-logo1 absolute\" style=\"color:transparent\" srcset=\"/_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-1.png&amp;w=384&amp;q=75 2x\" src=\"/_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-1.png&amp;w=384&amp;q=75\"><img alt=\"스카이라이프\" loading=\"lazy\" width=\"155\" height=\"40\" decoding=\"async\" data-nimg=\"1\" class=\"animate-logo2 absolute\" style=\"color:transparent\" srcset=\"/_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-2.png&amp;w=384&amp;q=75 2x\" src=\"/_next/image?url=%2FimagesPC%2Fcommon%2Fheader%2Flogo-260402-2.png&amp;w=384&amp;q=75\"></a></h1><nav class=\"relative\"><ul class=\"flex gap-10\"><li class=\"group relative gnb-1\"><a href=\"/product/combi/Main\" class=\"relative whitespace-pre text-[18px] font-medium leading-[26px] tracking-[-0.3px] text-black-94 hover:text-skylife-primary hover:after:absolute hover:after:content-[''] hover:after:-bottom-1 hover:after:-left-0.5 hover:after:h-0.5 hover:after:w-[calc(100%+4px)] hover:after:bg-skylife-primary\">결합상품</a></li><li class=\"group relative gnb-2\"><a href=\"\" class=\"relative whitespace-pre text-[18px] font-medium leading-[26px] tracking-[-0.3px] text-black-94 hover:text-skylife-primary hover:after:absolute hover:after:content-[''] hover:after:-bottom-1 hover:after:-left-0.5 hover:after:h-0.5 hover:after:w-[calc(100%+4px)] hover:after:bg-skylife-primary\">인터넷/TV</a><div class=\"absolute left-0 top-full h-7 w-full\"></div><ul class=\"depth-2 border-ee absolute left-0 top-full mt-7 rounded-[10px] border-2 bg-white pl-4 pr-6 py-2 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] before:absolute before:content-[''] before:-top-7 before:left-0 before:h-7 before:w-full after:content-[''] hidden group-hover:flex flex-col pb-8\"><li class=\"pb-4 pt-2\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline items-center gap-5\" href=\"/product/tvinternet/special\">이벤트<img alt=\"\" loading=\"lazy\" width=\"32\" height=\"32\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent\" src=\"/images/common/icon/32/gift.svg\"></a></li><li class=\"flex gap-x-4\"><ul class=\"flex flex-col gap-y-4\"><li class=\"whitespace-nowrap\"><span class=\"text-black-48 block text-[16px] font-medium leading-[24px] tracking-[-0.3px] mb-4\">TV</span><ul class=\"flex flex-col gap-y-4\"><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/tv/all\">요금제</a></li><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/tv/all#additional\">부가서비스</a></li><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/tv/VOD\">VOD</a></li><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/tv/moviechoice\">무비초이스</a></li></ul></li><li class=\"whitespace-nowrap\"><span class=\"mb-4 text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\">채널번호안내</span><ul class=\"flex flex-col gap-y-2 rounded-lg bg-white pb-4 pl-4\"><li><a class=\"whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline text-black-60\" href=\"/product/tv/channelNo/category\">채널안내</a></li><li><a class=\"whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline text-black-60\" href=\"/product/tv/channelNo/chart\">실시간 편성표</a></li><li><a class=\"whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline text-black-60\" href=\"/product/tv/channelNo/goods\">상품별 채널 안내</a></li></ul><ul class=\"flex flex-col gap-y-4\"><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/biz/tv\">기업용 서비스</a></li><li class=\"whitespace-nowrap\"><a class=\"text-black-94 whitespace-pre flex text-[18px] font-medium leading-[26px] tracking-[-0.3px] underline-offset-4 hover:underline\" href=\"/product/iptv/special\">ipit TV란?</a></li><li class=\"whitespace-nowrap\"><a target=\"_blank\" class=\"text-black-94 whitespace-p"
+}
