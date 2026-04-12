@@ -1,7 +1,7 @@
 /**
- * 6개 사업자 요금제 데이터 통합 크롤러
+ * 7개 사업자 요금제 데이터 통합 크롤러
  *
- * KT M모바일 + 헬로모바일 + 유모바일 + 스카이라이프 + 우리WON모바일 + 리브엠모바일
+ * KT M모바일 + 헬로모바일 + 유모바일 + 스카이라이프 + 우리WON모바일 + 리브엠모바일 + SK세븐모바일
  */
 
 const fs = require('fs');
@@ -14,6 +14,7 @@ const { crawl: crawlUPlus } = require('./crawlers/uplus');
 const { crawl: crawlSkylife } = require('./crawlers/skylife');
 const { crawl: crawlWooriwon } = require('./crawlers/wooriwon');
 const { crawl: crawlLiivm } = require('./crawlers/liivm');
+const { crawl: crawlSK7 } = require('./crawlers/sk7mobile');
 
 const OUTPUT_DIR = path.join(__dirname, '../output');
 const LOG_DIR = path.join(__dirname, '../logs');
@@ -65,7 +66,7 @@ async function saveCSV(plans, filename) {
 
 async function main() {
   const startTime = Date.now();
-  log('=== 6개 사업자 요금제 통합 크롤링 시작 ===');
+  log('=== 7개 사업자 요금제 통합 크롤링 시작 ===');
 
   const results = {};
 
@@ -129,14 +130,26 @@ async function main() {
 
   await sleep(500);
 
-  // 6. 리브엠모바일 (API)
-  log('\n[6/6] 리브엠모바일 수집 시작');
+  // 6. 리브엠모바일 (Playwright)
+  log('\n[6/7] 리브엠모바일 수집 시작');
   try {
     results.liivm = await crawlLiivm(log);
-    log(`[6/6] 리브엠모바일 완료: ${results.liivm.length}건`);
+    log(`[6/7] 리브엠모바일 완료: ${results.liivm.length}건`);
   } catch (e) {
-    log(`[6/6] 리브엠모바일 실패: ${e.message}`);
+    log(`[6/7] 리브엠모바일 실패: ${e.message}`);
     results.liivm = [];
+  }
+
+  await sleep(500);
+
+  // 7. SK세븐모바일 (Playwright)
+  log('\n[7/7] SK세븐모바일 수집 시작');
+  try {
+    results.sk7mobile = await crawlSK7(log);
+    log(`[7/7] SK세븐모바일 완료: ${results.sk7mobile.length}건`);
+  } catch (e) {
+    log(`[7/7] SK세븐모바일 실패: ${e.message}`);
+    results.sk7mobile = [];
   }
 
   // 통합
@@ -147,6 +160,7 @@ async function main() {
     skylife: '스카이라이프',
     wooriwon: '우리WON모바일',
     liivm: '리브엠모바일',
+    sk7mobile: 'SK세븐모바일',
   };
 
   const merged = [];
