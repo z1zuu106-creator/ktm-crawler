@@ -5,115 +5,1355 @@
   "prevLabel": "4/11(전일)",
   "todayLabel": "4/12(당일)",
   "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260412.xlsx",
-  "totalToday": 571,
+  "totalToday": 726,
   "summary": {
-    "newCount": 13,
+    "newCount": 168,
     "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
-        "operator": "우리WON모바일",
-        "plan_name": "매월 5천원 쿠폰x2 +이벤트 응모 꿀머니",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 20GB(100분)",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 0
+        "data": 20,
+        "qos": null,
+        "당일": 19500
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "멤버십 매월 5천원 쿠폰",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 95GB+(초알뜰)",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 1100
+        "data": "95GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 49900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "요금제",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 95GB+(평생)",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 1100
+        "data": "95GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 40900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리ONLY멤버십 매월 5천원 쿠폰",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 95GB+(혜택형)",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 0
+        "data": "95GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 40900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "최대 30만 삼성월렛머니 포인트 적립",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든 2GB",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 8800
+        "data": 2,
+        "qos": null,
+        "당일": 11900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "필터",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든 4GB",
         "network_type": "5G",
-        "data": 125,
-        "qos": "5Mbps",
-        "당일": 1100
+        "data": 4,
+        "qos": null,
+        "당일": 14900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "MZ전용이벤트 응모 꿀머니 제공",
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든 6GB",
         "network_type": "5G",
-        "data": 5,
+        "data": 6,
+        "qos": null,
+        "당일": 19900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든 8GB",
+        "network_type": "5G",
+        "data": 8,
+        "qos": null,
+        "당일": 24900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든무제한 12GB+",
+        "network_type": "5G",
+        "data": "12GB+1Mbps",
         "qos": "1Mbps",
-        "당일": 0
+        "당일": 34900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든무제한 150GB+",
+        "network_type": "5G",
+        "data": "150GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 48900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든무제한 180GB+",
+        "network_type": "5G",
+        "data": "180GB+10Mbps",
+        "qos": "10Mbps",
+        "당일": 51900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 든든무제한 95GB+",
+        "network_type": "5G",
+        "data": "95GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 43500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 110GB+(SKT망)",
+        "network_type": "5G",
+        "data": "110GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 49500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 15GB+(SKT망)",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 39600
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 200GB+(SKT망)",
+        "network_type": "5G",
+        "data": "200GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 53900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 24GB+(SKT망)",
+        "network_type": "5G",
+        "data": "24GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 43400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 30GB+(KT망)",
+        "network_type": "5G",
+        "data": "30GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 42400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 31GB+(LGU+망)",
+        "network_type": "5G",
+        "data": "31GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 40900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 50GB+(KT망)",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 43900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 50GB+(LGU+망)",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 42400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 54GB+(SKT망)",
+        "network_type": "5G",
+        "data": "54GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 46400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 무제한 99GB+(SKT망)",
+        "network_type": "5G",
+        "data": "99GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 48400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 실속 15GB(100분)(SKT망)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 15400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 실속 2GB(100분)(KT망)",
+        "network_type": "5G",
+        "data": 2,
+        "qos": null,
+        "당일": 11900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 실속 2GB(100분)(SKT망)",
+        "network_type": "5G",
+        "data": 2,
+        "qos": null,
+        "당일": 11900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 실속 4GB(100분)(KT망)",
+        "network_type": "5G",
+        "data": 4,
+        "qos": null,
+        "당일": 14900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G 실속 4GB(100분)(SKT망)",
+        "network_type": "5G",
+        "data": 4,
+        "qos": null,
+        "당일": 14900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G무제한 110GB+(KT망)",
+        "network_type": "5G",
+        "data": "월110GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 47500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G무제한 14GB+(KT망)",
+        "network_type": "5G",
+        "data": "월14GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 37500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "5G무제한 200GB+(KT망)",
+        "network_type": "5G",
+        "data": "월200GB+10Mbps",
+        "qos": "10Mbps",
+        "당일": 54900
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "매월 5천원 쿠폰 + 이벤트 응모 꿀머니",
+        "plan_name": "우리 삼성월렛머니 15GB+",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 20200
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 5G 125GB+",
+        "network_type": "5G",
+        "data": "125GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 41000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 5G 50GB+",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 36800
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 틴틴 5GB+",
+        "network_type": "5G",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 12400
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 11GB",
+        "network_type": "5G",
+        "data": 11,
+        "qos": null,
+        "당일": 15900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 125GB+",
+        "network_type": "5G",
+        "data": "125GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 42100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 4GB",
+        "network_type": "5G",
+        "data": 4,
+        "qos": null,
+        "당일": 8900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 50GB+",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 37900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 6GB",
+        "network_type": "5G",
+        "data": 6,
+        "qos": null,
+        "당일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 8GB",
+        "network_type": "5G",
+        "data": 8,
+        "qos": null,
+        "당일": 12900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 더블쿠폰 5G 125GB+",
+        "network_type": "5G",
+        "data": 125,
+        "qos": "5Mbps",
+        "당일": 44600
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 더블쿠폰 5G 50GB+",
+        "network_type": "5G",
+        "data": 50,
+        "qos": "1Mbps",
+        "당일": 40400
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 더블쿠폰 LTE 15GB+",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "1Mbps",
+        "당일": 22700
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 5G 125GB+",
+        "network_type": "5G",
+        "data": "125GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 42100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 5G 50GB+",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 37900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 15GB+",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 20900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 15GB+",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18800
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 5G 125GB+",
+        "network_type": "5G",
+        "data": "125GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 38900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 5G 50GB+",
+        "network_type": "5G",
+        "data": "50GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 34700
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 5GB+",
+        "network_type": "5G",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 10700
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 15GB+",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 20900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 5GB+",
+        "network_type": "5G",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 12900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 15GB+",
+        "network_type": "5G",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 22900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "골든라이프 LTE 2GB+(KT망)",
+        "network_type": "LTE",
+        "data": "월2GB+400Kbps",
+        "qos": "400Kbps",
+        "당일": 9500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "골든라이프 LTE 4GB+(KT망)",
+        "network_type": "LTE",
+        "data": "월4GB+400Kbps",
+        "qos": "400Kbps",
+        "당일": 13000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "골든라이프 LTE 4GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "4GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 13400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "골든라이프 LTE 8GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "월8GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 17500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "공무원든든 LTE(신)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 30800
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "나라사랑 LTE(신)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 30800
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "내맘대로 LTE",
+        "network_type": "LTE",
+        "data": "1~5GB",
+        "qos": null,
+        "당일": 5000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "더블업 LTE 17GB+",
+        "network_type": "LTE",
+        "data": "7GB+10GB(24개월)+1Mbps",
+        "qos": "1Mbps",
+        "당일": 17000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "더블업 LTE 20GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "10GB+10GB(24개월)+1Mbps",
+        "qos": "1Mbps",
+        "당일": 20000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "더블업 LTE 25GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB+10GB(24개월)+1Mbps",
+        "qos": "1Mbps",
+        "당일": 22000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "데이터같이쓰기 120분 (안심차단)(KT망)",
+        "network_type": "LTE",
+        "data": "0GB+2GB(결합시)",
+        "qos": null,
+        "당일": 3900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "데이터같이쓰기 240분 (안심차단)(KT망)",
+        "network_type": "LTE",
+        "data": "0GB+2GB(결합시)",
+        "qos": null,
+        "당일": 5500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "데이터쉐어링",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": 0
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "무궁화 LTE(신)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 30800
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "보이스피싱예방 LTE 15GB+(100분/100건)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 20300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "보이스피싱예방 LTE 15GB+(300분/300건)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 22300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "보이스피싱예방 LTE 15GB+(안심직거래)(KT망)",
+        "network_type": "LTE",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 24000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "보이스피싱예방 LTE 7GB+(안심직거래)(KT망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "사장님 LTE 17GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 17000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "사장님 LTE 71GB+",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 26400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "사장님 LTE 7GB+밀리의서재(KT망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "사장님(GS) LTE 17GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "7GB+10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18100
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "선생님든든 LTE(신)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 30800
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 100GB+",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 36900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 71GB+",
+        "network_type": "LTE",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 31900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 틴틴 2GB+",
+        "network_type": "LTE",
+        "data": "2GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 8900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 더블쿠폰 LTE 100GB+",
         "network_type": "LTE",
         "data": 100,
         "qos": "5Mbps",
-        "당일": 0
+        "당일": 40500
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "최대 혜택 적용 체감가 월 -7,000원",
+        "plan_name": "우리WON 더블쿠폰 LTE 71GB+",
         "network_type": "LTE",
-        "data": "",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 35500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 10GB+",
+        "network_type": "LTE",
+        "data": "10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 1GB+",
+        "network_type": "LTE",
+        "data": "1GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 9900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 3GB+",
+        "network_type": "LTE",
+        "data": "3GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 71GB+",
+        "network_type": "LTE",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 33000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 7GB+",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 16900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 100GB+",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 35700
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 청년드림 71GB+",
+        "network_type": "LTE",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 29700
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 100GB+",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 39000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 10GB+",
+        "network_type": "LTE",
+        "data": "10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 1GB",
+        "network_type": "LTE",
+        "data": 1,
         "qos": null,
-        "당일": 7000
+        "당일": 6900
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "최대 혜택 적용 체감가 월 4,600원",
+        "plan_name": "우리WON LTE 1GB+",
         "network_type": "LTE",
-        "data": "",
+        "data": "1GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 9900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 3GB",
+        "network_type": "LTE",
+        "data": 3,
         "qos": null,
-        "당일": 4600
+        "당일": 7900
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "최대 혜택 적용 체감가 월 4,700원",
+        "plan_name": "우리WON LTE 3GB+",
         "network_type": "LTE",
-        "data": "",
+        "data": "3GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 500MB/50분",
+        "network_type": "LTE",
+        "data": 0.5,
         "qos": null,
-        "당일": 4700
+        "당일": 2100
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "최대 혜택 적용 체감가 월 8,800원",
+        "plan_name": "우리WON LTE 71GB+",
         "network_type": "LTE",
-        "data": "",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 33000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 7GB+",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 16900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 시니어 2GB+",
+        "network_type": "LTE",
+        "data": "2GB+400Kbps",
+        "qos": "400Kbps",
+        "당일": 8900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 시니어 4GB+",
+        "network_type": "LTE",
+        "data": "4GB+400Kbps",
+        "qos": "400Kbps",
+        "당일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 태블릿 10GB",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 태블릿 20GB",
+        "network_type": "LTE",
+        "data": 20,
+        "qos": null,
+        "당일": 11900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 100GB+",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 40500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 71GB+",
+        "network_type": "LTE",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 35000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 7GB+",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 1GB (안심차단)(LGU+망)",
+        "network_type": "LTE",
+        "data": "월1GB",
+        "qos": null,
+        "당일": 7700
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 2GB(안심차단)(KT망)",
+        "network_type": "LTE",
+        "data": "월2GB",
         "qos": null,
         "당일": 8800
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "추가회선 보유 시 1,100원 요금할인",
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 3GB (안심차단)(LGU+망)",
+        "network_type": "LTE",
+        "data": "월3GB",
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 4GB(안심차단)(KT망)",
+        "network_type": "LTE",
+        "data": "월4GB",
+        "qos": null,
+        "당일": 11000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 실속 1GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "월1GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 10500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "주니어 LTE 실속 2.5GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "월2.5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 12900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "직장인우대(연금) 15GB(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB(10GB+5GB(24개월))",
+        "qos": null,
+        "당일": 16900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "직장인우대(연금) LTE 7GB+ 밀리의서재(KT망)",
+        "network_type": "LTE",
+        "data": "7GB+10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "청년도약 LTE 71GB+ (LGU+망)",
+        "network_type": "LTE",
+        "data": "71GB+(월11GB+일2GB)",
+        "qos": null,
+        "당일": 34300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 10GB",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 10500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 10GB(SKT망)",
+        "network_type": "LTE",
+        "data": "월10GB",
+        "qos": null,
+        "당일": 14000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 10GB+(KT망)",
+        "network_type": "LTE",
+        "data": "월10GB+200Kbps",
+        "qos": "200Kbps",
+        "당일": 11500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 20GB",
+        "network_type": "LTE",
+        "data": 20,
+        "qos": null,
+        "당일": 13500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 20GB+(KT망)",
+        "network_type": "LTE",
+        "data": "월20GB+200Kbps",
+        "qos": "200Kbps",
+        "당일": 14500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 25GB+",
+        "network_type": "LTE",
+        "data": "월25GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 37400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "태블릿 LTE 5GB(SKT망)",
+        "network_type": "LTE",
+        "data": "월5GB",
+        "qos": null,
+        "당일": 12500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "ESG LTE 3GB+(100분)(LGU+망)",
+        "network_type": "LTE",
+        "data": "3GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 10900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "ESG LTE 5GB+(100분)(LGU+망)",
+        "network_type": "LTE",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 12300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "ESG LTE 71GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 34300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "GS LTE 25GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB+10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 24400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "GS LTE 71GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 34300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "KB 영웅 LTE 71GB+",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 26400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "KB그룹 임직원 프리미엄 LTE 100GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 49900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 100GB+ (CU할인)(KT망)",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 36600
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 100GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 41400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 10GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 16900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 150GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "매일 5GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 41400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+ (100분)(CU할인)(KT망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 24100
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+ (100분/100건)(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 20200
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+ (300분)(CU할인)(KT망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 26100
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+ (300분/300건)(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 22200
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+ (CU할인)(KT망)",
+        "network_type": "LTE",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 20400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 15GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 71GB+ (CU할인)(KT망)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 31100
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 71GB+ (LGU+망)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 34300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 71GB+(초알뜰)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 39900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 71GB+(평생)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 33000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 71GB+(혜택형)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 33000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 7GB+(평생)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 15400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 7GB+(LGU+망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 14600
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 데이터쉐어링(KT망)",
         "network_type": "LTE",
         "data": "",
         "qos": null,
-        "당일": 1100
+        "당일": 0
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 든든 1GB",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 8900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 든든 3GB",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": null,
+        "당일": 12900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 든든 5GB",
+        "network_type": "LTE",
+        "data": 5,
+        "qos": null,
+        "당일": 14900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 든든무제한 5GB+",
+        "network_type": "LTE",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 100GB+ (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 41000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 100GB+(SKT망)",
+        "network_type": "LTE",
+        "data": "100GB+5Mbps",
+        "qos": "5Mbps",
+        "당일": 47300
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 10GB+ (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "월10GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 22000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 11GB+ (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 35500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 11GB+(KT망)",
+        "network_type": "LTE",
+        "data": "월11GB(10GB+1GB)+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 35500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 11GB+(SKT망)",
+        "network_type": "LTE",
+        "data": "월11GB+일2GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 38500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 15GB+ (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "월15GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 24000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 7GB+ (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 19500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 7GB+(지니뮤직)(KT망)",
+        "network_type": "LTE",
+        "data": "월7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 23900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 무제한 7GB+(SKT망)",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 22000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 15GB+ (100분)(SKT망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 29700
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 15GB+(100분) (밀리의서재)(KT망)",
+        "network_type": "LTE",
+        "data": "15GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 28500
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 1GB(100분)(SKT망)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 6600
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 3GB(100분)(SKT망)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": null,
+        "당일": 7700
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 3GB+(200분)(SKT망)",
+        "network_type": "LTE",
+        "data": "3GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 15400
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 5GB(100분)(SKT망)",
+        "network_type": "LTE",
+        "data": 5,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 5GB+(200분)(SKT망)",
+        "network_type": "LTE",
+        "data": "5GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 17600
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 실속 9GB(100분)(SKT망)",
+        "network_type": "LTE",
+        "data": 9,
+        "qos": null,
+        "당일": 11000
+      },
+      {
+        "operator": "리브엠모바일",
+        "plan_name": "LTE 워치",
+        "network_type": "LTE",
+        "data": 0.25,
+        "qos": null,
+        "당일": 7700
       }
     ],
     "hiddenPlans": [],
