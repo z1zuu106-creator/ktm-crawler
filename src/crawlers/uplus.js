@@ -1,12 +1,16 @@
 /**
- * U+ 알뜰모바일 요금제 크롤러
+ * 유모바일 요금제 크롤러
  * 방식: Playwright로 페이지 렌더링 후 HTML data-* 속성 파싱
- * URL: https://www.uplusumobile.com/product/pric/usim/pricList
+ * URL: 유심 + 휴대폰 모두 수집
  */
 
 const { chromium } = require('playwright');
 
-const SOURCE_URL = 'https://www.uplusumobile.com/product/pric/usim/pricList';
+const URLS = [
+  { url: 'https://www.uplusumobile.com/product/pric/usim/pricList', planType: '유심' },
+  { url: 'https://www.uplusumobile.com/product/pric/phone/pricList', planType: '휴대폰' },
+];
+const SOURCE_URL = URLS[0].url;
 
 // ppngen: 4=LTE, 5=5G (추정치; 텍스트로도 보정)
 const GEN_MAP = { '4': 'LTE', '5': '5G', '3': '5G' };
@@ -58,39 +62,22 @@ function determineNetwork(ppngen, planName) {
   return 'LTE';
 }
 
-async function crawl(log = console.log) {
-  log('  [유모바일] 페이지 로딩 중...');
-
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
-  });
-  const page = await context.newPage();
-
-  await page.goto(SOURCE_URL, { waitUntil: 'networkidle', timeout: 30000 });
+async function fetchFromUrl(page, url) {
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
   await page.waitForTimeout(2000);
 
-  const rawItems = await page.evaluate(() => {
+  return page.evaluate(() => {
     const items = document.querySelectorAll('#bx-list > div');
     return Array.from(items).map(item => {
       const ds = item.dataset;
-
-      // 데이터 표시 텍스트 찾기 (보통 두 번째 줄)
       const allText = item.innerText || item.textContent || '';
       const lines = allText.split('\n').map(l => l.trim()).filter(Boolean);
-
-      // 데이터 라인: 첫 번째 줄(플랜명) 제외하고 탐색
-      // "7GB+1Mbps", "(7+10)GB+1Mbps", "무제한" 같은 패턴
-      // 플랜명이 아닌 순수 데이터 표기: Mbps 포함되거나 숫자+GB로만 구성
       const dataLine = lines.slice(1).find(l =>
         (l.match(/GB|MB|무제한/) && l.match(/\d/)) &&
         (l.match(/Mbps|Kbps/) || l.match(/^[\d().+\s]+(?:GB|MB)/))
       );
-
-      // 통화/문자 라인
       const voiceLine = lines.find(l => l.includes('통화') && !l.includes('데이터'));
       const smsLine = lines.find(l => l.includes('문자') && !l.includes('데이터'));
-
       return {
         ppnnm: ds.ppnnm,
         bscchrgaddvat: ds.bscchrgaddvat,
@@ -100,74 +87,81 @@ async function crawl(log = console.log) {
         offervoice: ds.offervoice,
         qosofrvol: ds.qosofrvol,
         sgntrseq: ds.sgntrseq,
-        excluseq: ds.excluseq,
         dataLine,
         voiceLine,
         smsLine,
-        fullText: allText.substring(0, 300),
       };
     });
   });
+}
 
-  await browser.close();
-
-  log(`  [유모바일] ${rawItems.length}건 추출`);
+async function crawl(log = console.log) {
+  const browser = await chromium.launch({ headless: true });
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+  });
+  const page = await context.newPage();
 
   const allPlans = [];
   const seenNames = new Set();
 
-  for (const item of rawItems) {
-    const planName = item.ppnnm?.trim() || '';
-    if (!planName) continue;
-    if (seenNames.has(planName)) continue;
-    seenNames.add(planName);
+  for (const { url, planType } of URLS) {
+    log(`  [유모바일] ${planType} 요금제 로딩 중...`);
+    const rawItems = await fetchFromUrl(page, url);
+    log(`  [유모바일] ${planType} ${rawItems.length}건 추출`);
 
-    const network = determineNetwork(item.ppngen, planName);
-    const { raw: data_allowance_raw, normalized: data_allowance_normalized } =
-      buildDataAllowance(item.ofrdataval, item.dataLine);
-    const { qos_speed, qos_raw } = buildQoS(item.qosofrvol, item.dataLine);
+    for (const item of rawItems) {
+      const planName = item.ppnnm?.trim() || '';
+      if (!planName) continue;
+      if (seenNames.has(planName)) continue;
+      seenNames.add(planName);
 
-    const basePrice = parsePrice(item.bscchrgaddvat);
-    const benefitPrice = parsePrice(item.discntaddvat);
-    const isBenefitDiff = benefitPrice !== null && benefitPrice !== basePrice;
+      const network = determineNetwork(item.ppngen, planName);
+      const { raw: data_allowance_raw, normalized: data_allowance_normalized } =
+        buildDataAllowance(item.ofrdataval, item.dataLine);
+      const { qos_speed, qos_raw } = buildQoS(item.qosofrvol, item.dataLine);
 
-    // 음성
-    let voice_allowance = item.offervoice?.trim() || null;
-    if (!voice_allowance && item.voiceLine) {
-      voice_allowance = item.voiceLine.replace(/통화\s*/, '').trim() || '기본제공';
+      const basePrice = parsePrice(item.bscchrgaddvat);
+      const benefitPrice = parsePrice(item.discntaddvat);
+      const isBenefitDiff = benefitPrice !== null && benefitPrice !== basePrice;
+
+      let voice_allowance = item.offervoice?.trim() || null;
+      if (!voice_allowance && item.voiceLine) {
+        voice_allowance = item.voiceLine.replace(/통화\s*/, '').trim() || '기본제공';
+      }
+      if (!voice_allowance) voice_allowance = '기본제공';
+
+      let sms_allowance = null;
+      if (item.smsLine) {
+        sms_allowance = item.smsLine.replace(/문자\s*/, '').trim() || '기본제공';
+      }
+      if (!sms_allowance) sms_allowance = '기본제공';
+
+      allPlans.push({
+        plan_name: planName,
+        plan_code: '',
+        data_allowance_raw,
+        data_allowance_normalized,
+        qos_raw,
+        qos_speed,
+        voice_allowance,
+        sms_allowance,
+        base_price_text: basePrice ? `월 ${basePrice.toLocaleString()}원` : null,
+        base_price: basePrice,
+        benefit_price_text: isBenefitDiff ? `혜택가 월 ${benefitPrice.toLocaleString()}원` : null,
+        benefit_price: isBenefitDiff ? benefitPrice : null,
+        plan_type: [planType],
+        partnership_flag: item.sgntrseq && item.sgntrseq !== '0',
+        network_type: network,
+        product_group: '전체',
+        source_url: url,
+        collected_at: new Date().toISOString(),
+        _operator: 'uplus',
+      });
     }
-    if (!voice_allowance) voice_allowance = '기본제공';
-
-    // 문자
-    let sms_allowance = null;
-    if (item.smsLine) {
-      sms_allowance = item.smsLine.replace(/문자\s*/, '').trim() || '기본제공';
-    }
-    if (!sms_allowance) sms_allowance = '기본제공';
-
-    allPlans.push({
-      plan_name: planName,
-      plan_code: '',   // U+는 코드 미제공
-      data_allowance_raw,
-      data_allowance_normalized,
-      qos_raw,
-      qos_speed,
-      voice_allowance,
-      sms_allowance,
-      base_price_text: basePrice ? `월 ${basePrice.toLocaleString()}원` : null,
-      base_price: basePrice,
-      benefit_price_text: isBenefitDiff ? `혜택가 월 ${benefitPrice.toLocaleString()}원` : null,
-      benefit_price: isBenefitDiff ? benefitPrice : null,
-      plan_type: ['유심'],
-      partnership_flag: item.sgntrseq && item.sgntrseq !== '0',
-      network_type: network,
-      product_group: '전체',
-      source_url: SOURCE_URL,
-      collected_at: new Date().toISOString(),
-      _operator: 'uplus',
-    });
   }
 
+  await browser.close();
   log(`  [유모바일] 최종 ${allPlans.length}건 (중복 제거 후)`);
   return allPlans;
 }
