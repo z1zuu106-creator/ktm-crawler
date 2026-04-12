@@ -5,12 +5,76 @@
   "prevLabel": "4/11(전일)",
   "todayLabel": "4/12(당일)",
   "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260412.xlsx",
-  "totalToday": 726,
+  "totalToday": 849,
   "summary": {
-    "newCount": 168,
+    "newCount": 291,
     "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB/2000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 13900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 27500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] 5G CMLink (110GB+)",
+        "network_type": "5G",
+        "data": 110,
+        "qos": "5Mbps",
+        "당일": 50600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] 5G CMLink (24GB+)",
+        "network_type": "5G",
+        "data": 24,
+        "qos": "1Mbps",
+        "당일": 44550
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (15GB+)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 30800
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (15GB+/100분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 27500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (5GB+/200분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": "1Mbps",
+        "당일": 17600
+      },
       {
         "operator": "리브엠모바일",
         "plan_name": "5G 20GB(100분)",
@@ -228,6 +292,246 @@
         "당일": 14900
       },
       {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 안심 (10GB+/2000분)",
+        "network_type": "5G",
+        "data": 10,
+        "qos": "400Kbps",
+        "당일": 13900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 안심 (15GB+/2000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "400Kbps",
+        "당일": 16900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 안심 (20GB+/2000분)",
+        "network_type": "5G",
+        "data": 20,
+        "qos": "400Kbps",
+        "당일": 19900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 안심 (6GB+/2000분)",
+        "network_type": "5G",
+        "data": 6,
+        "qos": "400Kbps",
+        "당일": 11900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 안심 (8GB+/2000분)",
+        "network_type": "5G",
+        "data": 8,
+        "qos": "400Kbps",
+        "당일": 12900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (10GB/200분)",
+        "network_type": "5G",
+        "data": 10,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (110GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 110,
+        "qos": "5Mbps",
+        "당일": 45100
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (11GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 11,
+        "qos": "400Kbps",
+        "당일": 31900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (15GB/1000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 14900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (15GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "1Mbps",
+        "당일": 35200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (1GB/500분)",
+        "network_type": "5G",
+        "data": 1,
+        "qos": null,
+        "당일": 5500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (200GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 200,
+        "qos": "5Mbps",
+        "당일": 49500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (20GB/1000분)",
+        "network_type": "5G",
+        "data": 20,
+        "qos": null,
+        "당일": 17900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (24GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 24,
+        "qos": "1Mbps",
+        "당일": 38500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (37GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 37,
+        "qos": "1Mbps",
+        "당일": 40700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (3GB/1000분)",
+        "network_type": "5G",
+        "data": 3,
+        "qos": null,
+        "당일": 6900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (3GB/200분)",
+        "network_type": "5G",
+        "data": 3,
+        "qos": null,
+        "당일": 6900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (54GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 54,
+        "qos": "1Mbps",
+        "당일": 41800
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (5GB/1000분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": null,
+        "당일": 8900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (6GB/200분)",
+        "network_type": "5G",
+        "data": 6,
+        "qos": null,
+        "당일": 7900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (6GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 6,
+        "qos": "400Kbps",
+        "당일": 25300
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (74GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 74,
+        "qos": "1Mbps",
+        "당일": 42900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (7GB/1000분)",
+        "network_type": "5G",
+        "data": 7,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (8GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 8,
+        "qos": "400Kbps",
+        "당일": 28600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (99GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 99,
+        "qos": "1Mbps",
+        "당일": 44000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (9GB/1000분)",
+        "network_type": "5G",
+        "data": 9,
+        "qos": null,
+        "당일": 11900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 태블릿 10GB",
+        "network_type": "5G",
+        "data": 10,
+        "qos": null,
+        "당일": 11000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 태블릿 10GB+",
+        "network_type": "5G",
+        "data": 10,
+        "qos": "400Kbps",
+        "당일": 15400
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 태블릿 5GB",
+        "network_type": "5G",
+        "data": 5,
+        "qos": null,
+        "당일": 7700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "5G 태블릿 5GB+",
+        "network_type": "5G",
+        "data": 5,
+        "qos": "400Kbps",
+        "당일": 12100
+      },
+      {
         "operator": "리브엠모바일",
         "plan_name": "5G무제한 110GB+(KT망)",
         "network_type": "5G",
@@ -250,6 +554,22 @@
         "data": "월200GB+10Mbps",
         "qos": "10Mbps",
         "당일": 54900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (5GB+/200분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": "1Mbps",
+        "당일": 16060
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 15GB+",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 25300
       },
       {
         "operator": "우리WON모바일",
@@ -436,6 +756,310 @@
         "당일": 22900
       },
       {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 복지 유심 (5GB/100분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": null,
+        "당일": 8800
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심 (15GB+/1000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "400Kbps",
+        "당일": 15900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심 (5GB+/1000분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": "400Kbps",
+        "당일": 10120
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심차단 (5GB/1000분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": null,
+        "당일": 7900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB/100분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 12900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB/2000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 15000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB/200분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 13200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB/300분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": null,
+        "당일": 13530
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB+/1000분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "1Mbps",
+        "당일": 21400
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB+/100분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 25300
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB+/300분)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 28600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (25GB/100분)",
+        "network_type": "5G",
+        "data": 25,
+        "qos": null,
+        "당일": 20900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (25GB/200분)",
+        "network_type": "5G",
+        "data": 25,
+        "qos": null,
+        "당일": 22000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (25GB/300분)",
+        "network_type": "5G",
+        "data": 25,
+        "qos": null,
+        "당일": 23100
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (5GB/100분)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": null,
+        "당일": 7900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (100GB+)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 40900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (10GB/2000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 11900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (10GB+)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 18900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (11GB+)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 33000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (1GB+)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 9920
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (2GB/2000분)",
+        "network_type": "LTE",
+        "data": 2,
+        "qos": null,
+        "당일": 5500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (4GB/2000분)",
+        "network_type": "LTE",
+        "data": 4,
+        "qos": null,
+        "당일": 6600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (6GB/2000분)",
+        "network_type": "LTE",
+        "data": 6,
+        "qos": null,
+        "당일": 8800
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 16900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (8GB/2000분)",
+        "network_type": "LTE",
+        "data": 8,
+        "qos": null,
+        "당일": 11000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (100GB+)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 47850
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (10GB+)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 24700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (11GB+)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 41200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (1GB+)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 18400
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (7GB+)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 24200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (10GB/2000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 14190
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (10GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 22000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 37400
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (2GB/200분)",
+        "network_type": "LTE",
+        "data": 2,
+        "qos": null,
+        "당일": 7590
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (3GB+/200분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": "1Mbps",
+        "당일": 15180
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (4GB/200분)",
+        "network_type": "LTE",
+        "data": 4,
+        "qos": null,
+        "당일": 11220
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (6GB/200분)",
+        "network_type": "LTE",
+        "data": 6,
+        "qos": null,
+        "당일": 11770
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "10% 포인트 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 19800
+      },
+      {
         "operator": "리브엠모바일",
         "plan_name": "골든라이프 LTE 2GB+(KT망)",
         "network_type": "LTE",
@@ -540,12 +1164,100 @@
         "당일": 0
       },
       {
+        "operator": "SK세븐모바일",
+        "plan_name": "롯데시네마 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 37600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "롯데시네마 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 21600
+      },
+      {
         "operator": "리브엠모바일",
         "plan_name": "무궁화 LTE(신)",
         "network_type": "LTE",
         "data": "월11GB+일2GB+3Mbps",
         "qos": "3Mbps",
         "당일": 30800
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (10GB/2000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 13000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (10GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 20000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (1GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 11000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (2GB/2000분)",
+        "network_type": "LTE",
+        "data": 2,
+        "qos": null,
+        "당일": 6600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (3GB+/200분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": "1Mbps",
+        "당일": 13860
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (4GB/2000분)",
+        "network_type": "LTE",
+        "data": 4,
+        "qos": null,
+        "당일": 7700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (6GB/2000분)",
+        "network_type": "LTE",
+        "data": 6,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개 유심 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 18000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "번개유심 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 34100
       },
       {
         "operator": "리브엠모바일",
@@ -972,6 +1684,38 @@
         "당일": 12500
       },
       {
+        "operator": "SK세븐모바일",
+        "plan_name": "폰케어팩 (100GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 42000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "폰케어팩 (10GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 20000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "폰케어팩 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 34100
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "폰케어팩 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 18000
+      },
+      {
         "operator": "리브엠모바일",
         "plan_name": "ESG LTE 3GB+(100분)(LGU+망)",
         "network_type": "LTE",
@@ -994,6 +1738,14 @@
         "data": "월11GB+일2GB+3Mbps",
         "qos": "3Mbps",
         "당일": 34300
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "FLO 유심 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 39300
       },
       {
         "operator": "리브엠모바일",
@@ -1348,12 +2100,244 @@
         "당일": 11000
       },
       {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심 (10GB+/1000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "400Kbps",
+        "당일": 12900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심차단 (1GB/1000분)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 5500
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심차단 (20GB/1000분)",
+        "network_type": "LTE",
+        "data": 20,
+        "qos": null,
+        "당일": 16900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심차단 (30GB/1000분)",
+        "network_type": "LTE",
+        "data": 30,
+        "qos": null,
+        "당일": 24900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 안심차단 (3GB/1000분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": null,
+        "당일": 6600
+      },
+      {
         "operator": "리브엠모바일",
         "plan_name": "LTE 워치",
         "network_type": "LTE",
         "data": 0.25,
         "qos": null,
         "당일": 7700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (100GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 42000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (10GB/100분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 10200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (10GB/2000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": null,
+        "당일": 13000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (10GB+/1000분)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 18900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (10GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 20000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (11GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 34100
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (1GB/100분)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 3900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (1GB/200분)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 4510
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (1GB/50분)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": null,
+        "당일": 3300
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (1GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 11000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (20GB+/1000분)",
+        "network_type": "LTE",
+        "data": 20,
+        "qos": "1Mbps",
+        "당일": 24750
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (2GB/2000분)",
+        "network_type": "LTE",
+        "data": 2,
+        "qos": null,
+        "당일": 6600
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (3GB/100분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": null,
+        "당일": 4900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (3GB/200분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": null,
+        "당일": 6900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (3GB+/200분)",
+        "network_type": "LTE",
+        "data": 3,
+        "qos": "1Mbps",
+        "당일": 13860
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (4GB/2000분)",
+        "network_type": "LTE",
+        "data": 4,
+        "qos": null,
+        "당일": 7700
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (500MB/100분)",
+        "network_type": "LTE",
+        "data": 0.5,
+        "qos": null,
+        "당일": 2900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (500MB/60분)",
+        "network_type": "LTE",
+        "data": 0.5,
+        "qos": null,
+        "당일": 1900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (6GB/2000분)",
+        "network_type": "LTE",
+        "data": 6,
+        "qos": null,
+        "당일": 9900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (6GB+/1000분)",
+        "network_type": "LTE",
+        "data": 6,
+        "qos": "1Mbps",
+        "당일": 15400
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 18000
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (8GB/100분)",
+        "network_type": "LTE",
+        "data": 8,
+        "qos": null,
+        "당일": 8900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (8GB/2000분)",
+        "network_type": "LTE",
+        "data": 8,
+        "qos": null,
+        "당일": 12100
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (8GB+/1000분)",
+        "network_type": "LTE",
+        "data": 8,
+        "qos": "1Mbps",
+        "당일": 16900
       }
     ],
     "hiddenPlans": [],
