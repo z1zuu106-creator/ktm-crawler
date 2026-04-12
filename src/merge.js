@@ -1,7 +1,7 @@
 /**
- * 4개 사업자 요금제 데이터 통합 크롤러
+ * 6개 사업자 요금제 데이터 통합 크롤러
  *
- * KT M모바일 + LG 헬로비전 + U+ 알뜰모바일 + 스카이라이프
+ * KT M모바일 + 헬로모바일 + 유모바일 + 스카이라이프 + 우리WON모바일 + 리브엠모바일
  */
 
 const fs = require('fs');
@@ -12,6 +12,8 @@ const { crawl: crawlKTM } = require('./crawler');
 const { crawl: crawlLGHello } = require('./crawlers/lghello');
 const { crawl: crawlUPlus } = require('./crawlers/uplus');
 const { crawl: crawlSkylife } = require('./crawlers/skylife');
+const { crawl: crawlWooriwon } = require('./crawlers/wooriwon');
+const { crawl: crawlLiivm } = require('./crawlers/liivm');
 
 const OUTPUT_DIR = path.join(__dirname, '../output');
 const LOG_DIR = path.join(__dirname, '../logs');
@@ -63,62 +65,88 @@ async function saveCSV(plans, filename) {
 
 async function main() {
   const startTime = Date.now();
-  log('=== 4개 사업자 요금제 통합 크롤링 시작 ===');
+  log('=== 6개 사업자 요금제 통합 크롤링 시작 ===');
 
   const results = {};
 
   // 1. KT M모바일 (API 기반, 빠름)
-  log('\n[1/4] KT M모바일 수집 시작');
+  log('\n[1/6] KT M모바일 수집 시작');
   try {
     results.ktm = await crawlKTM();
-    log(`[1/4] KT M모바일 완료: ${results.ktm.length}건`);
+    log(`[1/6] KT M모바일 완료: ${results.ktm.length}건`);
   } catch (e) {
-    log(`[1/4] KT M모바일 실패: ${e.message}`);
+    log(`[1/6] KT M모바일 실패: ${e.message}`);
     results.ktm = [];
   }
 
   await sleep(500);
 
-  // 2. LG 헬로비전 (API 기반, 빠름)
-  log('\n[2/4] LG 헬로비전 수집 시작');
+  // 2. 헬로모바일 (API 기반, 빠름)
+  log('\n[2/6] 헬로모바일 수집 시작');
   try {
     results.lghello = await crawlLGHello(log);
-    log(`[2/4] LG 헬로비전 완료: ${results.lghello.length}건`);
+    log(`[2/6] 헬로모바일 완료: ${results.lghello.length}건`);
   } catch (e) {
-    log(`[2/4] LG 헬로비전 실패: ${e.message}`);
+    log(`[2/6] 헬로모바일 실패: ${e.message}`);
     results.lghello = [];
   }
 
   await sleep(500);
 
-  // 3. U+ 알뜰모바일 (Playwright, 보통 속도)
-  log('\n[3/4] U+ 알뜰모바일 수집 시작');
+  // 3. 유모바일 (Playwright, 보통 속도)
+  log('\n[3/6] 유모바일 수집 시작');
   try {
     results.uplus = await crawlUPlus(log);
-    log(`[3/4] U+ 알뜰모바일 완료: ${results.uplus.length}건`);
+    log(`[3/6] 유모바일 완료: ${results.uplus.length}건`);
   } catch (e) {
-    log(`[3/4] U+ 알뜰모바일 실패: ${e.message}`);
+    log(`[3/6] 유모바일 실패: ${e.message}`);
     results.uplus = [];
   }
 
   await sleep(500);
 
   // 4. 스카이라이프 (Playwright, 개별 페이지 순회)
-  log('\n[4/4] 스카이라이프 수집 시작');
+  log('\n[4/6] 스카이라이프 수집 시작');
   try {
     results.skylife = await crawlSkylife(log);
-    log(`[4/4] 스카이라이프 완료: ${results.skylife.length}건`);
+    log(`[4/6] 스카이라이프 완료: ${results.skylife.length}건`);
   } catch (e) {
-    log(`[4/4] 스카이라이프 실패: ${e.message}`);
+    log(`[4/6] 스카이라이프 실패: ${e.message}`);
     results.skylife = [];
+  }
+
+  await sleep(500);
+
+  // 5. 우리WON모바일 (Playwright)
+  log('\n[5/6] 우리WON모바일 수집 시작');
+  try {
+    results.wooriwon = await crawlWooriwon(log);
+    log(`[5/6] 우리WON모바일 완료: ${results.wooriwon.length}건`);
+  } catch (e) {
+    log(`[5/6] 우리WON모바일 실패: ${e.message}`);
+    results.wooriwon = [];
+  }
+
+  await sleep(500);
+
+  // 6. 리브엠모바일 (API)
+  log('\n[6/6] 리브엠모바일 수집 시작');
+  try {
+    results.liivm = await crawlLiivm(log);
+    log(`[6/6] 리브엠모바일 완료: ${results.liivm.length}건`);
+  } catch (e) {
+    log(`[6/6] 리브엠모바일 실패: ${e.message}`);
+    results.liivm = [];
   }
 
   // 통합
   const OPERATOR_LABELS = {
     ktm: 'KT M모바일',
-    lghello: 'LG헬로비전',
-    uplus: 'U+알뜰모바일',
+    lghello: '헬로모바일',
+    uplus: '유모바일',
     skylife: '스카이라이프',
+    wooriwon: '우리WON모바일',
+    liivm: '리브엠모바일',
   };
 
   const merged = [];

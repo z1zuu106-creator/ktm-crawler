@@ -101,7 +101,7 @@ function parsePlan(item, telecom) {
     sms_allowance: buildSMS(item),
     base_price_text: price ? `월 ${price.toLocaleString()}원` : null,
     base_price: price,
-    benefit_price_text: null,   // LG헬로비전은 단일 가격 제공
+    benefit_price_text: null,   // 헬로모바일은 단일 가격 제공
     benefit_price: null,
     plan_type: ['유심'],
     partnership_flag: false,
@@ -119,7 +119,7 @@ async function crawl(log = console.log) {
   const seenCodes = new Set();
 
   for (const telecom of ['LGU', 'KT']) {
-    log(`  [LG헬로비전] ${telecom}망 요금제 조회 중...`);
+    log(`  [헬로모바일] ${telecom}망 요금제 조회 중...`);
     const items = await fetchPlanList(telecom);
     let added = 0, duped = 0;
 

@@ -59,7 +59,7 @@ function determineNetwork(ppngen, planName) {
 }
 
 async function crawl(log = console.log) {
-  log('  [U+알뜰모바일] 페이지 로딩 중...');
+  log('  [유모바일] 페이지 로딩 중...');
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -111,7 +111,7 @@ async function crawl(log = console.log) {
 
   await browser.close();
 
-  log(`  [U+알뜰모바일] ${rawItems.length}건 추출`);
+  log(`  [유모바일] ${rawItems.length}건 추출`);
 
   const allPlans = [];
   const seenNames = new Set();
@@ -168,7 +168,7 @@ async function crawl(log = console.log) {
     });
   }
 
-  log(`  [U+알뜰모바일] 최종 ${allPlans.length}건 (중복 제거 후)`);
+  log(`  [유모바일] 최종 ${allPlans.length}건 (중복 제거 후)`);
   return allPlans;
 }
 
