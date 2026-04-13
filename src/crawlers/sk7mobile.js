@@ -10,7 +10,6 @@ const URLS = [
   { url: 'https://www.sk7mobile.com/prod/data/callingPlanList.do?refCode=USIM', planType: '유심' },
   { url: 'https://www.sk7mobile.com/prod/data/callingPlanList.do?refCode=PHONE&searchOrderby=1', planType: '휴대폰' },
 ];
-const SOURCE_URL = URLS[0].url;
 
 function parsePrice(str) {
   if (!str) return null;
@@ -89,7 +88,9 @@ async function crawl(log = console.log) {
       const salePrice = item.salePriceText ? parsePrice(item.salePriceText) : null;
       const isBenefitDiff = salePrice !== null && salePrice > (basePrice || 0);
 
-      const network = item.planName.includes('5G') ? '5G' : 'LTE';
+      // "15GB", "5GB" 등 데이터 크기 표기는 제외하고 실제 5G 망 표기만 감지
+    // (?<!\d) : 앞에 숫자 없음 / (?!B) : 뒤에 B 없음 (GB 제외)
+    const network = /(?<!\d)5G(?!B)/.test(item.planName) ? '5G' : 'LTE';
 
       allPlans.push({
         plan_name: item.planName,
