@@ -56,18 +56,25 @@ function parseData(val) {
 
 /**
  * 할인기간 판별
- * - periodDiscMonth > 0 && foreverDiscAmt > 0: "N개월+평생할인"
- * - periodDiscMonth > 0 && foreverDiscAmt = 0: "N개월"
+ * - periodDiscMonth > 0: "N개월" (기간 한정 프로모션)
  * - periodDiscMonth = 0 && foreverDiscAmt > 0: "평생"
  * - 둘 다 0: "-"
  */
 function buildDiscountPeriod(periodDiscMonth, foreverDiscAmt) {
-  const hasPeriod = periodDiscMonth > 0;
-  const hasForever = foreverDiscAmt > 0;
-  if (hasPeriod && hasForever) return `${periodDiscMonth}개월+평생할인`;
-  if (hasPeriod) return `${periodDiscMonth}개월`;
-  if (hasForever) return '평생';
+  if (periodDiscMonth > 0) return `${periodDiscMonth}개월`;
+  if (foreverDiscAmt > 0) return '평생';
   return '-';
+}
+
+/**
+ * 할인 후 금액 (할인기간 종료 후 납부 금액)
+ * - periodDiscMonth > 0: basicFee - foreverDiscAmt (평생할인만 남음, 없으면 정가)
+ * - periodDiscMonth = 0: null (이미 현재가가 영구가)
+ */
+function buildPriceAfterDiscount(basicFee, periodDiscMonth, foreverDiscAmt) {
+  if (!periodDiscMonth || periodDiscMonth === 0) return null;
+  const base = parseInt(basicFee, 10) || 0;
+  return base - (foreverDiscAmt || 0);
 }
 
 async function fetchAllPlans(page, totalCount) {
@@ -152,6 +159,11 @@ async function crawl(log = console.log) {
       item.periodDiscMonth || 0,
       item.foreverDiscAmt || 0
     );
+    const priceAfterDiscount = buildPriceAfterDiscount(
+      item.basicFee,
+      item.periodDiscMonth || 0,
+      item.foreverDiscAmt || 0
+    );
 
     allPlans.push({
       company: '프리티',
@@ -165,9 +177,10 @@ async function crawl(log = console.log) {
       data,               // 데이터/GB
       qos: item.qos || null,
       benefits,           // 추가혜택
-      base_price: basePrice,          // 기본료(정가)
-      monthly_fee: monthlyFee,        // 당일 요금(할인가)
-      discount_period: discountPeriod, // 할인기간
+      base_price: basePrice,                  // 기본료(정가)
+      monthly_fee: monthlyFee,                // 당일 요금(할인가)
+      price_after_discount: priceAfterDiscount, // 할인 후 금액 (기간 종료 후)
+      discount_period: discountPeriod,        // 할인기간
       source_url: SOURCE_URL,
       collected_at: new Date().toISOString(),
       _operator: 'freet',
