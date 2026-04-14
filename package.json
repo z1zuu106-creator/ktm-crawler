@@ -9,7 +9,8 @@
     "report": "node src/report.js",
     "notify": "node src/notify.js",
     "daily": "node src/merge.js && node src/report.js && node src/notify.js",
-    "analyze": "node src/analyze.js"
+    "analyze": "node src/analyze.js",
+    "small": "node src/small_merge.js"
   },
   "dependencies": {
     "exceljs": "^4.4.0",
