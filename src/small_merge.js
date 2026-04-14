@@ -12,12 +12,14 @@ const path = require('path');
 const ExcelJS = require('exceljs');
 
 const { crawl: crawlFreet } = require('./crawlers/small/freet');
+const { crawl: crawlEyez } = require('./crawlers/small/eyez');
 
 const OUTPUT_DIR = path.join(__dirname, '../output/small');
 const LOG_DIR = path.join(__dirname, '../logs');
 
 const OPERATORS = [
-  { key: 'freet', label: '프리티', crawl: crawlFreet },
+  { key: 'freet', label: '프리티',     crawl: crawlFreet },
+  { key: 'eyez',  label: '아이즈모바일', crawl: crawlEyez },
 ];
 
 // 날짜 유틸
