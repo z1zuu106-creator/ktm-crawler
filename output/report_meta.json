@@ -5,13 +5,50 @@
   "prevLabel": "4/29(전일)",
   "todayLabel": "4/30(당일)",
   "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260430.xlsx",
-  "totalToday": 1058,
+  "totalToday": 1052,
   "summary": {
     "newCount": 0,
-    "hiddenCount": 0,
+    "hiddenCount": 6,
     "changedCount": 0,
     "newPlans": [],
-    "hiddenPlans": [],
+    "hiddenPlans": [
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (100GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 39100
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (10GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 19900
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (15GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 21900
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (1GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 10900
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (4.5GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 13900
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "교보문고 북 플러스알파 (71GB+/통화기본)",
+        "network_type": "LTE",
+        "전일": 33500
+      }
+    ],
     "changedPlans": []
   }
 }
