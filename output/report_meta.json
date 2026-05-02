@@ -1,81 +1,16 @@
 {
-  "todayDateStr": "20260501",
-  "prevDateStr": "20260430",
-  "prev2DateStr": "20260429",
-  "prevLabel": "4/30(전일)",
-  "todayLabel": "5/1(당일)",
-  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260501.xlsx",
+  "todayDateStr": "20260502",
+  "prevDateStr": "20260501",
+  "prev2DateStr": "20260430",
+  "prevLabel": "5/1(전일)",
+  "todayLabel": "5/2(당일)",
+  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260502.xlsx",
   "totalToday": 1060,
   "summary": {
-    "newCount": 8,
+    "newCount": 0,
     "hiddenCount": 0,
     "changedCount": 0,
-    "newPlans": [
-      {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 15GB+(쿠팡캐시 5000원)",
-        "network_type": "5G",
-        "data": 15,
-        "qos": "1Mbps",
-        "당일": 23700
-      },
-      {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 10GB+(쿠팡캐시 5000원)",
-        "network_type": "LTE",
-        "data": 10,
-        "qos": "1Mbps",
-        "당일": 21200
-      },
-      {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 7GB+(쿠팡캐시 5000원)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 18500
-      },
-      {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 7GB+(CU 20%할인)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16700
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 슬림 10GB/200분",
-        "network_type": "5G",
-        "data": 10,
-        "qos": null,
-        "당일": 10900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 통화 충분 10GB",
-        "network_type": "5G",
-        "data": 10,
-        "qos": null,
-        "당일": 14900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 통화 충분 3GB",
-        "network_type": "5G",
-        "data": 3,
-        "qos": null,
-        "당일": 8900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 통화 충분 6GB",
-        "network_type": "5G",
-        "data": 6,
-        "qos": null,
-        "당일": 11900
-      }
-    ],
+    "newPlans": [],
     "hiddenPlans": [],
     "changedPlans": []
   }
