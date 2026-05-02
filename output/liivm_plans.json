@@ -19,7 +19,7 @@
     "network_type": "LTE",
     "product_group": "U04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 20GB",
@@ -41,7 +41,7 @@
     "network_type": "LTE",
     "product_group": "U04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 25GB+",
@@ -63,7 +63,7 @@
     "network_type": "LTE",
     "product_group": "U04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "데이터쉐어링",
@@ -85,7 +85,7 @@
     "network_type": "LTE",
     "product_group": "U11",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 든든 1GB",
@@ -107,7 +107,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 든든 3GB",
@@ -129,7 +129,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 든든 5GB",
@@ -151,7 +151,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 든든무제한 5GB+",
@@ -173,7 +173,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든 2GB",
@@ -195,7 +195,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든 4GB",
@@ -217,7 +217,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든 6GB",
@@ -239,7 +239,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든 8GB",
@@ -261,7 +261,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든무제한 12GB+",
@@ -283,7 +283,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든무제한 150GB+",
@@ -305,7 +305,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 든든무제한 180GB+",
@@ -327,7 +327,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 워치",
@@ -349,7 +349,7 @@
     "network_type": "LTE",
     "product_group": "U18",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 무제한 11GB+(KT망)",
@@ -371,7 +371,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 데이터쉐어링(KT망)",
@@ -393,7 +393,7 @@
     "network_type": "LTE",
     "product_group": "K05",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "데이터같이쓰기 120분 (안심차단)(KT망)",
@@ -415,7 +415,7 @@
     "network_type": "LTE",
     "product_group": "K06",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "데이터같이쓰기 240분 (안심차단)(KT망)",
@@ -437,7 +437,7 @@
     "network_type": "LTE",
     "product_group": "K06",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 실속 3GB+(200분)(SKT망)",
@@ -459,7 +459,7 @@
     "network_type": "LTE",
     "product_group": "S01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 실속 5GB+(200분)(SKT망)",
@@ -481,7 +481,7 @@
     "network_type": "LTE",
     "product_group": "S01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 실속 15GB+ (100분)(SKT망)",
@@ -503,7 +503,7 @@
     "network_type": "LTE",
     "product_group": "S01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 무제한 7GB+(SKT망)",
@@ -525,7 +525,7 @@
     "network_type": "LTE",
     "product_group": "S02",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 무제한 11GB+(SKT망)",
@@ -547,7 +547,7 @@
     "network_type": "LTE",
     "product_group": "S02",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 무제한 100GB+(SKT망)",
@@ -569,7 +569,7 @@
     "network_type": "LTE",
     "product_group": "S02",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 15GB+(SKT망)",
@@ -591,7 +591,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 110GB+(SKT망)",
@@ -613,7 +613,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 200GB+(SKT망)",
@@ -635,7 +635,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 무제한 7GB+(지니뮤직)(KT망)",
@@ -657,7 +657,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G무제한 14GB+(KT망)",
@@ -679,7 +679,7 @@
     "network_type": "5G",
     "product_group": "K07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G무제한 110GB+(KT망)",
@@ -701,7 +701,7 @@
     "network_type": "5G",
     "product_group": "K07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.950Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G무제한 200GB+(KT망)",
@@ -723,7 +723,7 @@
     "network_type": "5G",
     "product_group": "K07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 실속 1GB+(LGU+망)",
@@ -745,7 +745,7 @@
     "network_type": "LTE",
     "product_group": "U03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 실속 2.5GB+(LGU+망)",
@@ -767,7 +767,7 @@
     "network_type": "LTE",
     "product_group": "U03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 1GB (안심차단)(LGU+망)",
@@ -789,7 +789,7 @@
     "network_type": "LTE",
     "product_group": "U03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 3GB (안심차단)(LGU+망)",
@@ -811,7 +811,7 @@
     "network_type": "LTE",
     "product_group": "U03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 2GB(안심차단)(KT망)",
@@ -833,7 +833,7 @@
     "network_type": "LTE",
     "product_group": "K08",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "주니어 LTE 4GB(안심차단)(KT망)",
@@ -855,7 +855,7 @@
     "network_type": "LTE",
     "product_group": "K08",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "골든라이프 LTE 8GB+(LGU+망)",
@@ -877,7 +877,7 @@
     "network_type": "LTE",
     "product_group": "U20",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "골든라이프 LTE 2GB+(KT망)",
@@ -899,7 +899,7 @@
     "network_type": "LTE",
     "product_group": "K09",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "골든라이프 LTE 4GB+(KT망)",
@@ -921,7 +921,7 @@
     "network_type": "LTE",
     "product_group": "K09",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 7GB+(LGU+망)",
@@ -943,7 +943,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 71GB+ (LGU+망)",
@@ -965,7 +965,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "LTE 150GB+(LGU+망)",
@@ -987,7 +987,7 @@
     "network_type": "LTE",
     "product_group": "U05",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 10GB+(KT망)",
@@ -1009,7 +1009,7 @@
     "network_type": "LTE",
     "product_group": "K03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 20GB+(KT망)",
@@ -1031,7 +1031,7 @@
     "network_type": "LTE",
     "product_group": "K03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 5GB(SKT망)",
@@ -1053,7 +1053,7 @@
     "network_type": "LTE",
     "product_group": "S04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "태블릿 LTE 10GB(SKT망)",
@@ -1075,7 +1075,7 @@
     "network_type": "LTE",
     "product_group": "S04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "청년도약 LTE 71GB+ (LGU+망)",
@@ -1097,7 +1097,7 @@
     "network_type": "LTE",
     "product_group": "U21",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 31GB+(LGU+망)",
@@ -1119,7 +1119,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 50GB+(LGU+망)",
@@ -1141,7 +1141,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.136Z"
   },
   {
     "plan_name": "5G 무제한 30GB+(KT망)",
@@ -1163,7 +1163,7 @@
     "network_type": "5G",
     "product_group": "K07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 무제한 50GB+(KT망)",
@@ -1185,7 +1185,7 @@
     "network_type": "5G",
     "product_group": "K07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 무제한 24GB+(SKT망)",
@@ -1207,7 +1207,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 무제한 54GB+(SKT망)",
@@ -1229,7 +1229,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 실속 15GB+(100분) (밀리의서재)(KT망)",
@@ -1251,7 +1251,7 @@
     "network_type": "LTE",
     "product_group": "K04",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 무제한 7GB+ (밀리의서재)(KT망)",
@@ -1273,7 +1273,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 무제한 11GB+ (밀리의서재)(KT망)",
@@ -1295,7 +1295,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 무제한 100GB+ (밀리의서재)(KT망)",
@@ -1317,7 +1317,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 무제한 10GB+ (밀리의서재)(KT망)",
@@ -1339,7 +1339,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 무제한 15GB+ (밀리의서재)(KT망)",
@@ -1361,7 +1361,7 @@
     "network_type": "LTE",
     "product_group": "K01",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+ (100분/100건)(LGU+망)",
@@ -1383,7 +1383,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+ (300분/300건)(LGU+망)",
@@ -1405,7 +1405,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "내맘대로 LTE",
@@ -1427,7 +1427,7 @@
     "network_type": "LTE",
     "product_group": "U22",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 100GB+(LGU+망)",
@@ -1449,7 +1449,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "보이스피싱예방 LTE 15GB+(100분/100건)",
@@ -1471,7 +1471,7 @@
     "network_type": "LTE",
     "product_group": "U24",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "보이스피싱예방 LTE 15GB+(300분/300건)",
@@ -1493,7 +1493,7 @@
     "network_type": "LTE",
     "product_group": "U24",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "KB그룹 임직원 프리미엄 LTE 100GB+(LGU+망)",
@@ -1515,7 +1515,7 @@
     "network_type": "LTE",
     "product_group": "U26",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 10GB+(LGU+망)",
@@ -1537,7 +1537,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+(LGU+망)",
@@ -1559,7 +1559,7 @@
     "network_type": "LTE",
     "product_group": "U15",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "골든라이프 LTE 4GB+(LGU+망)",
@@ -1581,7 +1581,7 @@
     "network_type": "LTE",
     "product_group": "U20",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "보이스피싱예방 LTE 7GB+(안심직거래)(KT망)",
@@ -1603,7 +1603,7 @@
     "network_type": "LTE",
     "product_group": "K11",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "보이스피싱예방 LTE 15GB+(안심직거래)(KT망)",
@@ -1625,7 +1625,7 @@
     "network_type": "LTE",
     "product_group": "K11",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 100GB+ (CU할인)(KT망)",
@@ -1647,7 +1647,7 @@
     "network_type": "LTE",
     "product_group": "K12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 71GB+ (CU할인)(KT망)",
@@ -1669,7 +1669,7 @@
     "network_type": "LTE",
     "product_group": "K12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+ (300분)(CU할인)(KT망)",
@@ -1691,7 +1691,7 @@
     "network_type": "LTE",
     "product_group": "K12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+ (100분)(CU할인)(KT망)",
@@ -1713,7 +1713,7 @@
     "network_type": "LTE",
     "product_group": "K12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 15GB+ (CU할인)(KT망)",
@@ -1735,7 +1735,7 @@
     "network_type": "LTE",
     "product_group": "K12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "ESG LTE 3GB+(100분)(LGU+망)",
@@ -1757,7 +1757,7 @@
     "network_type": "LTE",
     "product_group": "U27",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "ESG LTE 5GB+(100분)(LGU+망)",
@@ -1779,7 +1779,7 @@
     "network_type": "LTE",
     "product_group": "U27",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "ESG LTE 71GB+(LGU+망)",
@@ -1801,7 +1801,7 @@
     "network_type": "LTE",
     "product_group": "U27",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 20GB(100분)",
@@ -1823,7 +1823,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "직장인우대(연금) LTE 7GB+ 밀리의서재(KT망)",
@@ -1845,7 +1845,7 @@
     "network_type": "LTE",
     "product_group": "K16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "더블업 LTE 17GB+",
@@ -1867,7 +1867,7 @@
     "network_type": "LTE",
     "product_group": "U34",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "더블업 LTE 20GB+(LGU+망)",
@@ -1889,7 +1889,7 @@
     "network_type": "LTE",
     "product_group": "U34",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "더블업 LTE 25GB+(LGU+망)",
@@ -1911,7 +1911,7 @@
     "network_type": "LTE",
     "product_group": "U34",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "선생님든든 LTE(신)",
@@ -1933,7 +1933,7 @@
     "network_type": "LTE",
     "product_group": "U12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "무궁화 LTE(신)",
@@ -1955,7 +1955,7 @@
     "network_type": "LTE",
     "product_group": "U12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "나라사랑 LTE(신)",
@@ -1977,7 +1977,7 @@
     "network_type": "LTE",
     "product_group": "U06",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "공무원든든 LTE(신)",
@@ -1999,7 +1999,7 @@
     "network_type": "LTE",
     "product_group": "U12",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "KB 영웅 LTE 71GB+",
@@ -2021,7 +2021,7 @@
     "network_type": "LTE",
     "product_group": "U36",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "사장님 LTE 71GB+",
@@ -2043,7 +2043,7 @@
     "network_type": "LTE",
     "product_group": "U35",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "사장님 LTE 17GB+(LGU+망)",
@@ -2065,7 +2065,7 @@
     "network_type": "LTE",
     "product_group": "U35",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "사장님 LTE 7GB+밀리의서재(KT망)",
@@ -2087,7 +2087,7 @@
     "network_type": "LTE",
     "product_group": "K18",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "직장인우대(연금) 15GB(LGU+망)",
@@ -2109,7 +2109,7 @@
     "network_type": "LTE",
     "product_group": "U32",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "GS LTE 71GB+(LGU+망)",
@@ -2131,7 +2131,7 @@
     "network_type": "LTE",
     "product_group": "U42",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "GS LTE 25GB+(LGU+망)",
@@ -2153,7 +2153,7 @@
     "network_type": "LTE",
     "product_group": "U42",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "사장님(GS) LTE 17GB+(LGU+망)",
@@ -2175,7 +2175,7 @@
     "network_type": "LTE",
     "product_group": "U42",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 실속 1GB(100분)(SKT망)",
@@ -2197,7 +2197,7 @@
     "network_type": "LTE",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 실속 3GB(100분)(SKT망)",
@@ -2219,7 +2219,7 @@
     "network_type": "LTE",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 실속 5GB(100분)(SKT망)",
@@ -2241,7 +2241,7 @@
     "network_type": "LTE",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 실속 9GB(100분)(SKT망)",
@@ -2263,7 +2263,7 @@
     "network_type": "LTE",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 실속 2GB(100분)(SKT망)",
@@ -2285,7 +2285,7 @@
     "network_type": "5G",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 실속 4GB(100분)(SKT망)",
@@ -2307,7 +2307,7 @@
     "network_type": "5G",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 실속 15GB(100분)(SKT망)",
@@ -2329,7 +2329,7 @@
     "network_type": "5G",
     "product_group": "S07",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 실속 4GB(100분)(KT망)",
@@ -2351,7 +2351,7 @@
     "network_type": "5G",
     "product_group": "K20",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 실속 2GB(100분)(KT망)",
@@ -2373,7 +2373,7 @@
     "network_type": "5G",
     "product_group": "K20",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 든든무제한 95GB+",
@@ -2395,7 +2395,7 @@
     "network_type": "5G",
     "product_group": "U16",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 무제한 99GB+(SKT망)",
@@ -2417,7 +2417,7 @@
     "network_type": "5G",
     "product_group": "S03",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 7GB+(평생)",
@@ -2439,7 +2439,7 @@
     "network_type": "LTE",
     "product_group": "U43",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 71GB+(평생)",
@@ -2461,7 +2461,7 @@
     "network_type": "LTE",
     "product_group": "U43",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 95GB+(평생)",
@@ -2483,7 +2483,7 @@
     "network_type": "5G",
     "product_group": "U43",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 71GB+(초알뜰)",
@@ -2505,7 +2505,7 @@
     "network_type": "LTE",
     "product_group": "U47",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 95GB+(초알뜰)",
@@ -2527,7 +2527,7 @@
     "network_type": "5G",
     "product_group": "U48",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "LTE 71GB+(혜택형)",
@@ -2549,7 +2549,7 @@
     "network_type": "LTE",
     "product_group": "U57",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   },
   {
     "plan_name": "5G 95GB+(혜택형)",
@@ -2571,6 +2571,6 @@
     "network_type": "5G",
     "product_group": "U58",
     "source_url": "https://m.liivm.com/rateplan/plans/products",
-    "collected_at": "2026-05-02T07:19:15.951Z"
+    "collected_at": "2026-05-02T09:55:55.137Z"
   }
 ]
