@@ -19,7 +19,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.115Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "데이터플러스 (7GB+/통화기본)",
@@ -41,7 +41,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "LTE 스페셜",
@@ -63,7 +63,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "다성비 (1.5GB/통화기본) [매월 다이소 5천원]",
@@ -85,7 +85,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "LTE 스페셜 플러스",
@@ -107,7 +107,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "5G (15GB+/300분)",
@@ -129,51 +129,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "다이소 (1.5GB/150분)",
-    "plan_code": "",
-    "data_allowance_raw": "1.5GB",
-    "data_allowance_normalized": "1.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "150분",
-    "sms_allowance": "통화 150분, 100건",
-    "base_price_text": "월 14,900원",
-    "base_price": 14900,
-    "benefit_price_text": "혜택가 월 5,000원",
-    "benefit_price": 5000,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "플러스알파 (7GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 41,400원",
-    "base_price": 41400,
-    "benefit_price_text": "혜택가 월 17,500원",
-    "benefit_price": 17500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "LTE (1GB+/통화기본)",
@@ -195,7 +151,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "LTE (500MB/60분)",
@@ -217,7 +173,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "이츠 (7GB+/통화기본)",
@@ -239,425 +195,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (15GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+1Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 48,400원",
-    "base_price": 48400,
-    "benefit_price_text": "혜택가 월 20,900원",
-    "benefit_price": 20900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (1.5GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1.5GB",
-    "data_allowance_normalized": "1.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 23,000원",
-    "base_price": 23000,
-    "benefit_price_text": "혜택가 월 5,900원",
-    "benefit_price": 5900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (1GB/60분)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "60분",
-    "sms_allowance": "통화 60분, 100건",
-    "base_price_text": "월 10,500원",
-    "base_price": 10500,
-    "benefit_price_text": "혜택가 월 3,900원",
-    "benefit_price": 3900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "데이터차단 (0GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": null,
-    "data_allowance_normalized": null,
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 13,000원",
-    "base_price": 13000,
-    "benefit_price_text": "혜택가 월 4,900원",
-    "benefit_price": 4900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "다성비 (17GB+/통화기본) [매월 다이소 5천원]",
-    "plan_code": "",
-    "data_allowance_raw": "(7+10)GB+1Mbps",
-    "data_allowance_normalized": "(7+10)GB",
-    "qos_raw": "(7+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 43,300원",
-    "base_price": 43300,
-    "benefit_price_text": "혜택가 월 19,400원",
-    "benefit_price": 19400,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "티머니 K-패스(17GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(7+10)GB+1Mbps",
-    "data_allowance_normalized": "(7+10)GB",
-    "qos_raw": "(7+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 28,400원",
-    "base_price": 28400,
-    "benefit_price_text": "혜택가 월 18,500원",
-    "benefit_price": 18500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (4.5GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4.5GB+1Mbps",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": "4.5GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 36,600원",
-    "base_price": 36600,
-    "benefit_price_text": "혜택가 월 13,900원",
-    "benefit_price": 13900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (10GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB+1Mbps",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "10GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 41,950원",
-    "base_price": 41950,
-    "benefit_price_text": "혜택가 월 18,900원",
-    "benefit_price": 18900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (10GB/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "(10+10)GB",
-    "data_allowance_normalized": "(10+10)GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 32,400원",
-    "base_price": 32400,
-    "benefit_price_text": "혜택가 월 9,900원",
-    "benefit_price": 9900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (4GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4GB",
-    "data_allowance_normalized": "4GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 33,500원",
-    "base_price": 33500,
-    "benefit_price_text": "혜택가 월 7,500원",
-    "benefit_price": 7500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (6GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "6GB",
-    "data_allowance_normalized": "6GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 35,000원",
-    "base_price": 35000,
-    "benefit_price_text": "혜택가 월 9,500원",
-    "benefit_price": 9500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G (10GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "(10+10)GB",
-    "data_allowance_normalized": "(10+10)GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 30,800원",
-    "base_price": 30800,
-    "benefit_price_text": "혜택가 월 9,900원",
-    "benefit_price": 9900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "데이터플러스 (15GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB+1Mbps",
-    "data_allowance_normalized": "(15+10)GB",
-    "qos_raw": "(15+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,000원",
-    "base_price": 50000,
-    "benefit_price_text": "혜택가 월 21,900원",
-    "benefit_price": 21900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (1GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 17,800원",
-    "base_price": 17800,
-    "benefit_price_text": "혜택가 월 7,900원",
-    "benefit_price": 7900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "티머니 K-패스(1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 20,800원",
-    "base_price": 20800,
-    "benefit_price_text": "혜택가 월 10,900원",
-    "benefit_price": 10900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (1.5GB/150분)",
-    "plan_code": "",
-    "data_allowance_raw": "1.5GB",
-    "data_allowance_normalized": "1.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "150분",
-    "sms_allowance": "통화 150분, 100건",
-    "base_price_text": "월 12,100원",
-    "base_price": 12100,
-    "benefit_price_text": "혜택가 월 4,900원",
-    "benefit_price": 4900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G 스페셜 프로",
-    "plan_code": "",
-    "data_allowance_raw": "180GB+10Mbps",
-    "data_allowance_normalized": "180GB",
-    "qos_raw": "180GB+10Mbps",
-    "qos_speed": "10Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 61,900원",
-    "base_price": 61900,
-    "benefit_price_text": "혜택가 월 50,500원",
-    "benefit_price": 50500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "데이터만 20GB",
-    "plan_code": "",
-    "data_allowance_raw": "20GB",
-    "data_allowance_normalized": "20GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "미제공",
-    "sms_allowance": "통화 미제공, 미제공",
-    "base_price_text": "월 14,300원",
-    "base_price": 14300,
-    "benefit_price_text": "혜택가 월 11,880원",
-    "benefit_price": 11880,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "이츠 (25GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB+1Mbps",
-    "data_allowance_normalized": "(15+10)GB",
-    "qos_raw": "(15+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 36,700원",
-    "base_price": 36700,
-    "benefit_price_text": "혜택가 월 24,000원",
-    "benefit_price": 24000,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
     "plan_name": "5G (10GB/통화기본)",
@@ -679,21 +217,43 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.727Z"
   },
   {
-    "plan_name": "LTE (15GB+/100분)",
+    "plan_name": "5G (10GB/200분)",
     "plan_code": "",
-    "data_allowance_raw": "15GB+3Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 47,300원",
-    "base_price": 47300,
-    "benefit_price_text": "혜택가 월 25,250원",
-    "benefit_price": 25250,
+    "data_allowance_raw": "(10+10)GB",
+    "data_allowance_normalized": "(10+10)GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 30,800원",
+    "base_price": 30800,
+    "benefit_price_text": "혜택가 월 9,900원",
+    "benefit_price": 9900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.727Z"
+  },
+  {
+    "plan_name": "LTE (1.5GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1.5GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 23,000원",
+    "base_price": 23000,
+    "benefit_price_text": "혜택가 월 5,900원",
+    "benefit_price": 5900,
     "plan_type": [
       "유심"
     ],
@@ -701,29 +261,117 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "다성비 (1GB+/통화기본) [매월 다이소 5천원]",
+    "plan_name": "LTE (1GB/60분)",
     "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_raw": "1GB",
     "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 26,300원",
-    "base_price": 26300,
-    "benefit_price_text": "혜택가 월 10,900원",
-    "benefit_price": 10900,
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "60분",
+    "sms_allowance": "통화 60분, 100건",
+    "base_price_text": "월 10,500원",
+    "base_price": 10500,
+    "benefit_price_text": "혜택가 월 3,900원",
+    "benefit_price": 3900,
     "plan_type": [
       "유심"
     ],
-    "partnership_flag": true,
+    "partnership_flag": false,
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (10GB/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "(10+10)GB",
+    "data_allowance_normalized": "(10+10)GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 32,400원",
+    "base_price": 32400,
+    "benefit_price_text": "혜택가 월 9,900원",
+    "benefit_price": 9900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (15GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+1Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 48,400원",
+    "base_price": 48400,
+    "benefit_price_text": "혜택가 월 20,900원",
+    "benefit_price": 20900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "데이터차단 (0GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": null,
+    "data_allowance_normalized": null,
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 13,000원",
+    "base_price": 13000,
+    "benefit_price_text": "혜택가 월 4,900원",
+    "benefit_price": 4900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (4.5GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB+1Mbps",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": "4.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 36,600원",
+    "base_price": 36600,
+    "benefit_price_text": "혜택가 월 13,900원",
+    "benefit_price": 13900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "5G (15GB/200분)",
@@ -745,21 +393,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "시니어 (4GB+/통화기본)",
+    "plan_name": "LTE (1GB+/100분)",
     "plan_code": "",
-    "data_allowance_raw": "4GB+0.4Mbps",
-    "data_allowance_normalized": "4GB",
-    "qos_raw": "4GB+0.4Mbps",
-    "qos_speed": "400Kbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 22,100원",
-    "base_price": 22100,
-    "benefit_price_text": "혜택가 월 8,900원",
-    "benefit_price": 8900,
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 17,800원",
+    "base_price": 17800,
+    "benefit_price_text": "혜택가 월 7,900원",
+    "benefit_price": 7900,
     "plan_type": [
       "유심"
     ],
@@ -767,29 +415,95 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "5G (50GB+/통화기본)",
+    "plan_name": "다이소 (1.5GB/150분)",
     "plan_code": "",
-    "data_allowance_raw": "50GB+1Mbps",
-    "data_allowance_normalized": "50GB",
-    "qos_raw": "50GB+1Mbps",
+    "data_allowance_raw": "1.5GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "150분",
+    "sms_allowance": "통화 150분, 100건",
+    "base_price_text": "월 14,900원",
+    "base_price": 14900,
+    "benefit_price_text": "혜택가 월 5,000원",
+    "benefit_price": 5000,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (10GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB+1Mbps",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "10GB+1Mbps",
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,000원",
-    "base_price": 50000,
-    "benefit_price_text": "혜택가 월 37,850원",
-    "benefit_price": 37850,
+    "base_price_text": "월 41,950원",
+    "base_price": 41950,
+    "benefit_price_text": "혜택가 월 18,900원",
+    "benefit_price": 18900,
     "plan_type": [
       "유심"
     ],
     "partnership_flag": false,
-    "network_type": "5G",
+    "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (6GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "6GB",
+    "data_allowance_normalized": "6GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 35,000원",
+    "base_price": 35000,
+    "benefit_price_text": "혜택가 월 9,500원",
+    "benefit_price": 9500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "티머니 K-패스(17GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "(7+10)GB+1Mbps",
+    "data_allowance_normalized": "(7+10)GB",
+    "qos_raw": "(7+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 28,400원",
+    "base_price": 28400,
+    "benefit_price_text": "혜택가 월 18,500원",
+    "benefit_price": 18500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "5G (95GB+/통화기본)",
@@ -811,263 +525,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE (1GB+/통화기본) [더알뜰플랜]",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 10,600원",
-    "base_price": 10600,
-    "benefit_price_text": "혜택가 월 8,400원",
-    "benefit_price": 8400,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "데이터플러스 (10GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(10+10)GB+1Mbps",
-    "data_allowance_normalized": "(10+10)GB",
-    "qos_raw": "(10+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 43,550원",
-    "base_price": 43550,
-    "benefit_price_text": "혜택가 월 19,900원",
-    "benefit_price": 19900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G (3GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "3GB",
-    "data_allowance_normalized": "3GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 24,400원",
-    "base_price": 24400,
-    "benefit_price_text": "혜택가 월 6,900원",
-    "benefit_price": 6900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G (5GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "5GB",
-    "data_allowance_normalized": "5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 24,200원",
-    "base_price": 24200,
-    "benefit_price_text": "혜택가 월 7,900원",
-    "benefit_price": 7900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "LTE (2.5GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "2.5GB",
-    "data_allowance_normalized": "2.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 29,000원",
-    "base_price": 29000,
-    "benefit_price_text": "혜택가 월 6,900원",
-    "benefit_price": 6900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "10%적립 스페셜",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 34,900원",
-    "base_price": 34900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G (2GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "2GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 23,800원",
-    "base_price": 23800,
-    "benefit_price_text": "혜택가 월 6,000원",
-    "benefit_price": 6000,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "5G (31GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "31GB+1Mbps",
-    "data_allowance_normalized": "31GB",
-    "qos_raw": "31GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 48,300원",
-    "base_price": 48300,
-    "benefit_price_text": "혜택가 월 36,650원",
-    "benefit_price": 36650,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.116Z"
-  },
-  {
-    "plan_name": "GS25 (25GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB+3Mbps",
-    "data_allowance_normalized": "(15+10)GB",
-    "qos_raw": "(15+10)GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 52,800원",
-    "base_price": 52800,
-    "benefit_price_text": "혜택가 월 28,900원",
-    "benefit_price": 28900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE 스페셜 플러스 [더알뜰플랜2]",
-    "plan_code": "",
-    "data_allowance_raw": "100GB+5Mbps",
-    "data_allowance_normalized": "100GB",
-    "qos_raw": "100GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 40,400원",
-    "base_price": 40400,
-    "benefit_price_text": "혜택가 월 38,200원",
-    "benefit_price": 38200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "틴에이저 (1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 25,400원",
-    "base_price": 25400,
-    "benefit_price_text": "혜택가 월 8,900원",
-    "benefit_price": 8900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE (15GB+/300분)",
+    "plan_name": "LTE (15GB+/100분)",
     "plan_code": "",
     "data_allowance_raw": "15GB+3Mbps",
     "data_allowance_normalized": "15GB",
     "qos_raw": "15GB+3Mbps",
     "qos_speed": "3Mbps",
-    "voice_allowance": "300분",
-    "sms_allowance": "통화 300분, 300건",
-    "base_price_text": "월 55,000원",
-    "base_price": 55000,
-    "benefit_price_text": "혜택가 월 27,450원",
-    "benefit_price": 27450,
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 47,300원",
+    "base_price": 47300,
+    "benefit_price_text": "혜택가 월 25,250원",
+    "benefit_price": 25250,
     "plan_type": [
       "유심"
     ],
@@ -1075,29 +547,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE (2.5GB/200분)",
+    "plan_name": "티머니 K-패스(1GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "2.5GB",
-    "data_allowance_normalized": "2.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 20,900원",
-    "base_price": 20900,
-    "benefit_price_text": "혜택가 월 6,500원",
-    "benefit_price": 6500,
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 20,800원",
+    "base_price": 20800,
+    "benefit_price_text": "혜택가 월 10,900원",
+    "benefit_price": 10900,
     "plan_type": [
       "유심"
     ],
-    "partnership_flag": false,
+    "partnership_flag": true,
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "LTE (9GB/3000분)",
@@ -1119,21 +591,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE 스페셜 프로",
+    "plan_name": "데이터플러스 (15GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "일5GB+5Mbps",
-    "data_allowance_normalized": "일5GB",
-    "qos_raw": "일5GB+5Mbps",
-    "qos_speed": "5Mbps",
+    "data_allowance_raw": "(15+10)GB+1Mbps",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": "(15+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 45,900원",
-    "base_price": 45900,
-    "benefit_price_text": "혜택가 월 38,200원",
-    "benefit_price": 38200,
+    "base_price_text": "월 50,000원",
+    "base_price": 50000,
+    "benefit_price_text": "혜택가 월 21,900원",
+    "benefit_price": 21900,
     "plan_type": [
       "유심"
     ],
@@ -1141,43 +613,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "시니어 (2GB+/통화기본)",
+    "plan_name": "다성비 (17GB+/통화기본) [매월 다이소 5천원]",
     "plan_code": "",
-    "data_allowance_raw": "2GB+0.4Mbps",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": "2GB+0.4Mbps",
-    "qos_speed": "400Kbps",
+    "data_allowance_raw": "(7+10)GB+1Mbps",
+    "data_allowance_normalized": "(7+10)GB",
+    "qos_raw": "(7+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 19,000원",
-    "base_price": 19000,
-    "benefit_price_text": "혜택가 월 6,900원",
-    "benefit_price": 6900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "티머니 K-패스 (71GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 43,890원",
-    "base_price": 43890,
-    "benefit_price_text": "혜택가 월 33,990원",
-    "benefit_price": 33990,
+    "base_price_text": "월 43,300원",
+    "base_price": 43300,
+    "benefit_price_text": "혜택가 월 19,400원",
+    "benefit_price": 19400,
     "plan_type": [
       "유심"
     ],
@@ -1185,29 +635,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "틴에이저 (4.5GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4.5GB+1Mbps",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": "4.5GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 32,700원",
-    "base_price": 32700,
-    "benefit_price_text": "혜택가 월 12,900원",
-    "benefit_price": 12900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "플러스알파 (4.5GB+/통화기본)",
@@ -1229,175 +657,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "GS25 (71GB+/통화기본)",
+    "plan_name": "5G (2GB/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 58,790원",
-    "base_price": 58790,
-    "benefit_price_text": "혜택가 월 34,900원",
-    "benefit_price": 34900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE (3GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "3GB+1Mbps",
-    "data_allowance_normalized": "3GB",
-    "qos_raw": "3GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 26,000원",
-    "base_price": 26000,
-    "benefit_price_text": "혜택가 월 9,500원",
-    "benefit_price": 9500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE 스페셜 [더알뜰플랜2]",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 35,190원",
-    "base_price": 35190,
-    "benefit_price_text": "혜택가 월 32,990원",
-    "benefit_price": 32990,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "티머니 K-패스(7GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 26,800원",
-    "base_price": 26800,
-    "benefit_price_text": "혜택가 월 16,900원",
-    "benefit_price": 16900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "틴에이저 (1GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 17,900원",
-    "base_price": 17900,
-    "benefit_price_text": "혜택가 월 6,900원",
-    "benefit_price": 6900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "플러스알파 (1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 26,900원",
-    "base_price": 26900,
-    "benefit_price_text": "혜택가 월 11,500원",
-    "benefit_price": 11500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "5G (125GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "125GB+5Mbps",
-    "data_allowance_normalized": "125GB",
-    "qos_raw": "125GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 54,500원",
-    "base_price": 54500,
-    "benefit_price_text": "혜택가 월 42,100원",
-    "benefit_price": 42100,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "5G (15GB/300분)",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB",
-    "data_allowance_normalized": "(15+10)GB",
+    "data_allowance_raw": "2GB",
+    "data_allowance_normalized": "2GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "300분",
-    "sms_allowance": "통화 300분, 300건",
-    "base_price_text": "월 40,000원",
-    "base_price": 40000,
-    "benefit_price_text": "혜택가 월 14,400원",
-    "benefit_price": 14400,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 23,800원",
+    "base_price": 23800,
+    "benefit_price_text": "혜택가 월 6,000원",
+    "benefit_price": 6000,
     "plan_type": [
       "유심"
     ],
@@ -1405,7 +679,95 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "틴에이저 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 25,400원",
+    "base_price": 25400,
+    "benefit_price_text": "혜택가 월 8,900원",
+    "benefit_price": 8900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (4GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4GB",
+    "data_allowance_normalized": "4GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 33,500원",
+    "base_price": 33500,
+    "benefit_price_text": "혜택가 월 7,500원",
+    "benefit_price": 7500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G 스페셜 프로",
+    "plan_code": "",
+    "data_allowance_raw": "180GB+10Mbps",
+    "data_allowance_normalized": "180GB",
+    "qos_raw": "180GB+10Mbps",
+    "qos_speed": "10Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 61,900원",
+    "base_price": 61900,
+    "benefit_price_text": "혜택가 월 50,500원",
+    "benefit_price": 50500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "이츠 (25GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "(15+10)GB+1Mbps",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": "(15+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 36,700원",
+    "base_price": 36700,
+    "benefit_price_text": "혜택가 월 24,000원",
+    "benefit_price": 24000,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "다성비 (7GB+/통화기본) [매월 다이소 5천원]",
@@ -1427,43 +789,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE (10GB/100분) [더알뜰플랜]",
+    "plan_name": "LTE (2.5GB/200분)",
     "plan_code": "",
-    "data_allowance_raw": "10GB",
-    "data_allowance_normalized": "10GB",
+    "data_allowance_raw": "2.5GB",
+    "data_allowance_normalized": "2.5GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 11,000원",
-    "base_price": 11000,
-    "benefit_price_text": "혜택가 월 8,800원",
-    "benefit_price": 8800,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE (2.5GB+/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "2.5GB+1Mbps",
-    "data_allowance_normalized": "2.5GB",
-    "qos_raw": "2.5GB+1Mbps",
-    "qos_speed": "1Mbps",
     "voice_allowance": "200분",
     "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 22,500원",
-    "base_price": 22500,
-    "benefit_price_text": "혜택가 월 9,500원",
-    "benefit_price": 9500,
+    "base_price_text": "월 20,900원",
+    "base_price": 20900,
+    "benefit_price_text": "혜택가 월 6,500원",
+    "benefit_price": 6500,
     "plan_type": [
       "유심"
     ],
@@ -1471,21 +811,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE (7GB+/통화기본) [더알뜰플랜2]",
+    "plan_name": "데이터만 20GB",
     "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 18,100원",
-    "base_price": 18100,
-    "benefit_price_text": "혜택가 월 15,900원",
-    "benefit_price": 15900,
+    "data_allowance_raw": "20GB",
+    "data_allowance_normalized": "20GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "미제공",
+    "sms_allowance": "통화 미제공, 미제공",
+    "base_price_text": "월 14,300원",
+    "base_price": 14300,
+    "benefit_price_text": "혜택가 월 11,880원",
+    "benefit_price": 11880,
     "plan_type": [
       "유심"
     ],
@@ -1493,51 +833,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "YOUNG (1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 26,300원",
-    "base_price": 26300,
-    "benefit_price_text": "혜택가 월 10,900원",
-    "benefit_price": 10900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "다성비 (25GB+/통화기본) [매월 다이소 5천원]",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB+1Mbps",
-    "data_allowance_normalized": "(15+10)GB",
-    "qos_raw": "(15+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 51,900원",
-    "base_price": 51900,
-    "benefit_price_text": "혜택가 월 23,800원",
-    "benefit_price": 23800,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "티머니 K-패스 (100GB+/통화기본)",
@@ -1559,87 +855,65 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "플러스알파 (71GB+/통화기본)",
+    "plan_name": "LTE (1.5GB/150분)",
     "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 51,000원",
-    "base_price": 51000,
-    "benefit_price_text": "혜택가 월 34,600원",
-    "benefit_price": 34600,
+    "data_allowance_raw": "1.5GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "150분",
+    "sms_allowance": "통화 150분, 100건",
+    "base_price_text": "월 12,100원",
+    "base_price": 12100,
+    "benefit_price_text": "혜택가 월 4,900원",
+    "benefit_price": 4900,
     "plan_type": [
       "유심"
     ],
-    "partnership_flag": true,
+    "partnership_flag": false,
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "5G (80GB+/통화기본)",
+    "plan_name": "LTE (2.5GB/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "80GB+1Mbps",
-    "data_allowance_normalized": "80GB",
-    "qos_raw": "80GB+1Mbps",
+    "data_allowance_raw": "2.5GB",
+    "data_allowance_normalized": "2.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 29,000원",
+    "base_price": 29000,
+    "benefit_price_text": "혜택가 월 6,900원",
+    "benefit_price": 6900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "다성비 (1GB+/통화기본) [매월 다이소 5천원]",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 52,000원",
-    "base_price": 52000,
-    "benefit_price_text": "혜택가 월 39,700원",
-    "benefit_price": 39700,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "5G 스페셜",
-    "plan_code": "",
-    "data_allowance_raw": "150GB+5Mbps",
-    "data_allowance_normalized": "150GB",
-    "qos_raw": "150GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 58,700원",
-    "base_price": 58700,
-    "benefit_price_text": "혜택가 월 47,300원",
-    "benefit_price": 47300,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "GS25 (150GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "일5GB+5Mbps",
-    "data_allowance_normalized": "일5GB",
-    "qos_raw": "일5GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 64,000원",
-    "base_price": 64000,
-    "benefit_price_text": "혜택가 월 40,100원",
-    "benefit_price": 40100,
+    "base_price_text": "월 26,300원",
+    "base_price": 26300,
+    "benefit_price_text": "혜택가 월 10,900원",
+    "benefit_price": 10900,
     "plan_type": [
       "유심"
     ],
@@ -1647,7 +921,95 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "데이터플러스 (10GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "(10+10)GB+1Mbps",
+    "data_allowance_normalized": "(10+10)GB",
+    "qos_raw": "(10+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 43,550원",
+    "base_price": 43550,
+    "benefit_price_text": "혜택가 월 19,900원",
+    "benefit_price": 19900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "틴에이저 (4.5GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB+1Mbps",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": "4.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 32,700원",
+    "base_price": 32700,
+    "benefit_price_text": "혜택가 월 12,900원",
+    "benefit_price": 12900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (15GB/300분)",
+    "plan_code": "",
+    "data_allowance_raw": "(15+10)GB",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "300분",
+    "sms_allowance": "통화 300분, 300건",
+    "base_price_text": "월 40,000원",
+    "base_price": 40000,
+    "benefit_price_text": "혜택가 월 14,400원",
+    "benefit_price": 14400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (3GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "3GB",
+    "data_allowance_normalized": "3GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 24,400원",
+    "base_price": 24400,
+    "benefit_price_text": "혜택가 월 6,900원",
+    "benefit_price": 6900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "LTE (5GB+/100분)",
@@ -1669,10 +1031,76 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "YOUNG (71GB+/통화기본)",
+    "plan_name": "LTE 스페셜 프로",
+    "plan_code": "",
+    "data_allowance_raw": "일5GB+5Mbps",
+    "data_allowance_normalized": "일5GB",
+    "qos_raw": "일5GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 45,900원",
+    "base_price": 45900,
+    "benefit_price_text": "혜택가 월 38,200원",
+    "benefit_price": 38200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (50GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "50GB+1Mbps",
+    "data_allowance_normalized": "50GB",
+    "qos_raw": "50GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 50,000원",
+    "base_price": 50000,
+    "benefit_price_text": "혜택가 월 37,850원",
+    "benefit_price": 37850,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "시니어 (4GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4GB+0.4Mbps",
+    "data_allowance_normalized": "4GB",
+    "qos_raw": "4GB+0.4Mbps",
+    "qos_speed": "400Kbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 22,100원",
+    "base_price": 22100,
+    "benefit_price_text": "혜택가 월 8,900원",
+    "benefit_price": 8900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "티머니 K-패스 (71GB+/통화기본)",
     "plan_code": "",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
     "data_allowance_normalized": "11GB+일2GB",
@@ -1680,8 +1108,8 @@
     "qos_speed": "3Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,390원",
-    "base_price": 50390,
+    "base_price_text": "월 43,890원",
+    "base_price": 43890,
     "benefit_price_text": "혜택가 월 33,990원",
     "benefit_price": 33990,
     "plan_type": [
@@ -1691,43 +1119,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "YOUNG (9GB/3000분)",
+    "plan_name": "LTE 스페셜 [더알뜰플랜2]",
     "plan_code": "",
-    "data_allowance_raw": "9GB",
-    "data_allowance_normalized": "9GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "3000분",
-    "sms_allowance": "통화 3000분, 1000건",
-    "base_price_text": "월 38,800원",
-    "base_price": 38800,
-    "benefit_price_text": "혜택가 월 13,500원",
-    "benefit_price": 13500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "데이터만 10GB",
-    "plan_code": "",
-    "data_allowance_raw": "10GB",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "미제공",
-    "sms_allowance": "통화 미제공, 미제공",
-    "base_price_text": "월 11,000원",
-    "base_price": 11000,
-    "benefit_price_text": "혜택가 월 9,900원",
-    "benefit_price": 9900,
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 35,190원",
+    "base_price": 35190,
+    "benefit_price_text": "혜택가 월 32,990원",
+    "benefit_price": 32990,
     "plan_type": [
       "유심"
     ],
@@ -1735,21 +1141,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "시니어 (1GB+/100분)",
+    "plan_name": "시니어 (2GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "1GB+0.4Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+0.4Mbps",
+    "data_allowance_raw": "2GB+0.4Mbps",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": "2GB+0.4Mbps",
     "qos_speed": "400Kbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 9,300원",
-    "base_price": 9300,
-    "benefit_price_text": "혜택가 월 3,900원",
-    "benefit_price": 3900,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 19,000원",
+    "base_price": 19000,
+    "benefit_price_text": "혜택가 월 6,900원",
+    "benefit_price": 6900,
     "plan_type": [
       "유심"
     ],
@@ -1757,230 +1163,10 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "이츠 (100GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "100GB+5Mbps",
-    "data_allowance_normalized": "100GB",
-    "qos_raw": "100GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 52,600원",
-    "base_price": 52600,
-    "benefit_price_text": "혜택가 월 40,700원",
-    "benefit_price": 40700,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "5G (4GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4GB",
-    "data_allowance_normalized": "4GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 25,300원",
-    "base_price": 25300,
-    "benefit_price_text": "혜택가 월 7,800원",
-    "benefit_price": 7800,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "GS25 5G (10GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 32,800원",
-    "base_price": 32800,
-    "benefit_price_text": "혜택가 월 13,500원",
-    "benefit_price": 13500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE (4.5GB+/통화기본) [더알뜰플랜]",
-    "plan_code": "",
-    "data_allowance_raw": "4.5GB+1Mbps",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": "4.5GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 15,000원",
-    "base_price": 15000,
-    "benefit_price_text": "혜택가 월 12,800원",
-    "benefit_price": 12800,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "YOUNG (100GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "100GB+5Mbps",
-    "data_allowance_normalized": "100GB",
-    "qos_raw": "100GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 47,600원",
-    "base_price": 47600,
-    "benefit_price_text": "혜택가 월 39,200원",
-    "benefit_price": 39200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "다성비 (1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 26,300원",
-    "base_price": 26300,
-    "benefit_price_text": "혜택가 월 10,900원",
-    "benefit_price": 10900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "데이터플러스 (15GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "(15+10)GB+3Mbps",
-    "data_allowance_normalized": "(15+10)GB",
-    "qos_raw": "(15+10)GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 51,550원",
-    "base_price": 51550,
-    "benefit_price_text": "혜택가 월 26,900원",
-    "benefit_price": 26900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "빽다방 100잔 (71GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,000원",
-    "base_price": 50000,
-    "benefit_price_text": "혜택가 월 34,500원",
-    "benefit_price": 34500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "이츠 (71GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 47,400원",
-    "base_price": 47400,
-    "benefit_price_text": "혜택가 월 35,500원",
-    "benefit_price": 35500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "10%적립 (10GB+/500분)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB+1Mbps",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "10GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "500분",
-    "sms_allowance": "통화 500분, 500건",
-    "base_price_text": "월 18,500원",
-    "base_price": 18500,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "10%적립 (7GB+/통화기본)",
+    "plan_name": "티머니 K-패스(7GB+/통화기본)",
     "plan_code": "",
     "data_allowance_raw": "7GB+1Mbps",
     "data_allowance_normalized": "7GB",
@@ -1988,10 +1174,10 @@
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 17,900원",
-    "base_price": 17900,
-    "benefit_price_text": null,
-    "benefit_price": null,
+    "base_price_text": "월 26,800원",
+    "base_price": 26800,
+    "benefit_price_text": "혜택가 월 16,900원",
+    "benefit_price": 16900,
     "plan_type": [
       "유심"
     ],
@@ -1999,21 +1185,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "5G (14GB+/통화기본)",
+    "plan_name": "5G (125GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "14GB+1Mbps",
-    "data_allowance_normalized": "14GB",
-    "qos_raw": "14GB+1Mbps",
-    "qos_speed": "1Mbps",
+    "data_allowance_raw": "125GB+5Mbps",
+    "data_allowance_normalized": "125GB",
+    "qos_raw": "125GB+5Mbps",
+    "qos_speed": "5Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 42,600원",
-    "base_price": 42600,
-    "benefit_price_text": "혜택가 월 33,010원",
-    "benefit_price": 33010,
+    "base_price_text": "월 54,500원",
+    "base_price": 54500,
+    "benefit_price_text": "혜택가 월 42,100원",
+    "benefit_price": 42100,
     "plan_type": [
       "유심"
     ],
@@ -2021,21 +1207,87 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "LTE (5GB+/200분)",
+    "plan_name": "5G (31GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "5GB+1Mbps",
-    "data_allowance_normalized": "5GB",
-    "qos_raw": "5GB+1Mbps",
+    "data_allowance_raw": "31GB+1Mbps",
+    "data_allowance_normalized": "31GB",
+    "qos_raw": "31GB+1Mbps",
     "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 48,300원",
+    "base_price": 48300,
+    "benefit_price_text": "혜택가 월 36,650원",
+    "benefit_price": 36650,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (5GB/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "5GB",
+    "data_allowance_normalized": "5GB",
+    "qos_raw": null,
+    "qos_speed": null,
     "voice_allowance": "200분",
     "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 28,200원",
-    "base_price": 28200,
-    "benefit_price_text": "혜택가 월 12,500원",
-    "benefit_price": 12500,
+    "base_price_text": "월 24,200원",
+    "base_price": 24200,
+    "benefit_price_text": "혜택가 월 7,900원",
+    "benefit_price": 7900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G 스페셜",
+    "plan_code": "",
+    "data_allowance_raw": "150GB+5Mbps",
+    "data_allowance_normalized": "150GB",
+    "qos_raw": "150GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 58,700원",
+    "base_price": 58700,
+    "benefit_price_text": "혜택가 월 47,300원",
+    "benefit_price": 47300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (7GB+/통화기본) [더알뜰플랜2]",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 18,100원",
+    "base_price": 18100,
+    "benefit_price_text": "혜택가 월 15,900원",
+    "benefit_price": 15900,
     "plan_type": [
       "유심"
     ],
@@ -2043,51 +1295,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "YOUNG (15GB+/300분)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+3Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "300분",
-    "sms_allowance": "통화 300분, 300건",
-    "base_price_text": "월 56,000원",
-    "base_price": 56000,
-    "benefit_price_text": "혜택가 월 28,450원",
-    "benefit_price": 28450,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "다성비 (5GB+/100분)",
-    "plan_code": "",
-    "data_allowance_raw": "5GB+1Mbps",
-    "data_allowance_normalized": "5GB",
-    "qos_raw": "5GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "100분",
-    "sms_allowance": "통화 100분, 100건",
-    "base_price_text": "월 24,500원",
-    "base_price": 24500,
-    "benefit_price_text": "혜택가 월 12,900원",
-    "benefit_price": 12900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "빽다방 100잔 5G (10GB/통화기본)",
@@ -2109,32 +1317,32 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "자급제폰케어 (71GB+/통화기본)",
+    "plan_name": "5G (4GB/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
+    "data_allowance_raw": "4GB",
+    "data_allowance_normalized": "4GB",
+    "qos_raw": null,
+    "qos_speed": null,
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 49,390원",
-    "base_price": 49390,
-    "benefit_price_text": "혜택가 월 34,300원",
-    "benefit_price": 34300,
+    "base_price_text": "월 25,300원",
+    "base_price": 25300,
+    "benefit_price_text": "혜택가 월 7,800원",
+    "benefit_price": 7800,
     "plan_type": [
       "유심"
     ],
     "partnership_flag": false,
-    "network_type": "LTE",
+    "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "10%적립 (1GB+/통화기본)",
+    "plan_name": "LTE (1GB+/통화기본) [더알뜰플랜]",
     "plan_code": "",
     "data_allowance_raw": "1GB+1Mbps",
     "data_allowance_normalized": "1GB",
@@ -2142,10 +1350,98 @@
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 10,300원",
-    "base_price": 10300,
-    "benefit_price_text": null,
-    "benefit_price": null,
+    "base_price_text": "월 10,600원",
+    "base_price": 10600,
+    "benefit_price_text": "혜택가 월 8,400원",
+    "benefit_price": 8400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (2.5GB+/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "2.5GB+1Mbps",
+    "data_allowance_normalized": "2.5GB",
+    "qos_raw": "2.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 22,500원",
+    "base_price": 22500,
+    "benefit_price_text": "혜택가 월 9,500원",
+    "benefit_price": 9500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (3GB+/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "3GB+1Mbps",
+    "data_allowance_normalized": "3GB",
+    "qos_raw": "3GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 26,000원",
+    "base_price": 26000,
+    "benefit_price_text": "혜택가 월 9,500원",
+    "benefit_price": 9500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE 스페셜 플러스 [더알뜰플랜2]",
+    "plan_code": "",
+    "data_allowance_raw": "100GB+5Mbps",
+    "data_allowance_normalized": "100GB",
+    "qos_raw": "100GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 40,400원",
+    "base_price": 40400,
+    "benefit_price_text": "혜택가 월 38,200원",
+    "benefit_price": 38200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "YOUNG (100GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "100GB+5Mbps",
+    "data_allowance_normalized": "100GB",
+    "qos_raw": "100GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 47,600원",
+    "base_price": 47600,
+    "benefit_price_text": "혜택가 월 39,200원",
+    "benefit_price": 39200,
     "plan_type": [
       "유심"
     ],
@@ -2153,21 +1449,87 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "10%적립 (4.5GB+/통화기본)",
+    "plan_name": "데이터플러스 (15GB+/100분)",
     "plan_code": "",
-    "data_allowance_raw": "4.5GB+1Mbps",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": "4.5GB+1Mbps",
+    "data_allowance_raw": "(15+10)GB+3Mbps",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": "(15+10)GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 51,550원",
+    "base_price": 51550,
+    "benefit_price_text": "혜택가 월 26,900원",
+    "benefit_price": 26900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "시니어 (1GB+/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+0.4Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+0.4Mbps",
+    "qos_speed": "400Kbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 9,300원",
+    "base_price": 9300,
+    "benefit_price_text": "혜택가 월 3,900원",
+    "benefit_price": 3900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "틴에이저 (1GB+/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 17,900원",
+    "base_price": 17900,
+    "benefit_price_text": "혜택가 월 6,900원",
+    "benefit_price": 6900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "플러스알파 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 15,200원",
-    "base_price": 15200,
-    "benefit_price_text": null,
-    "benefit_price": null,
+    "base_price_text": "월 26,900원",
+    "base_price": 26900,
+    "benefit_price_text": "혜택가 월 11,500원",
+    "benefit_price": 11500,
     "plan_type": [
       "유심"
     ],
@@ -2175,7 +1537,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (14GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "14GB+1Mbps",
+    "data_allowance_normalized": "14GB",
+    "qos_raw": "14GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 42,600원",
+    "base_price": 42600,
+    "benefit_price_text": "혜택가 월 33,010원",
+    "benefit_price": 33010,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "5G (5GB/통화기본)",
@@ -2197,21 +1581,43 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "K-패스 (100GB+/통화기본)",
+    "plan_name": "LTE (15GB+/300분)",
     "plan_code": "",
-    "data_allowance_raw": "100GB+5Mbps",
-    "data_allowance_normalized": "100GB",
-    "qos_raw": "100GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 47,600원",
-    "base_price": 47600,
-    "benefit_price_text": "혜택가 월 39,200원",
-    "benefit_price": 39200,
+    "data_allowance_raw": "15GB+3Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "300분",
+    "sms_allowance": "통화 300분, 300건",
+    "base_price_text": "월 55,000원",
+    "base_price": 55000,
+    "benefit_price_text": "혜택가 월 27,450원",
+    "benefit_price": 27450,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "YOUNG (15GB+/300분)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+3Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "300분",
+    "sms_allowance": "통화 300분, 300건",
+    "base_price_text": "월 56,000원",
+    "base_price": 56000,
+    "benefit_price_text": "혜택가 월 28,450원",
+    "benefit_price": 28450,
     "plan_type": [
       "유심"
     ],
@@ -2219,7 +1625,95 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "10%적립 스페셜",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 34,900원",
+    "base_price": 34900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "5G (80GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "80GB+1Mbps",
+    "data_allowance_normalized": "80GB",
+    "qos_raw": "80GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 52,000원",
+    "base_price": 52000,
+    "benefit_price_text": "혜택가 월 39,700원",
+    "benefit_price": 39700,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (10GB/100분) [더알뜰플랜]",
+    "plan_code": "",
+    "data_allowance_raw": "10GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 11,000원",
+    "base_price": 11000,
+    "benefit_price_text": "혜택가 월 8,800원",
+    "benefit_price": 8800,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (4.5GB+/통화기본) [더알뜰플랜]",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB+1Mbps",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": "4.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 15,000원",
+    "base_price": 15000,
+    "benefit_price_text": "혜택가 월 12,800원",
+    "benefit_price": 12800,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "LTE (5GB/300분)",
@@ -2241,65 +1735,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "YOUNG (6GB/통화기본)",
+    "plan_name": "다성비 (25GB+/통화기본) [매월 다이소 5천원]",
     "plan_code": "",
-    "data_allowance_raw": "6GB",
-    "data_allowance_normalized": "6GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 36,000원",
-    "base_price": 36000,
-    "benefit_price_text": "혜택가 월 10,500원",
-    "benefit_price": 10500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "YOUNG 5G (50GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "50GB+1Mbps",
-    "data_allowance_normalized": "50GB",
-    "qos_raw": "50GB+1Mbps",
+    "data_allowance_raw": "(15+10)GB+1Mbps",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": "(15+10)GB+1Mbps",
     "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 51,000원",
-    "base_price": 51000,
-    "benefit_price_text": "혜택가 월 38,850원",
-    "benefit_price": 38850,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "다성비 (71GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "11GB+일2GB+3Mbps",
-    "data_allowance_normalized": "11GB+일2GB",
-    "qos_raw": "11GB+일2GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,390원",
-    "base_price": 50390,
-    "benefit_price_text": "혜택가 월 33,990원",
-    "benefit_price": 33990,
+    "base_price_text": "월 51,900원",
+    "base_price": 51900,
+    "benefit_price_text": "혜택가 월 23,800원",
+    "benefit_price": 23800,
     "plan_type": [
       "유심"
     ],
@@ -2307,7 +1757,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "다성비 (71GB+/통화기본) [매월 다이소 5천원]",
@@ -2329,29 +1779,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "빽다방 100잔 (15GB+/통화기본)",
+    "plan_name": "데이터만 10GB",
     "plan_code": "",
-    "data_allowance_raw": "15GB+1Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 49,000원",
-    "base_price": 49000,
-    "benefit_price_text": "혜택가 월 22,400원",
-    "benefit_price": 22400,
+    "data_allowance_raw": "10GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "미제공",
+    "sms_allowance": "통화 미제공, 미제공",
+    "base_price_text": "월 11,000원",
+    "base_price": 11000,
+    "benefit_price_text": "혜택가 월 9,900원",
+    "benefit_price": 9900,
     "plan_type": [
       "유심"
     ],
-    "partnership_flag": true,
+    "partnership_flag": false,
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "빽다방 100잔 (1GB+/통화기본)",
@@ -2373,76 +1823,10 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "빽다방 100잔 (7GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 40,000원",
-    "base_price": 40000,
-    "benefit_price_text": "혜택가 월 17,900원",
-    "benefit_price": 17900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "빽다방 100잔 5G (5GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "5GB",
-    "data_allowance_normalized": "5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 28,000원",
-    "base_price": 28000,
-    "benefit_price_text": "혜택가 월 12,400원",
-    "benefit_price": 12400,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "이십세 (1GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB+1Mbps",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": "1GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 25,850원",
-    "base_price": 25850,
-    "benefit_price_text": "혜택가 월 9,900원",
-    "benefit_price": 9900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "자급제폰케어 (100GB+/통화기본)",
+    "plan_name": "이츠 (100GB+/통화기본)",
     "plan_code": "",
     "data_allowance_raw": "100GB+5Mbps",
     "data_allowance_normalized": "100GB",
@@ -2450,10 +1834,142 @@
     "qos_speed": "5Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 47,900원",
-    "base_price": 47900,
-    "benefit_price_text": "혜택가 월 39,490원",
-    "benefit_price": 39490,
+    "base_price_text": "월 52,600원",
+    "base_price": 52600,
+    "benefit_price_text": "혜택가 월 40,700원",
+    "benefit_price": 40700,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "플러스알파 (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 41,400원",
+    "base_price": 41400,
+    "benefit_price_text": "혜택가 월 17,500원",
+    "benefit_price": 17500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "10%적립 (10GB+/500분)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB+1Mbps",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "10GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "500분",
+    "sms_allowance": "통화 500분, 500건",
+    "base_price_text": "월 18,500원",
+    "base_price": 18500,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "10%적립 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 10,300원",
+    "base_price": 10300,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "GS25 (150GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "일5GB+5Mbps",
+    "data_allowance_normalized": "일5GB",
+    "qos_raw": "일5GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 64,000원",
+    "base_price": 64000,
+    "benefit_price_text": "혜택가 월 40,100원",
+    "benefit_price": 40100,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "GS25 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 58,790원",
+    "base_price": 58790,
+    "benefit_price_text": "혜택가 월 34,900원",
+    "benefit_price": 34900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (5GB+/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "5GB+1Mbps",
+    "data_allowance_normalized": "5GB",
+    "qos_raw": "5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 28,200원",
+    "base_price": 28200,
+    "benefit_price_text": "혜택가 월 12,500원",
+    "benefit_price": 12500,
     "plan_type": [
       "유심"
     ],
@@ -2461,54 +1977,10 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "플러스알파 (15GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+1Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,000원",
-    "base_price": 50000,
-    "benefit_price_text": "혜택가 월 22,500원",
-    "benefit_price": 22500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "K-패스 (15GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+1Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 49,400원",
-    "base_price": 49400,
-    "benefit_price_text": "혜택가 월 21,900원",
-    "benefit_price": 21900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": true,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "K-패스 (1GB+/통화기본)",
+    "plan_name": "YOUNG (1GB+/통화기본)",
     "plan_code": "",
     "data_allowance_raw": "1GB+1Mbps",
     "data_allowance_normalized": "1GB",
@@ -2527,10 +1999,10 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "K-패스 (71GB+/통화기본)",
+    "plan_name": "YOUNG (71GB+/통화기본)",
     "plan_code": "",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
     "data_allowance_normalized": "11GB+일2GB",
@@ -2549,21 +2021,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "K-패스 (7GB+/통화기본)",
+    "plan_name": "YOUNG (9GB/3000분)",
     "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 40,800원",
-    "base_price": 40800,
-    "benefit_price_text": "혜택가 월 16,900원",
-    "benefit_price": 16900,
+    "data_allowance_raw": "9GB",
+    "data_allowance_normalized": "9GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "3000분",
+    "sms_allowance": "통화 3000분, 1000건",
+    "base_price_text": "월 38,800원",
+    "base_price": 38800,
+    "benefit_price_text": "혜택가 월 13,500원",
+    "benefit_price": 13500,
     "plan_type": [
       "유심"
     ],
@@ -2571,29 +2043,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "LTE (15GB+/180분)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+3Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "180분",
-    "sms_allowance": "통화 180분, 100건",
-    "base_price_text": "월 48,900원",
-    "base_price": 48900,
-    "benefit_price_text": "혜택가 월 26,900원",
-    "benefit_price": 26900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "YOUNG 5G (3GB/통화기본)",
@@ -2615,21 +2065,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
-    "plan_name": "다성비 (10GB+/통화기본)",
+    "plan_name": "빽다방 100잔 (71GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "10GB+1Mbps",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "10GB+1Mbps",
-    "qos_speed": "1Mbps",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 42,950원",
-    "base_price": 42950,
-    "benefit_price_text": "혜택가 월 19,900원",
-    "benefit_price": 19900,
+    "base_price_text": "월 50,000원",
+    "base_price": 50000,
+    "benefit_price_text": "혜택가 월 34,500원",
+    "benefit_price": 34500,
     "plan_type": [
       "유심"
     ],
@@ -2637,7 +2087,117 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "10%적립 (4.5GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB+1Mbps",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": "4.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 15,200원",
+    "base_price": 15200,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "GS25 (25GB+/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "(15+10)GB+3Mbps",
+    "data_allowance_normalized": "(15+10)GB",
+    "qos_raw": "(15+10)GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 52,800원",
+    "base_price": 52800,
+    "benefit_price_text": "혜택가 월 28,900원",
+    "benefit_price": 28900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "LTE (15GB+/180분)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+3Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "180분",
+    "sms_allowance": "통화 180분, 100건",
+    "base_price_text": "월 48,900원",
+    "base_price": 48900,
+    "benefit_price_text": "혜택가 월 26,900원",
+    "benefit_price": 26900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "YOUNG (6GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "6GB",
+    "data_allowance_normalized": "6GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 36,000원",
+    "base_price": 36000,
+    "benefit_price_text": "혜택가 월 10,500원",
+    "benefit_price": 10500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "YOUNG 5G (50GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "50GB+1Mbps",
+    "data_allowance_normalized": "50GB",
+    "qos_raw": "50GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 51,000원",
+    "base_price": 51000,
+    "benefit_price_text": "혜택가 월 38,850원",
+    "benefit_price": 38850,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "다성비 (15GB+/100분)",
@@ -2659,7 +2219,403 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "다성비 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 26,300원",
+    "base_price": 26300,
+    "benefit_price_text": "혜택가 월 10,900원",
+    "benefit_price": 10900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "빽다방 100잔 (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 40,000원",
+    "base_price": 40000,
+    "benefit_price_text": "혜택가 월 17,900원",
+    "benefit_price": 17900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "이츠 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 47,400원",
+    "base_price": 47400,
+    "benefit_price_text": "혜택가 월 35,500원",
+    "benefit_price": 35500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "자급제폰케어 (100GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "100GB+5Mbps",
+    "data_allowance_normalized": "100GB",
+    "qos_raw": "100GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 47,900원",
+    "base_price": 47900,
+    "benefit_price_text": "혜택가 월 39,490원",
+    "benefit_price": 39490,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "플러스알파 (15GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+1Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 50,000원",
+    "base_price": 50000,
+    "benefit_price_text": "혜택가 월 22,500원",
+    "benefit_price": 22500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "플러스알파 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 51,000원",
+    "base_price": 51000,
+    "benefit_price_text": "혜택가 월 34,600원",
+    "benefit_price": 34600,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "10%적립 (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 17,900원",
+    "base_price": 17900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "GS25 5G (10GB/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 32,800원",
+    "base_price": 32800,
+    "benefit_price_text": "혜택가 월 13,500원",
+    "benefit_price": 13500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "K-패스 (100GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "100GB+5Mbps",
+    "data_allowance_normalized": "100GB",
+    "qos_raw": "100GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 47,600원",
+    "base_price": 47600,
+    "benefit_price_text": "혜택가 월 39,200원",
+    "benefit_price": 39200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "K-패스 (15GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+1Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 49,400원",
+    "base_price": 49400,
+    "benefit_price_text": "혜택가 월 21,900원",
+    "benefit_price": 21900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "K-패스 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 26,300원",
+    "base_price": 26300,
+    "benefit_price_text": "혜택가 월 10,900원",
+    "benefit_price": 10900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "K-패스 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 50,390원",
+    "base_price": 50390,
+    "benefit_price_text": "혜택가 월 33,990원",
+    "benefit_price": 33990,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "K-패스 (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 40,800원",
+    "base_price": 40800,
+    "benefit_price_text": "혜택가 월 16,900원",
+    "benefit_price": 16900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "다성비 (10GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB+1Mbps",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "10GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 42,950원",
+    "base_price": 42950,
+    "benefit_price_text": "혜택가 월 19,900원",
+    "benefit_price": 19900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "다성비 (5GB+/100분)",
+    "plan_code": "",
+    "data_allowance_raw": "5GB+1Mbps",
+    "data_allowance_normalized": "5GB",
+    "qos_raw": "5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "100분",
+    "sms_allowance": "통화 100분, 100건",
+    "base_price_text": "월 24,500원",
+    "base_price": 24500,
+    "benefit_price_text": "혜택가 월 12,900원",
+    "benefit_price": 12900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "다성비 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 50,390원",
+    "base_price": 50390,
+    "benefit_price_text": "혜택가 월 33,990원",
+    "benefit_price": 33990,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "빽다방 100잔 (15GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+1Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 49,000원",
+    "base_price": 49000,
+    "benefit_price_text": "혜택가 월 22,400원",
+    "benefit_price": 22400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "빽다방 100잔 5G (5GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "5GB",
+    "data_allowance_normalized": "5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 28,000원",
+    "base_price": 28000,
+    "benefit_price_text": "혜택가 월 12,400원",
+    "benefit_price": 12400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": true,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "이십세 (10GB+/500분)",
@@ -2681,7 +2637,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "이십세 (15GB+/300분)",
@@ -2703,7 +2659,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
+  },
+  {
+    "plan_name": "이십세 (1GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB+1Mbps",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": "1GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 25,850원",
+    "base_price": 25850,
+    "benefit_price_text": "혜택가 월 9,900원",
+    "benefit_price": 9900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "이십세 (4.5GB+/통화기본)",
@@ -2725,7 +2703,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.728Z"
   },
   {
     "plan_name": "이십세 (7GB+/통화기본)",
@@ -2747,7 +2725,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.729Z"
   },
   {
     "plan_name": "이십세 스페셜",
@@ -2769,7 +2747,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
+    "collected_at": "2026-05-11T04:41:57.729Z"
+  },
+  {
+    "plan_name": "자급제폰케어 (71GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "11GB+일2GB+3Mbps",
+    "data_allowance_normalized": "11GB+일2GB",
+    "qos_raw": "11GB+일2GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 49,390원",
+    "base_price": 49390,
+    "benefit_price_text": "혜택가 월 34,300원",
+    "benefit_price": 34300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
+    "collected_at": "2026-05-11T04:41:57.729Z"
   },
   {
     "plan_name": "자급제폰케어 (7GB+/통화기본)",
@@ -2791,51 +2791,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/usim/pricList",
-    "collected_at": "2026-05-10T10:44:59.117Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (10GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 34,000원",
-    "base_price": 34000,
-    "benefit_price_text": "혜택가 월 28,500원",
-    "benefit_price": 28500,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (5GB/3000분)",
-    "plan_code": "",
-    "data_allowance_raw": "5GB",
-    "data_allowance_normalized": "5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "3000분",
-    "sms_allowance": "통화 3000분, 1000건",
-    "base_price_text": "월 32,000원",
-    "base_price": 32000,
-    "benefit_price_text": "혜택가 월 25,400원",
-    "benefit_price": 25400,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:41:57.729Z"
   },
   {
     "plan_name": "[휴대폰] 5G (5GB/200분)",
@@ -2857,7 +2813,51 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (5GB/3000분)",
+    "plan_code": "",
+    "data_allowance_raw": "5GB",
+    "data_allowance_normalized": "5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "3000분",
+    "sms_allowance": "통화 3000분, 1000건",
+    "base_price_text": "월 32,000원",
+    "base_price": 32000,
+    "benefit_price_text": "혜택가 월 25,400원",
+    "benefit_price": 25400,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (10GB/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 34,000원",
+    "base_price": 34000,
+    "benefit_price_text": "혜택가 월 28,500원",
+    "benefit_price": 28500,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] LTE (1GB+/통화기본)",
@@ -2879,117 +2879,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (10GB/3000분)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "3000분",
-    "sms_allowance": "통화 3000분, 1000건",
-    "base_price_text": "월 39,000원",
-    "base_price": 39000,
-    "benefit_price_text": "혜택가 월 30,200원",
-    "benefit_price": 30200,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 데이터플러스 (7GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(7+10)GB+1Mbps",
-    "data_allowance_normalized": "(7+10)GB",
-    "qos_raw": "(7+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 41,400원",
-    "base_price": 41400,
-    "benefit_price_text": "혜택가 월 34,900원",
-    "benefit_price": 34900,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (7GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "7GB+1Mbps",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "7GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 39,900원",
-    "base_price": 39900,
-    "benefit_price_text": "혜택가 월 33,000원",
-    "benefit_price": 33000,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 폰케어 (17GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "(7+10)GB+1Mbps",
-    "data_allowance_normalized": "(7+10)GB",
-    "qos_raw": "(7+10)GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 47,300원",
-    "base_price": 47300,
-    "benefit_price_text": "혜택가 월 37,400원",
-    "benefit_price": 37400,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (4.5GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4.5GB+1Mbps",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": "4.5GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 40,000원",
-    "base_price": 40000,
-    "benefit_price_text": "혜택가 월 28,900원",
-    "benefit_price": 28900,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] 5G (2GB/120분)",
@@ -3011,65 +2901,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
-    "plan_name": "[휴대폰] LTE (1.5GB/통화기본)",
+    "plan_name": "[휴대폰] 5G (10GB/3000분)",
     "plan_code": "",
-    "data_allowance_raw": "1.5GB",
-    "data_allowance_normalized": "1.5GB",
+    "data_allowance_raw": "10GB",
+    "data_allowance_normalized": "10GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 25,900원",
-    "base_price": 25900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (15GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "15GB+1Mbps",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "15GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 39,900원",
-    "base_price": 39900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (14GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "14GB+1Mbps",
-    "data_allowance_normalized": "14GB",
-    "qos_raw": "14GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 50,000원",
-    "base_price": 50000,
-    "benefit_price_text": null,
-    "benefit_price": null,
+    "voice_allowance": "3000분",
+    "sms_allowance": "통화 3000분, 1000건",
+    "base_price_text": "월 39,000원",
+    "base_price": 39000,
+    "benefit_price_text": "혜택가 월 30,200원",
+    "benefit_price": 30200,
     "plan_type": [
       "휴대폰"
     ],
@@ -3077,7 +2923,51 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 데이터플러스 (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "(7+10)GB+1Mbps",
+    "data_allowance_normalized": "(7+10)GB",
+    "qos_raw": "(7+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 41,400원",
+    "base_price": 41400,
+    "benefit_price_text": "혜택가 월 34,900원",
+    "benefit_price": 34900,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (7GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "7GB+1Mbps",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "7GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 39,900원",
+    "base_price": 39900,
+    "benefit_price_text": "혜택가 월 33,000원",
+    "benefit_price": 33000,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] LTE (2GB/120분)",
@@ -3099,7 +2989,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] LTE 스페셜",
@@ -3121,21 +3011,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
-    "plan_name": "[휴대폰] 알뜰한(300MB/90분)",
+    "plan_name": "[휴대폰] 폰케어 (17GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "300MB",
-    "data_allowance_normalized": "300MB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "90분",
-    "sms_allowance": "통화 90분, 100건",
-    "base_price_text": "월 18,500원",
-    "base_price": 18500,
-    "benefit_price_text": null,
-    "benefit_price": null,
+    "data_allowance_raw": "(7+10)GB+1Mbps",
+    "data_allowance_normalized": "(7+10)GB",
+    "qos_raw": "(7+10)GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 47,300원",
+    "base_price": 47300,
+    "benefit_price_text": "혜택가 월 37,400원",
+    "benefit_price": 37400,
     "plan_type": [
       "휴대폰"
     ],
@@ -3143,205 +3033,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (125GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "125GB+5Mbps",
-    "data_allowance_normalized": "125GB",
-    "qos_raw": "125GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 65,000원",
-    "base_price": 65000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (31GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "31GB+1Mbps",
-    "data_allowance_normalized": "31GB",
-    "qos_raw": "31GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 55,000원",
-    "base_price": 55000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (50GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "50GB+1Mbps",
-    "data_allowance_normalized": "50GB",
-    "qos_raw": "50GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 58,000원",
-    "base_price": 58000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (80GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "80GB+1Mbps",
-    "data_allowance_normalized": "80GB",
-    "qos_raw": "80GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 61,000원",
-    "base_price": 61000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G (95GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "95GB+3Mbps",
-    "data_allowance_normalized": "95GB",
-    "qos_raw": "95GB+3Mbps",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 63,000원",
-    "base_price": 63000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G 스페셜",
-    "plan_code": "",
-    "data_allowance_raw": "150GB+5Mbps",
-    "data_allowance_normalized": "150GB",
-    "qos_raw": "150GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 69,000원",
-    "base_price": 69000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 5G 스페셜 프로",
-    "plan_code": "",
-    "data_allowance_raw": "180GB+10Mbps",
-    "data_allowance_normalized": "180GB",
-    "qos_raw": "180GB+10Mbps",
-    "qos_speed": "10Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 74,000원",
-    "base_price": 74000,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (10GB+/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB+1Mbps",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "10GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 36,900원",
-    "base_price": 36900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (10GB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "10GB+1Mbps",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "10GB+1Mbps",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 36,900원",
-    "base_price": 36900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] LTE (15GB+/100분)",
@@ -3363,95 +3055,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (4.5GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "4.5GB",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 32,900원",
-    "base_price": 32900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE (4GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "4GB",
-    "data_allowance_normalized": "4GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 29,900원",
-    "base_price": 29900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] LTE 스페셜 프로",
-    "plan_code": "",
-    "data_allowance_raw": "일5GB+5Mbps",
-    "data_allowance_normalized": "일5GB",
-    "qos_raw": "일5GB+5Mbps",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 65,900원",
-    "base_price": 65900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 데이터차단 (0GB/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": null,
-    "data_allowance_normalized": null,
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "기본제공",
-    "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 24,900원",
-    "base_price": 24900,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] 데이터플러스 (15GB+/통화기본)",
@@ -3473,85 +3077,41 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
-    "plan_name": "[휴대폰] 복지(750MB/160분)",
+    "plan_name": "[휴대폰] 5G (31GB+/통화기본)",
     "plan_code": "",
-    "data_allowance_raw": "750MB",
-    "data_allowance_normalized": "750MB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "160분",
-    "sms_allowance": "통화 160분, 200건",
-    "base_price_text": "월 30,800원",
-    "base_price": 30800,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 알뜰한(1GB/120분)",
-    "plan_code": "",
-    "data_allowance_raw": "1GB",
-    "data_allowance_normalized": "1GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "120분",
-    "sms_allowance": "통화 120분, 100건",
-    "base_price_text": "월 24,500원",
-    "base_price": 24500,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 알뜰한(2GB/200분)",
-    "plan_code": "",
-    "data_allowance_raw": "2GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "200분",
-    "sms_allowance": "통화 200분, 100건",
-    "base_price_text": "월 29,500원",
-    "base_price": 29500,
-    "benefit_price_text": null,
-    "benefit_price": null,
-    "plan_type": [
-      "휴대폰"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
-  },
-  {
-    "plan_name": "[휴대폰] 청소년 (750MB+/통화기본)",
-    "plan_code": "",
-    "data_allowance_raw": "750MB+0.4Mbps",
-    "data_allowance_normalized": "750MB",
-    "qos_raw": "750MB+0.4Mbps",
-    "qos_speed": "400Kbps",
+    "data_allowance_raw": "31GB+1Mbps",
+    "data_allowance_normalized": "31GB",
+    "qos_raw": "31GB+1Mbps",
+    "qos_speed": "1Mbps",
     "voice_allowance": "기본제공",
     "sms_allowance": "통화 기본제공, 기본제공",
-    "base_price_text": "월 32,890원",
-    "base_price": 32890,
+    "base_price_text": "월 55,000원",
+    "base_price": 55000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (10GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB+1Mbps",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "10GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 36,900원",
+    "base_price": 36900,
     "benefit_price_text": null,
     "benefit_price": null,
     "plan_type": [
@@ -3561,7 +3121,51 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (4.5GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB+1Mbps",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": "4.5GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 40,000원",
+    "base_price": 40000,
+    "benefit_price_text": "혜택가 월 28,900원",
+    "benefit_price": 28900,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 알뜰한(300MB/90분)",
+    "plan_code": "",
+    "data_allowance_raw": "300MB",
+    "data_allowance_normalized": "300MB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "90분",
+    "sms_allowance": "통화 90분, 100건",
+    "base_price_text": "월 18,500원",
+    "base_price": 18500,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] 폰케어 (1GB+/통화기본)",
@@ -3583,7 +3187,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] 폰케어 (4.5GB+/통화기본)",
@@ -3605,7 +3209,403 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (125GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "125GB+5Mbps",
+    "data_allowance_normalized": "125GB",
+    "qos_raw": "125GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 65,000원",
+    "base_price": 65000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (14GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "14GB+1Mbps",
+    "data_allowance_normalized": "14GB",
+    "qos_raw": "14GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 50,000원",
+    "base_price": 50000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (50GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "50GB+1Mbps",
+    "data_allowance_normalized": "50GB",
+    "qos_raw": "50GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 58,000원",
+    "base_price": 58000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (80GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "80GB+1Mbps",
+    "data_allowance_normalized": "80GB",
+    "qos_raw": "80GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 61,000원",
+    "base_price": 61000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G (95GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "95GB+3Mbps",
+    "data_allowance_normalized": "95GB",
+    "qos_raw": "95GB+3Mbps",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 63,000원",
+    "base_price": 63000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G 스페셜",
+    "plan_code": "",
+    "data_allowance_raw": "150GB+5Mbps",
+    "data_allowance_normalized": "150GB",
+    "qos_raw": "150GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 69,000원",
+    "base_price": 69000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 5G 스페셜 프로",
+    "plan_code": "",
+    "data_allowance_raw": "180GB+10Mbps",
+    "data_allowance_normalized": "180GB",
+    "qos_raw": "180GB+10Mbps",
+    "qos_speed": "10Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 74,000원",
+    "base_price": 74000,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (1.5GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "1.5GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 25,900원",
+    "base_price": 25900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (10GB+/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "10GB+1Mbps",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "10GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 36,900원",
+    "base_price": 36900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (15GB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "15GB+1Mbps",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "15GB+1Mbps",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 39,900원",
+    "base_price": 39900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (4.5GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "4.5GB",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 32,900원",
+    "base_price": 32900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE (4GB/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "4GB",
+    "data_allowance_normalized": "4GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 29,900원",
+    "base_price": 29900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] LTE 스페셜 프로",
+    "plan_code": "",
+    "data_allowance_raw": "일5GB+5Mbps",
+    "data_allowance_normalized": "일5GB",
+    "qos_raw": "일5GB+5Mbps",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 65,900원",
+    "base_price": 65900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 데이터차단 (0GB/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": null,
+    "data_allowance_normalized": null,
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 24,900원",
+    "base_price": 24900,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 복지(750MB/160분)",
+    "plan_code": "",
+    "data_allowance_raw": "750MB",
+    "data_allowance_normalized": "750MB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "160분",
+    "sms_allowance": "통화 160분, 200건",
+    "base_price_text": "월 30,800원",
+    "base_price": 30800,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 알뜰한(1GB/120분)",
+    "plan_code": "",
+    "data_allowance_raw": "1GB",
+    "data_allowance_normalized": "1GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "120분",
+    "sms_allowance": "통화 120분, 100건",
+    "base_price_text": "월 24,500원",
+    "base_price": 24500,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 알뜰한(2GB/200분)",
+    "plan_code": "",
+    "data_allowance_raw": "2GB",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "200분",
+    "sms_allowance": "통화 200분, 100건",
+    "base_price_text": "월 29,500원",
+    "base_price": 29500,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
+  },
+  {
+    "plan_name": "[휴대폰] 청소년 (750MB+/통화기본)",
+    "plan_code": "",
+    "data_allowance_raw": "750MB+0.4Mbps",
+    "data_allowance_normalized": "750MB",
+    "qos_raw": "750MB+0.4Mbps",
+    "qos_speed": "400Kbps",
+    "voice_allowance": "기본제공",
+    "sms_allowance": "통화 기본제공, 기본제공",
+    "base_price_text": "월 32,890원",
+    "base_price": 32890,
+    "benefit_price_text": null,
+    "benefit_price": null,
+    "plan_type": [
+      "휴대폰"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "[휴대폰] 폰케어 (71GB+/통화기본)",
@@ -3627,7 +3627,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "갤럭시틴즈 LTE (10GB+/통화기본)",
@@ -3649,7 +3649,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "갤럭시틴즈 LTE (1GB+/통화기본)",
@@ -3671,7 +3671,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   },
   {
     "plan_name": "갤럭시틴즈 LTE (6GB+/통화기본)",
@@ -3693,6 +3693,6 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.uplusumobile.com/product/pric/phone/pricList",
-    "collected_at": "2026-05-10T10:45:02.580Z"
+    "collected_at": "2026-05-11T04:42:03.138Z"
   }
 ]
