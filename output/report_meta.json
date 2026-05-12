@@ -1,16 +1,113 @@
 {
-  "todayDateStr": "20260511",
-  "prevDateStr": "20260510",
-  "prev2DateStr": "20260509",
-  "prevLabel": "5/10(전일)",
-  "todayLabel": "5/11(당일)",
-  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260511.xlsx",
-  "totalToday": 1060,
+  "todayDateStr": "20260512",
+  "prevDateStr": "20260511",
+  "prev2DateStr": "20260510",
+  "prevLabel": "5/11(전일)",
+  "todayLabel": "5/12(당일)",
+  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260512.xlsx",
+  "totalToday": 1072,
   "summary": {
-    "newCount": 0,
+    "newCount": 12,
     "hiddenCount": 0,
     "changedCount": 0,
-    "newPlans": [],
+    "newPlans": [
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 스탠다드 150GB",
+        "network_type": "5G",
+        "data": 150,
+        "qos": "4Mbps",
+        "당일": 69000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 스탠다드 유심 150GB",
+        "network_type": "5G",
+        "data": 150,
+        "qos": "4Mbps",
+        "당일": 49900
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 유심 중간요금제 125GB",
+        "network_type": "5G",
+        "data": 125,
+        "qos": "4Mbps",
+        "당일": 43000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 유심 중간요금제 95GB",
+        "network_type": "5G",
+        "data": 95,
+        "qos": "3Mbps",
+        "당일": 44000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 중간요금제 125GB",
+        "network_type": "5G",
+        "data": 125,
+        "qos": "4Mbps",
+        "당일": 66000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 5G 중간요금제 95GB",
+        "network_type": "5G",
+        "data": 95,
+        "qos": "3Mbps",
+        "당일": 63000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] 데이터 걱정없는 일5GB",
+        "network_type": "LTE",
+        "data": "일5GB",
+        "qos": "4Mbps",
+        "당일": 65900
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] DATA 걱정없는 100GB",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "4Mbps",
+        "당일": 65900
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] DATA 걱정없는 유심 100GB",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "4Mbps",
+        "당일": 38200
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] DATA 걱정없는 유심 일5GB",
+        "network_type": "LTE",
+        "data": "일5GB",
+        "qos": "4Mbps",
+        "당일": 38990
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] The 착한 데이터 11GB",
+        "network_type": "LTE",
+        "data": "11GB+일2GB",
+        "qos": "3Mbps",
+        "당일": 55000
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "[혜택형] The 착한 데이터 유심 11GB",
+        "network_type": "LTE",
+        "data": "11GB+일2GB",
+        "qos": "3Mbps",
+        "당일": 32990
+      }
+    ],
     "hiddenPlans": [],
     "changedPlans": []
   }
