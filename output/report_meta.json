@@ -1,17 +1,285 @@
 {
-  "todayDateStr": "20260526",
-  "prevDateStr": "20260525",
-  "prev2DateStr": "20260524",
-  "prevLabel": "5/25(전일)",
-  "todayLabel": "5/26(당일)",
-  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260526.xlsx",
+  "todayDateStr": "20260527",
+  "prevDateStr": "20260526",
+  "prev2DateStr": "20260525",
+  "prevLabel": "5/26(전일)",
+  "todayLabel": "5/27(당일)",
+  "excelPath": "/home/runner/work/ktm-crawler/ktm-crawler/output/요금제현황_20260527.xlsx",
   "totalToday": 1072,
   "summary": {
-    "newCount": 0,
-    "hiddenCount": 0,
+    "newCount": 19,
+    "hiddenCount": 19,
     "changedCount": 0,
-    "newPlans": [],
-    "hiddenPlans": [],
+    "newPlans": [
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl208r986",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl209o190",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl209o191",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl211r746",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl2192921",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl2192922",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl21cm686",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl229s135",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl22bs573",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl22bs575",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl22bs577",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl234d618",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl235q985",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl237i261",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl246o441",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl259C345",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl261t206",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl261t208",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "pl261t209",
+        "network_type": "LTE",
+        "data": "",
+        "qos": null,
+        "당일": null
+      }
+    ],
+    "hiddenPlans": [
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 슬림 10GB/200분",
+        "network_type": "5G",
+        "전일": 10900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 3GB",
+        "network_type": "5G",
+        "전일": 8900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 6GB",
+        "network_type": "5G",
+        "전일": 11900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 5GB+/100분",
+        "network_type": "5G",
+        "전일": 14300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 1.5GB+",
+        "network_type": "5G",
+        "전일": 6900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 1.5GB",
+        "network_type": "5G",
+        "전일": 6600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 15GB",
+        "network_type": "5G",
+        "전일": 16900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 2.5GB",
+        "network_type": "5G",
+        "전일": 7700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 4.5GB",
+        "network_type": "5G",
+        "전일": 8850
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 6.5GB",
+        "network_type": "5G",
+        "전일": 10900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 8.0GB+",
+        "network_type": "LTE",
+        "전일": 13900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 2.2GB+/100분",
+        "network_type": "LTE",
+        "전일": 11700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 6GB+",
+        "network_type": "LTE",
+        "전일": 14900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(모아진)",
+        "network_type": "LTE",
+        "전일": 16200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(밀리의서재)",
+        "network_type": "LTE",
+        "전일": 16300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(후후안심)",
+        "network_type": "LTE",
+        "전일": 16200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스마트 데이터 충분 20GB+",
+        "network_type": "LTE",
+        "전일": 14100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스쿨 7GB+(밀리의 서재)",
+        "network_type": "LTE",
+        "전일": 16200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "SOS 스쿨 2GB+",
+        "network_type": "LTE",
+        "전일": 11100
+      }
+    ],
     "changedPlans": []
   }
 }
