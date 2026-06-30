@@ -35,13 +35,12 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-chromium-${{ steps.pw-version.outputs.version }}
 
+      - name: Playwright 시스템 의존성 설치
+        run: sudo apt-get install -y libnspr4 libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64
+
       - name: Playwright 브라우저 설치
         if: steps.pw-cache.outputs.cache-hit != 'true'
-        run: npx playwright install --with-deps chromium
-
-      - name: Playwright 시스템 의존성만 설치 (캐시 히트 시)
-        if: steps.pw-cache.outputs.cache-hit == 'true'
-        run: npx playwright install-deps chromium
+        run: npx playwright install chromium
 
       - name: 크롤링 + 리포트 생성
         run: npm run daily
