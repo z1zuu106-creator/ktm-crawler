@@ -11,15 +11,33 @@ const fs = require('fs');
 const path = require('path');
 const ExcelJS = require('exceljs');
 
-const { crawl: crawlFreet } = require('./crawlers/small/freet');
-const { crawl: crawlEyez } = require('./crawlers/small/eyez');
+const { crawl: crawlFreet }      = require('./crawlers/small/freet');
+const { crawl: crawlEyez }       = require('./crawlers/small/eyez');
+const { crawl: crawlMobing }     = require('./crawlers/small/mobing');
+const { crawl: crawlTplus }      = require('./crawlers/small/tplus');
+const { crawl: crawlTossmobile } = require('./crawlers/small/tossmobile');
+const { crawl: crawlPindirect }  = require('./crawlers/small/pindirect');
+const { crawl: crawlKGMobile }   = require('./crawlers/small/kgmobile');
+const { crawl: crawlIyagi }      = require('./crawlers/small/iyagi');
+const { crawl: crawlMona }       = require('./crawlers/small/mona');
+const { crawl: crawlChance }     = require('./crawlers/small/chance');
+const { crawl: crawlSugar }      = require('./crawlers/small/sugar');
 
 const OUTPUT_DIR = path.join(__dirname, '../output/small');
 const LOG_DIR = path.join(__dirname, '../logs');
 
 const OPERATORS = [
-  { key: 'freet', label: '프리티',     crawl: crawlFreet },
-  { key: 'eyez',  label: '아이즈모바일', crawl: crawlEyez },
+  { key: 'freet',      label: '프리티',      crawl: crawlFreet },
+  { key: 'eyez',       label: '아이즈모바일', crawl: crawlEyez },
+  { key: 'mobing',     label: '모빙',        crawl: crawlMobing },
+  { key: 'tplus',      label: '티플러스',    crawl: crawlTplus },
+  { key: 'tossmobile', label: '토스모바일',  crawl: crawlTossmobile },
+  { key: 'pindirect',  label: '핀다이렉트',  crawl: crawlPindirect },
+  { key: 'kgmobile',   label: 'KG모바일',    crawl: crawlKGMobile },
+  { key: 'iyagi',      label: '이야기모바일', crawl: crawlIyagi },
+  { key: 'mona',       label: '모나',        crawl: crawlMona },
+  { key: 'chance',     label: '찬스모바일',  crawl: crawlChance },
+  { key: 'sugar',      label: '슈가모바일',  crawl: crawlSugar },
 ];
 
 // 날짜 유틸

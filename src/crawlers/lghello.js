@@ -4,6 +4,8 @@
  * 통신망: LGU, KT 모두 수집 / 유심+휴대폰 모두 수집
  */
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const BASE_URL = 'https://direct.lghellovision.net';
 const SOURCE_URL_USIM = 'https://direct.lghellovision.net/rate/rateViewUsim.do';
 const SOURCE_URL_PHONE = 'https://direct.lghellovision.net/rate/rateViewPhone.do';

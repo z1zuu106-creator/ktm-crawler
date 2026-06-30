@@ -2,6 +2,9 @@
  * KT M모바일 API 호출 모듈
  */
 
+// KTM 서버가 자체 서명 인증서를 사용하므로 검증 비활성화
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const BASE_URL = 'https://www.ktmmobile.com';
 const HEADERS = {
   'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',

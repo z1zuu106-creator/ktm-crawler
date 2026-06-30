@@ -9,19 +9,29 @@ const ExcelJS = require('exceljs');
 const path = require('path');
 const fs = require('fs');
 
-const OUTPUT_DIR  = path.join(__dirname, '../output');
-const HISTORY_DIR = path.join(OUTPUT_DIR, 'history');
+const OUTPUT_DIR   = path.join(__dirname, '../output');
+const HISTORY_DIR  = path.join(OUTPUT_DIR, 'history');
+const REGISTRY_FILE = path.join(OUTPUT_DIR, 'new_plans_registry.json');
+
+// ── 신규 요금제 레지스트리 ─────────────────────────────────────────────────────
+// 구조: { "회사명||요금제명": "20260410", ... }
+
+function loadRegistry() {
+  if (fs.existsSync(REGISTRY_FILE)) {
+    try { return JSON.parse(fs.readFileSync(REGISTRY_FILE, 'utf8')); } catch(e) {}
+  }
+  return {};
+}
+
+function saveRegistry(registry) {
+  fs.writeFileSync(REGISTRY_FILE, JSON.stringify(registry, null, 2), 'utf8');
+}
 
 // ── 날짜 유틸 ─────────────────────────────────────────────────────────────────
 
 /** "20260409" → "4/9" */
 function toMD(dateStr) {
   return `${parseInt(dateStr.slice(4, 6))}/${parseInt(dateStr.slice(6, 8))}`;
-}
-
-/** "20260409" → Date 객체 */
-function toDate(dateStr) {
-  return new Date(`${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`);
 }
 
 // ── 이력 관리 ─────────────────────────────────────────────────────────────────
@@ -80,7 +90,15 @@ function mainBenefit(p) {
 
 // ── 비교 로직 ─────────────────────────────────────────────────────────────────
 
-function compare(today, prev) {
+/**
+ * 요금제 비교 + 신규 레지스트리 갱신
+ * @param {Array}  today        당일 요금제 목록
+ * @param {Array}  prev         전일 요금제 목록 (없으면 null)
+ * @param {Object} registry     { planKey: "YYYYMMDD" } — 신규 첫 등장일 맵 (수정됨)
+ * @param {string} todayDateStr "20260410"
+ */
+function compare(today, prev, registry, todayDateStr) {
+  const todayMonth = todayDateStr.slice(0, 6); // "202604"
   const prevMap = prev
     ? new Map(prev.map(p => [planKey(p), p]))
     : new Map();
@@ -95,30 +113,42 @@ function compare(today, prev) {
     const 전일 = prevPlan != null ? effectivePrice(prevPlan) : null;
 
     let gap;
+    let bigo = '';  // 비고
+
     if (!prevPlan) {
-      gap = 'NEW';
+      // 첫 등장 → 레지스트리에 기록
+      registry[key] = registry[key] || todayDateStr;
+    }
+
+    const firstSeen = registry[key];
+
+    if (firstSeen && firstSeen.slice(0, 6) === todayMonth) {
+      // 이번 달에 처음 등장한 신규 요금제 → 달 내내 "신규(M/D)" 표시
+      const md = toMD(firstSeen);
+      gap  = `신규(${md})`;
+      bigo = `출시: ${md}`;
     } else if (전일 !== null && 당일 !== 전일) {
       gap = 당일 - 전일;
     } else {
       gap = null;
     }
 
-    rows.push({ ...plan, 전일, 당일, gap });
+    rows.push({ ...plan, 전일, 당일, gap, bigo });
   }
 
   // 비노출
   for (const [key, prevPlan] of prevMap) {
     if (!todaySet.has(key)) {
-      rows.push({ ...prevPlan, 전일: effectivePrice(prevPlan), 당일: null, gap: '비노출' });
+      rows.push({ ...prevPlan, 전일: effectivePrice(prevPlan), 당일: null, gap: '비노출', bigo: '' });
     }
   }
 
   // 정렬
   rows.sort((a, b) => {
-    const opOrder = ['KT M모바일', 'LG헬로비전', 'U+알뜰모바일', '스카이라이프'];
+    const opOrder = ['KT M모바일', '헬로모바일', '유모바일', '스카이라이프', '우리WON모바일', '리브엠모바일', 'SK세븐모바일'];
     const oa = opOrder.indexOf(a.operator);
     const ob = opOrder.indexOf(b.operator);
-    if (oa !== ob) return oa - ob;
+    if (oa !== ob) return (oa === -1 ? 99 : oa) - (ob === -1 ? 99 : ob);
     if (a.network_type !== b.network_type) return a.network_type < b.network_type ? -1 : 1;
     return (a.plan_name || '').localeCompare(b.plan_name || '', 'ko');
   });
@@ -126,7 +156,7 @@ function compare(today, prev) {
   return {
     rows,
     summary: {
-      newPlans:     rows.filter(r => r.gap === 'NEW'),
+      newPlans:     rows.filter(r => typeof r.gap === 'string' && r.gap.startsWith('신규')),
       hiddenPlans:  rows.filter(r => r.gap === '비노출'),
       changedPlans: rows.filter(r => typeof r.gap === 'number'),
     },
@@ -161,12 +191,14 @@ function buildHeaders(prevDateStr, todayDateStr) {
     { key: 'base_price', label: '기본료',      width: 10 },
     { key: '전일',        label: prevLabel,    width: 12 },
     { key: '당일',        label: todayLabel,   width: 12 },
-    { key: 'gap',        label: 'GAP',         width: 10 },
+    { key: 'gap',        label: 'GAP',         width: 14 },
+    { key: 'bigo',       label: '비고',        width: 14 },
   ];
 }
 
 function gapStyle(gap) {
-  if (gap === 'NEW')    return { font: { bold: true, color: { argb: 'FF0070C0' }, size: 10 } };
+  if (typeof gap === 'string' && gap.startsWith('신규'))
+    return { font: { bold: true, color: { argb: 'FF0070C0' }, size: 10 } };
   if (gap === '비노출') return { font: { color: { argb: 'FF808080' }, size: 10, italic: true } };
   if (typeof gap === 'number' && gap > 0) return { font: { color: { argb: 'FFFF0000' }, size: 10 } };
   if (typeof gap === 'number' && gap < 0) return { font: { color: { argb: 'FF00AA00' }, size: 10 } };
@@ -175,24 +207,22 @@ function gapStyle(gap) {
 
 function gapDisplay(gap) {
   if (gap === null || gap === undefined) return '-';
-  if (gap === 'NEW' || gap === '비노출') return gap;
+  if (gap === '비노출') return gap;
+  if (typeof gap === 'string' && gap.startsWith('신규')) return gap;
   if (typeof gap === 'number') {
     return gap > 0 ? `+${gap.toLocaleString()}` : gap.toLocaleString();
   }
   return '-';
 }
 
-async function generateExcel(rows, todayDateStr, prevDateStr) {
-  const HEADERS = buildHeaders(prevDateStr, todayDateStr);
+function isNewGap(gap) {
+  return typeof gap === 'string' && gap.startsWith('신규');
+}
 
-  const wb = new ExcelJS.Workbook();
-  wb.creator = 'KTM-Crawler';
-  wb.created = new Date();
-
-  const ws = wb.addWorksheet('요금제 현황', {
-    views: [{ state: 'frozen', ySplit: 1 }],
-  });
-
+/**
+ * 워크시트 하나를 rows 배열로 채움 (헤더 포함)
+ */
+function fillSheet(ws, HEADERS, rows) {
   ws.columns = HEADERS.map(h => ({ key: h.key, width: h.width }));
 
   // 헤더 행
@@ -209,6 +239,7 @@ async function generateExcel(rows, todayDateStr, prevDateStr) {
   for (const [i, r] of rows.entries()) {
     const gapVal   = r.gap;
     const isHidden = gapVal === '비노출';
+    const isNew    = isNewGap(gapVal);
 
     const rowData = [
       r.operator || '',
@@ -224,6 +255,7 @@ async function generateExcel(rows, todayDateStr, prevDateStr) {
       r['전일'] ?? '',
       r['당일'] ?? '',
       gapDisplay(gapVal),
+      r.bigo || '',
     ];
 
     const dataRow = ws.addRow(rowData);
@@ -235,7 +267,6 @@ async function generateExcel(rows, todayDateStr, prevDateStr) {
 
       const hLabel = HEADERS[colNum - 1]?.label || '';
 
-      // 숫자 우측 정렬
       if (hLabel === '기본료' || hLabel.includes('전일') || hLabel.includes('당일')) {
         cell.alignment = { horizontal: 'right', vertical: 'middle' };
         if (typeof cell.value === 'number') cell.numFmt = '#,##0';
@@ -245,24 +276,31 @@ async function generateExcel(rows, todayDateStr, prevDateStr) {
         cell.numFmt = '#,##0.##';
       }
 
-      // 줄무늬
       if (i % 2 === 1) {
         cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF2F2F2' } };
       }
 
-      // 비노출 행 회색
       if (isHidden) {
         cell.font = { ...BASE_FONT, color: { argb: 'FF999999' }, italic: true };
       }
     });
 
-    // GAP 셀 스타일
-    const gapCell = dataRow.getCell(HEADERS.length);
+    // GAP 셀 스타일 (끝에서 두 번째 컬럼)
+    const gapColIdx = HEADERS.findIndex(h => h.key === 'gap') + 1;
+    const gapCell = dataRow.getCell(gapColIdx);
     gapCell.font = { ...gapCell.font, ...gapStyle(gapVal).font };
     gapCell.alignment = { horizontal: 'center', vertical: 'middle' };
 
-    // NEW 행 배경
-    if (gapVal === 'NEW') {
+    // 비고 셀 (신규면 파란색 이탤릭)
+    const bigoColIdx = HEADERS.findIndex(h => h.key === 'bigo') + 1;
+    const bigoCell = dataRow.getCell(bigoColIdx);
+    bigoCell.alignment = { horizontal: 'center', vertical: 'middle' };
+    if (isNew) {
+      bigoCell.font = { ...BASE_FONT, color: { argb: 'FF0070C0' }, italic: true };
+    }
+
+    // 신규 행 배경 (연파란)
+    if (isNew) {
       dataRow.eachCell(cell => {
         if (!cell.fill || cell.fill.fgColor?.argb === 'FFF2F2F2') {
           cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFE8F0FE' } };
@@ -275,9 +313,40 @@ async function generateExcel(rows, todayDateStr, prevDateStr) {
     from: { row: 1, column: 1 },
     to:   { row: 1, column: HEADERS.length },
   };
+}
 
-  const filename  = `요금제현황_${todayDateStr}.xlsx`;
-  const filepath  = path.join(OUTPUT_DIR, filename);
+const OPERATOR_ORDER = [
+  'KT M모바일', '헬로모바일', '유모바일', '스카이라이프',
+  '우리WON모바일', '리브엠모바일', 'SK세븐모바일',
+];
+
+async function generateExcel(rows, todayDateStr, prevDateStr) {
+  const HEADERS = buildHeaders(prevDateStr, todayDateStr);
+
+  const wb = new ExcelJS.Workbook();
+  wb.creator = 'KTM-Crawler';
+  wb.created = new Date();
+
+  // ① 전체 시트
+  const wsAll = wb.addWorksheet('전체', { views: [{ state: 'frozen', ySplit: 1 }] });
+  fillSheet(wsAll, HEADERS, rows);
+
+  // ② 회사별 시트
+  for (const opName of OPERATOR_ORDER) {
+    const opRows = rows.filter(r => r.operator === opName);
+    if (opRows.length === 0) continue;
+
+    // 시트명은 최대 31자 (Excel 제한)
+    const sheetName = opName.slice(0, 31);
+    const ws = wb.addWorksheet(sheetName, { views: [{ state: 'frozen', ySplit: 1 }] });
+
+    // 회사별 시트는 '회사명' 컬럼 제외
+    const companyHeaders = HEADERS.filter(h => h.key !== 'operator');
+    fillSheet(ws, companyHeaders, opRows);
+  }
+
+  const filename = `요금제현황_${todayDateStr}.xlsx`;
+  const filepath = path.join(OUTPUT_DIR, filename);
   await wb.xlsx.writeFile(filepath);
   return filepath;
 }
@@ -321,8 +390,14 @@ async function main() {
 
   console.log(`당일(${toMD(todayDateStr)}): ${today.length}건`);
 
+  // 신규 요금제 레지스트리 로드 (첫 등장일 추적)
+  const registry = loadRegistry();
+
   // 비교
-  const { rows, summary } = compare(today, prev);
+  const { rows, summary } = compare(today, prev, registry, todayDateStr);
+
+  // 레지스트리 저장 (새로 발견된 신규 요금제 반영)
+  saveRegistry(registry);
 
   console.log(`변동 요약:`);
   console.log(`  신규: ${summary.newPlans.length}건`);
@@ -351,7 +426,7 @@ async function main() {
       changedCount: summary.changedPlans.length,
       newPlans: summary.newPlans.map(p => ({
         operator: p.operator, plan_name: p.plan_name, network_type: p.network_type,
-        data: dataGB(p.data_allowance_normalized), qos: p.qos_speed, 당일: p['당일'],
+        data: dataGB(p.data_allowance_normalized), qos: p.qos_speed, 당일: p['당일'], bigo: p.bigo,
       })),
       hiddenPlans: summary.hiddenPlans.map(p => ({
         operator: p.operator, plan_name: p.plan_name, network_type: p.network_type,

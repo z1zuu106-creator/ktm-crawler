@@ -96,9 +96,14 @@ async function fetchFromUrl(page, url) {
 }
 
 async function crawl(log = console.log) {
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
+  });
   const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    viewport: { width: 1280, height: 800 },
+    ignoreHTTPSErrors: true,
   });
   const page = await context.newPage();
 
@@ -107,7 +112,13 @@ async function crawl(log = console.log) {
 
   for (const { url, planType } of URLS) {
     log(`  [유모바일] ${planType} 요금제 로딩 중...`);
-    const rawItems = await fetchFromUrl(page, url);
+    let rawItems = [];
+    try {
+      rawItems = await fetchFromUrl(page, url);
+    } catch (err) {
+      log(`  [유모바일] ${planType} 수집 실패 (계속 진행): ${err.message.substring(0, 80)}`);
+      continue;
+    }
     log(`  [유모바일] ${planType} ${rawItems.length}건 추출`);
 
     for (const item of rawItems) {

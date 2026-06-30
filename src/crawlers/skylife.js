@@ -40,9 +40,17 @@ function extractData(lines) {
 }
 
 function extractVoice(lines) {
-  const v = lines.find(l => l.startsWith('통화') && !l.includes('무제한 데이터'));
+  // 마케팅 문구 제외: "통화는 무제한~ 데이터는..." 같은 홍보 텍스트 필터링
+  const v = lines.find(l => {
+    if (!l.startsWith('통화')) return false;
+    if (l.includes('무제한 데이터')) return false;
+    const cleaned = l.replace(/^통화\s*/, '').trim();
+    // 마케팅 특수문자·긴 문장 제외
+    if (/[?!~]/.test(cleaned)) return false;
+    if (cleaned.length > 30) return false;
+    return true;
+  });
   if (!v) return '기본제공';
-  // "통화 집/이동전화 기본제공" → "기본제공"
   const cleaned = v.replace(/^통화\s*/, '').trim();
   return cleaned || '기본제공';
 }
@@ -96,9 +104,14 @@ async function parsePlanPage(page, slug) {
 async function crawl(log = console.log) {
   log('  [스카이라이프] 목록 페이지에서 슬러그 수집 중...');
 
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
+  });
   const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36',
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    viewport: { width: 1280, height: 800 },
+    ignoreHTTPSErrors: true,
   });
   const page = await context.newPage();
 
@@ -164,86 +177,91 @@ async function crawl(log = console.log) {
   }
 
   const slugs = allSlugs;
-  log(`  [스카이라이프] 수집 슬러그 총 ${slugs.length}개`);
+  log(`  [스카이라이프] 수집 슬러그 총 ${slugs.length}개 (병렬 처리)`);
 
-  const allPlans = [];
   const collectedAt = new Date().toISOString();
+  const allPlans = [];
 
-  for (const slug of slugs) {
-    try {
-      const { allLines, detailTexts, qosDescLine } = await parsePlanPage(page, slug);
+  // 슬러그 파싱을 병렬(5개 동시)로 처리하여 속도 개선
+  const CONCURRENCY = 5;
+  const queue = [...slugs];
 
-      // 요금제명: 마지막 '모바일' 브레드크럼 다음 라인
-      // 내비게이션(index 2)과 브레드크럼(index 7)에 '모바일'이 모두 등장 → 마지막 사용
-      const moIndices = allLines.map((l, i) => l === '모바일' ? i : -1).filter(i => i >= 0);
-      const moIdx = moIndices.length > 0 ? moIndices[moIndices.length - 1] : -1;
-      const planName = moIdx >= 0 ? allLines[moIdx + 1] : allLines.find(l => l.match(/GB|무제한/));
+  // 5개 페이지 동시 생성
+  const workerPages = await Promise.all(
+    Array.from({ length: Math.min(CONCURRENCY, slugs.length) }, () => context.newPage())
+  );
 
-      // 가격 라인들 (월 XX,XXX원 형태)
-      const priceLine1 = allLines.find(l => l.match(/^월\s*[\d,]+원$/));
-      const priceNum1 = parsePrice(priceLine1);
+  await Promise.all(workerPages.map(async (wPage) => {
+    while (true) {
+      const slug = queue.shift();
+      if (!slug) break;
 
-      // 두 번째 가격: 숫자+콤마만으로 이루어진 라인 (예: "49,200")
-      const priceLine2 = allLines.find(l => l.match(/^[\d,]+$/) && l.replace(/,/g,'').length >= 4 && !l.includes('0000'));
-      const priceNum2 = parsePrice(priceLine2);
+      try {
+        const { allLines, detailTexts, qosDescLine } = await parsePlanPage(wPage, slug);
 
-      // base_price와 benefit_price 결정 (더 큰 것이 기본, 작은 것이 혜택가)
-      let base_price = null, benefit_price = null;
-      let base_price_text = null, benefit_price_text = null;
-      if (priceNum1 && priceNum2) {
-        const bigger = Math.max(priceNum1, priceNum2);
-        const smaller = Math.min(priceNum1, priceNum2);
-        base_price = bigger;
-        benefit_price = smaller !== bigger ? smaller : null;
-        base_price_text = `월 ${bigger.toLocaleString()}원`;
-        benefit_price_text = benefit_price ? `혜택가 월 ${smaller.toLocaleString()}원` : null;
-      } else if (priceNum1) {
-        base_price = priceNum1;
-        base_price_text = `월 ${priceNum1.toLocaleString()}원`;
-      } else if (priceNum2) {
-        base_price = priceNum2;
-        base_price_text = `월 ${priceNum2.toLocaleString()}원`;
+        const moIndices = allLines.map((l, i) => l === '모바일' ? i : -1).filter(i => i >= 0);
+        const moIdx = moIndices.length > 0 ? moIndices[moIndices.length - 1] : -1;
+        const planName = moIdx >= 0 ? allLines[moIdx + 1] : allLines.find(l => l.match(/GB|무제한/));
+
+        const priceLine1 = allLines.find(l => l.match(/^월\s*[\d,]+원$/));
+        const priceNum1 = parsePrice(priceLine1);
+        const priceLine2 = allLines.find(l => l.match(/^[\d,]+$/) && l.replace(/,/g,'').length >= 4 && !l.includes('0000'));
+        const priceNum2 = parsePrice(priceLine2);
+
+        let base_price = null, benefit_price = null;
+        let base_price_text = null, benefit_price_text = null;
+        if (priceNum1 && priceNum2) {
+          const bigger = Math.max(priceNum1, priceNum2);
+          const smaller = Math.min(priceNum1, priceNum2);
+          base_price = bigger;
+          benefit_price = smaller !== bigger ? smaller : null;
+          base_price_text = `월 ${bigger.toLocaleString()}원`;
+          benefit_price_text = benefit_price ? `혜택가 월 ${smaller.toLocaleString()}원` : null;
+        } else if (priceNum1) {
+          base_price = priceNum1;
+          base_price_text = `월 ${priceNum1.toLocaleString()}원`;
+        } else if (priceNum2) {
+          base_price = priceNum2;
+          base_price_text = `월 ${priceNum2.toLocaleString()}원`;
+        }
+
+        const dataLines = allLines.filter(l => l.startsWith('데이터'));
+        const { raw: data_allowance_raw, normalized: data_allowance_normalized } = extractData(dataLines);
+        const voice_allowance = extractVoice(allLines);
+        const sms_allowance = extractSMS(allLines);
+        const { qos_speed, qos_raw } = extractQoS([...detailTexts, qosDescLine, data_allowance_raw]);
+        const network_type = extractNetwork(planName, detailTexts);
+
+        allPlans.push({
+          plan_name: planName?.trim() || slug,
+          plan_code: slug,
+          data_allowance_raw,
+          data_allowance_normalized,
+          qos_raw,
+          qos_speed,
+          voice_allowance,
+          sms_allowance,
+          base_price_text,
+          base_price,
+          benefit_price_text,
+          benefit_price,
+          plan_type: ['유심'],
+          partnership_flag: false,
+          network_type,
+          product_group: '전체',
+          source_url: SOURCE_URL,
+          collected_at: collectedAt,
+          _operator: 'skylife',
+        });
+
+        log(`    ✓ [스카이라이프] ${planName} | ${data_allowance_normalized} | QoS:${qos_speed} | ${base_price}원`);
+      } catch (err) {
+        log(`    ✗ [스카이라이프] ${slug} 실패: ${err.message.substring(0, 80)}`);
       }
-
-      // 데이터/음성/문자
-      const dataLines = allLines.filter(l => l.startsWith('데이터'));
-      const { raw: data_allowance_raw, normalized: data_allowance_normalized } = extractData(dataLines);
-      const voice_allowance = extractVoice(allLines);
-      const sms_allowance = extractSMS(allLines);
-
-      // QoS: detail 텍스트 우선, 그 다음 설명 라인
-      const { qos_speed, qos_raw } = extractQoS([...detailTexts, qosDescLine, data_allowance_raw]);
-
-      const network_type = extractNetwork(planName, detailTexts);
-
-      allPlans.push({
-        plan_name: planName?.trim() || slug,
-        plan_code: slug,
-        data_allowance_raw,
-        data_allowance_normalized,
-        qos_raw,
-        qos_speed,
-        voice_allowance,
-        sms_allowance,
-        base_price_text,
-        base_price,
-        benefit_price_text,
-        benefit_price,
-        plan_type: ['유심'],
-        partnership_flag: false,
-        network_type,
-        product_group: '전체',
-        source_url: SOURCE_URL,
-        collected_at: collectedAt,
-        _operator: 'skylife',
-      });
-
-      log(`    ✓ [스카이라이프] ${planName} | ${data_allowance_normalized} | QoS:${qos_speed} | ${base_price}원`);
-    } catch (err) {
-      log(`    ✗ [스카이라이프] ${slug} 실패: ${err.message.substring(0, 80)}`);
     }
-  }
+  }));
 
+  await Promise.all(workerPages.map(p => p.close()));
   await browser.close();
   log(`  [스카이라이프] 최종 ${allPlans.length}건`);
   return allPlans;

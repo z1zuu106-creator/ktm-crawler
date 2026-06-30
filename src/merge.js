@@ -4,6 +4,8 @@
  * KT M모바일 + 헬로모바일 + 유모바일 + 스카이라이프 + 우리WON모바일 + 리브엠모바일 + SK세븐모바일
  */
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 const fs = require('fs');
 const path = require('path');
 const { format } = require('@fast-csv/format');
@@ -18,6 +20,16 @@ const { crawl: crawlSK7 } = require('./crawlers/sk7mobile');
 
 const OUTPUT_DIR = path.join(__dirname, '../output');
 const LOG_DIR = path.join(__dirname, '../logs');
+
+/** 이전 통합 파일에서 특정 사업자 데이터 반환 (폴백용) */
+function loadPreviousData(operatorLabel) {
+  const fp = path.join(OUTPUT_DIR, 'all_operators_plans.json');
+  if (!fs.existsSync(fp)) return [];
+  try {
+    const all = JSON.parse(fs.readFileSync(fp, 'utf8'));
+    return all.filter(p => p.operator === operatorLabel);
+  } catch { return []; }
+}
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
@@ -64,92 +76,50 @@ async function saveCSV(plans, filename) {
   });
 }
 
+async function runOne(key, label, crawlFn) {
+  log(`[병렬] ${label} 수집 시작`);
+  let plans = [];
+  try {
+    plans = await crawlFn(log);
+    log(`[병렬] ${label} 완료: ${plans.length}건`);
+  } catch (e) {
+    log(`[병렬] ${label} 실패: ${e.message}`);
+  }
+  if (plans.length === 0) {
+    const fb = loadPreviousData(label);
+    if (fb.length > 0) { log(`  → ${label} 이전 이력 폴백: ${fb.length}건`); plans = fb; }
+  }
+  return { key, plans };
+}
+
 async function main() {
   const startTime = Date.now();
-  log('=== 7개 사업자 요금제 통합 크롤링 시작 ===');
+  log('=== 7개 사업자 요금제 통합 크롤링 시작 (병렬) ===');
+
+  // 7개 사업자 동시 실행
+  const crawlTasks = [
+    { key: 'ktm',       label: 'KT M모바일',   crawlFn: crawlKTM },
+    { key: 'lghello',   label: '헬로모바일',    crawlFn: crawlLGHello },
+    { key: 'uplus',     label: '유모바일',      crawlFn: crawlUPlus },
+    { key: 'skylife',   label: '스카이라이프',  crawlFn: crawlSkylife },
+    { key: 'wooriwon',  label: '우리WON모바일', crawlFn: crawlWooriwon },
+    { key: 'liivm',     label: '리브엠모바일',  crawlFn: crawlLiivm },
+    { key: 'sk7mobile', label: 'SK세븐모바일',  crawlFn: crawlSK7 },
+  ];
+
+  const settled = await Promise.allSettled(
+    crawlTasks.map(({ key, label, crawlFn }) => runOne(key, label, crawlFn))
+  );
 
   const results = {};
-
-  // 1. KT M모바일 (API 기반, 빠름)
-  log('\n[1/6] KT M모바일 수집 시작');
-  try {
-    results.ktm = await crawlKTM();
-    log(`[1/6] KT M모바일 완료: ${results.ktm.length}건`);
-  } catch (e) {
-    log(`[1/6] KT M모바일 실패: ${e.message}`);
-    results.ktm = [];
+  for (const r of settled) {
+    if (r.status === 'fulfilled') {
+      results[r.value.key] = r.value.plans;
+    }
   }
-
-  await sleep(500);
-
-  // 2. 헬로모바일 (API 기반, 빠름)
-  log('\n[2/6] 헬로모바일 수집 시작');
-  try {
-    results.lghello = await crawlLGHello(log);
-    log(`[2/6] 헬로모바일 완료: ${results.lghello.length}건`);
-  } catch (e) {
-    log(`[2/6] 헬로모바일 실패: ${e.message}`);
-    results.lghello = [];
-  }
-
-  await sleep(500);
-
-  // 3. 유모바일 (Playwright, 보통 속도)
-  log('\n[3/6] 유모바일 수집 시작');
-  try {
-    results.uplus = await crawlUPlus(log);
-    log(`[3/6] 유모바일 완료: ${results.uplus.length}건`);
-  } catch (e) {
-    log(`[3/6] 유모바일 실패: ${e.message}`);
-    results.uplus = [];
-  }
-
-  await sleep(500);
-
-  // 4. 스카이라이프 (Playwright, 개별 페이지 순회)
-  log('\n[4/6] 스카이라이프 수집 시작');
-  try {
-    results.skylife = await crawlSkylife(log);
-    log(`[4/6] 스카이라이프 완료: ${results.skylife.length}건`);
-  } catch (e) {
-    log(`[4/6] 스카이라이프 실패: ${e.message}`);
-    results.skylife = [];
-  }
-
-  await sleep(500);
-
-  // 5. 우리WON모바일 (Playwright)
-  log('\n[5/6] 우리WON모바일 수집 시작');
-  try {
-    results.wooriwon = await crawlWooriwon(log);
-    log(`[5/6] 우리WON모바일 완료: ${results.wooriwon.length}건`);
-  } catch (e) {
-    log(`[5/6] 우리WON모바일 실패: ${e.message}`);
-    results.wooriwon = [];
-  }
-
-  await sleep(500);
-
-  // 6. 리브엠모바일 (Playwright)
-  log('\n[6/7] 리브엠모바일 수집 시작');
-  try {
-    results.liivm = await crawlLiivm(log);
-    log(`[6/7] 리브엠모바일 완료: ${results.liivm.length}건`);
-  } catch (e) {
-    log(`[6/7] 리브엠모바일 실패: ${e.message}`);
-    results.liivm = [];
-  }
-
-  await sleep(500);
-
-  // 7. SK세븐모바일 (Playwright)
-  log('\n[7/7] SK세븐모바일 수집 시작');
-  try {
-    results.sk7mobile = await crawlSK7(log);
-    log(`[7/7] SK세븐모바일 완료: ${results.sk7mobile.length}건`);
-  } catch (e) {
-    log(`[7/7] SK세븐모바일 실패: ${e.message}`);
-    results.sk7mobile = [];
+  // 누락된 key 보호
+  for (const { key } of crawlTasks) {
+    if (!results[key]) results[key] = [];
   }
 
   // 통합

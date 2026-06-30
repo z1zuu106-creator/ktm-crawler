@@ -24,8 +24,24 @@ jobs:
       - name: 의존성 설치
         run: npm ci
 
+      - name: Playwright 버전 확인
+        id: pw-version
+        run: echo "version=$(npx playwright --version | awk '{print $2}')" >> $GITHUB_OUTPUT
+
+      - name: Playwright 브라우저 캐시 복원
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ steps.pw-version.outputs.version }}
+
       - name: Playwright 브라우저 설치
+        if: steps.pw-cache.outputs.cache-hit != 'true'
         run: npx playwright install --with-deps chromium
+
+      - name: Playwright 시스템 의존성만 설치 (캐시 히트 시)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: npx playwright install-deps chromium
 
       - name: 크롤링 + 리포트 생성
         run: npm run daily

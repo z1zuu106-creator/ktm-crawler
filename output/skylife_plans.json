@@ -1,27 +1,5 @@
 [
   {
-    "plan_name": "5G 모두 충분 200GB+",
-    "plan_code": "pl234d620",
-    "data_allowance_raw": "데이터 200 GB",
-    "data_allowance_normalized": "200GB",
-    "qos_raw": "5G • 200GB+최대10Mbps\n데이터 기본 200GB를 다 쓰면 최대 10Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "10Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 51,700원",
-    "base_price": 51700,
-    "benefit_price_text": "혜택가 월 49,200원",
-    "benefit_price": 49200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
     "plan_name": "5G 모두 충분 200GB+(밀리의서재)",
     "plan_code": "pl238p556",
     "data_allowance_raw": "데이터 200 GB",
@@ -41,51 +19,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "5G 모두 충분 110GB+",
-    "plan_code": "pl231k975",
-    "data_allowance_raw": "데이터 110 GB",
-    "data_allowance_normalized": "110GB",
-    "qos_raw": "5G • 110GB+최대5Mbps\n데이터 기본 110GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 49,500원",
-    "base_price": 49500,
-    "benefit_price_text": "혜택가 월 42,900원",
-    "benefit_price": 42900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "5G 모두 충분 110GB+(밀리의서재)",
-    "plan_code": "pl238p560",
-    "data_allowance_raw": "데이터 110 GB",
-    "data_allowance_normalized": "110GB",
-    "qos_raw": "5G • 110GB+최대5Mbps\n데이터 기본 110GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 49,500원",
-    "base_price": 49500,
-    "benefit_price_text": "혜택가 월 42,900원",
-    "benefit_price": 42900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(지니뮤직)",
@@ -107,7 +41,73 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 모두 충분 200GB+",
+    "plan_code": "pl234d620",
+    "data_allowance_raw": "데이터 200 GB",
+    "data_allowance_normalized": "200GB",
+    "qos_raw": "5G • 200GB+최대10Mbps\n데이터 기본 200GB를 다 쓰면 최대 10Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "10Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 51,700원",
+    "base_price": 51700,
+    "benefit_price_text": "혜택가 월 49,200원",
+    "benefit_price": 49200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 모두 충분 110GB+",
+    "plan_code": "pl231k975",
+    "data_allowance_raw": "데이터 110 GB",
+    "data_allowance_normalized": "110GB",
+    "qos_raw": "5G • 110GB+최대5Mbps\n데이터 기본 110GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 49,500원",
+    "base_price": 49500,
+    "benefit_price_text": "혜택가 월 42,900원",
+    "benefit_price": 42900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 모두 충분 110GB+(밀리의서재)",
+    "plan_code": "pl238p560",
+    "data_allowance_raw": "데이터 110 GB",
+    "data_allowance_normalized": "110GB",
+    "qos_raw": "5G • 110GB+최대5Mbps\n데이터 기본 110GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "5Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 49,500원",
+    "base_price": 49500,
+    "benefit_price_text": "혜택가 월 42,900원",
+    "benefit_price": 42900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(Pay_5000)",
@@ -129,7 +129,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(웨이브)",
@@ -151,7 +151,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(올리브영_5000)",
@@ -173,7 +173,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(다이소_5000)",
@@ -195,7 +195,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 일5GB+(왓챠)",
@@ -217,7 +217,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 모두 충분 90GB+(밀리의서재)",
@@ -239,7 +239,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 모두 충분 90GB+",
@@ -261,29 +261,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "5G 모두 충분 70GB+(밀리의서재)",
-    "plan_code": "pl238p568",
-    "data_allowance_raw": "데이터 70 GB",
-    "data_allowance_normalized": "70GB",
-    "qos_raw": "5G • 70GB+최대1Mbps\n데이터 기본 70GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 48,400원",
-    "base_price": 48400,
-    "benefit_price_text": "혜택가 월 39,100원",
-    "benefit_price": 39100,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 모두 충분 70GB+",
@@ -305,29 +283,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 100GB+(밀리의서재)",
-    "plan_code": "pl235q977",
-    "data_allowance_raw": "데이터 100 GB",
-    "data_allowance_normalized": "100GB",
-    "qos_raw": "LTE • 100GB+최대5Mbps\n데이터 기본 100GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "5Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 44,000원",
-    "base_price": 44000,
-    "benefit_price_text": "혜택가 월 38,300원",
-    "benefit_price": 38300,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 100GB+(CU)",
@@ -349,21 +305,43 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 100GB+(모아진)",
-    "plan_code": "pl2574888",
+    "plan_name": "5G 모두 충분 70GB+(밀리의서재)",
+    "plan_code": "pl238p568",
+    "data_allowance_raw": "데이터 70 GB",
+    "data_allowance_normalized": "70GB",
+    "qos_raw": "5G • 70GB+최대1Mbps\n데이터 기본 70GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 48,400원",
+    "base_price": 48400,
+    "benefit_price_text": "혜택가 월 39,100원",
+    "benefit_price": 39100,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 100GB+(밀리의서재)",
+    "plan_code": "pl235q977",
     "data_allowance_raw": "데이터 100 GB",
     "data_allowance_normalized": "100GB",
-    "qos_raw": "LTE · 100GB+최대 5Mbps\n데이터 기본 100GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용이 가능해요",
+    "qos_raw": "LTE • 100GB+최대5Mbps\n데이터 기본 100GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "5Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
     "base_price_text": "월 44,000원",
     "base_price": 44000,
-    "benefit_price_text": "혜택가 월 38,200원",
-    "benefit_price": 38200,
+    "benefit_price_text": "혜택가 월 38,300원",
+    "benefit_price": 38300,
     "plan_type": [
       "유심"
     ],
@@ -371,7 +349,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 모두 충분 50GB+",
@@ -393,21 +371,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 11GB+(웨이브)",
-    "plan_code": "pl239f703",
-    "data_allowance_raw": "데이터 11 GB",
-    "data_allowance_normalized": "11GB",
-    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "3Mbps",
+    "plan_name": "모두 충분 100GB+(모아진)",
+    "plan_code": "pl2574888",
+    "data_allowance_raw": "데이터 100 GB",
+    "data_allowance_normalized": "100GB",
+    "qos_raw": "LTE · 100GB+최대 5Mbps\n데이터 기본 100GB를 다 쓰면 최대 5Mbps 속도로 무제한 이용이 가능해요",
+    "qos_speed": "5Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 40,700원",
-    "base_price": 40700,
-    "benefit_price_text": "혜택가 월 36,600원",
-    "benefit_price": 36600,
+    "base_price_text": "월 44,000원",
+    "base_price": 44000,
+    "benefit_price_text": "혜택가 월 38,200원",
+    "benefit_price": 38200,
     "plan_type": [
       "유심"
     ],
@@ -415,7 +393,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(요기요)",
@@ -437,7 +415,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(배달의민족)",
@@ -459,11 +437,11 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 11GB+(멜론뮤직)",
-    "plan_code": "pl24ai858",
+    "plan_name": "모두 충분 11GB+(웨이브)",
+    "plan_code": "pl239f703",
     "data_allowance_raw": "데이터 11 GB",
     "data_allowance_normalized": "11GB",
     "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
@@ -472,8 +450,8 @@
     "sms_allowance": "기본제공",
     "base_price_text": "월 40,700원",
     "base_price": 40700,
-    "benefit_price_text": "혜택가 월 36,300원",
-    "benefit_price": 36300,
+    "benefit_price_text": "혜택가 월 36,600원",
+    "benefit_price": 36600,
     "plan_type": [
       "유심"
     ],
@@ -481,7 +459,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(올리브영_5000)",
@@ -503,19 +481,19 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 11GB+(다이소_5000)",
-    "plan_code": "pl254t546",
+    "plan_name": "모두 충분 11GB+(멜론뮤직)",
+    "plan_code": "pl24ai858",
     "data_allowance_raw": "데이터 11 GB",
     "data_allowance_normalized": "11GB",
     "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "3Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 44,000원",
-    "base_price": 44000,
+    "base_price_text": "월 40,700원",
+    "base_price": 40700,
     "benefit_price_text": "혜택가 월 36,300원",
     "benefit_price": 36300,
     "plan_type": [
@@ -525,29 +503,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 11.0GB+(기프티쇼)",
-    "plan_code": "pl227r375",
-    "data_allowance_raw": "데이터 11 GB",
-    "data_allowance_normalized": "11GB",
-    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 40,700원",
-    "base_price": 40700,
-    "benefit_price_text": "혜택가 월 36,000원",
-    "benefit_price": 36000,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(왓챠)",
@@ -569,21 +525,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 11.0GB+(지니뮤직)",
-    "plan_code": "pl222n229",
+    "plan_name": "모두 충분 11.0GB+(기프티쇼)",
+    "plan_code": "pl227r375",
     "data_allowance_raw": "데이터 11 GB",
     "data_allowance_normalized": "11GB",
     "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "3Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 36,300원",
-    "base_price": 36300,
-    "benefit_price_text": "혜택가 월 35,800원",
-    "benefit_price": 35800,
+    "base_price_text": "월 40,700원",
+    "base_price": 40700,
+    "benefit_price_text": "혜택가 월 36,000원",
+    "benefit_price": 36000,
     "plan_type": [
       "유심"
     ],
@@ -591,7 +547,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 11GB+(다이소_5000)",
+    "plan_code": "pl254t546",
+    "data_allowance_raw": "데이터 11 GB",
+    "data_allowance_normalized": "11GB",
+    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 44,000원",
+    "base_price": 44000,
+    "benefit_price_text": "혜택가 월 36,300원",
+    "benefit_price": 36300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(Pay_5000)",
@@ -613,7 +591,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 11.0GB+(지니뮤직)",
+    "plan_code": "pl222n229",
+    "data_allowance_raw": "데이터 11 GB",
+    "data_allowance_normalized": "11GB",
+    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 36,300원",
+    "base_price": 36300,
+    "benefit_price_text": "혜택가 월 35,800원",
+    "benefit_price": 35800,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(밀리의서재)",
@@ -635,29 +635,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 11GB+(후후안심)",
-    "plan_code": "pl246o442",
-    "data_allowance_raw": "데이터 11 GB",
-    "data_allowance_normalized": "11GB",
-    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 38,500원",
-    "base_price": 38500,
-    "benefit_price_text": "혜택가 월 33,000원",
-    "benefit_price": 33000,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(CU)",
@@ -679,7 +657,51 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 11GB+(후후안심)",
+    "plan_code": "pl246o442",
+    "data_allowance_raw": "데이터 11 GB",
+    "data_allowance_normalized": "11GB",
+    "qos_raw": "LTE • 11GB+일2GB+최대3Mbps\n데이터 기본 11GB를 다 쓰면 하루 2GB씩 추가 사용이 가능하며 2GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 38,500원",
+    "base_price": 38500,
+    "benefit_price_text": "혜택가 월 33,000원",
+    "benefit_price": 33000,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 통화 충분 30GB",
+    "plan_code": "pl231k974",
+    "data_allowance_raw": "데이터 30 GB",
+    "data_allowance_normalized": "30GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 35,200원",
+    "base_price": 35200,
+    "benefit_price_text": "혜택가 월 29,900원",
+    "benefit_price": 29900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 11GB+(모아진)",
@@ -701,7 +723,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 모두 충분 14GB+",
@@ -723,51 +745,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "5G 통화 충분 30GB",
-    "plan_code": "pl231k974",
-    "data_allowance_raw": "데이터 30 GB",
-    "data_allowance_normalized": "30GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "량이 많다면? 통화는 무제한~데이터는 필요한 만큼!",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 35,200원",
-    "base_price": 35200,
-    "benefit_price_text": "혜택가 월 29,900원",
-    "benefit_price": 29900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "데이터 충분 15GB+/100분(웨이브)",
-    "plan_code": "pl2595320",
-    "data_allowance_raw": "데이터 충분 15GB+/100분(웨이브)",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE • 15GB+최대3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "집/이동전화 100분",
-    "sms_allowance": "100건",
-    "base_price_text": "월 37,400원",
-    "base_price": 37400,
-    "benefit_price_text": "혜택가 월 29,300원",
-    "benefit_price": 29300,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 15GB+/100분(지니뮤직)",
@@ -789,7 +767,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 15GB+/100분(Pay_5000)",
@@ -811,7 +789,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "데이터 충분 15GB+/100분(웨이브)",
+    "plan_code": "pl2595320",
+    "data_allowance_raw": "데이터 충분 15GB+/100분(웨이브)",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE • 15GB+최대3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 100분",
+    "sms_allowance": "100건",
+    "base_price_text": "월 37,400원",
+    "base_price": 37400,
+    "benefit_price_text": "혜택가 월 29,300원",
+    "benefit_price": 29300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 15GB+/300분(CU)",
@@ -833,7 +833,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 15GB+/300분",
@@ -855,7 +855,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 통화 충분 20GB",
@@ -864,7 +864,7 @@
     "data_allowance_normalized": "20GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "량이 많다면? 통화는 무제한~데이터는 필요한 만큼!",
+    "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
     "base_price_text": "월 26,900원",
     "base_price": 26900,
@@ -877,51 +877,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "데이터 충분 15GB+/100분(CU)",
-    "plan_code": "pl244n958",
-    "data_allowance_raw": "데이터 충분 15GB+/100분(CU)",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE • 15GB+최대3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "집/이동전화 100분",
-    "sms_allowance": "100건",
-    "base_price_text": "월 33,000원",
-    "base_price": 33000,
-    "benefit_price_text": "혜택가 월 25,300원",
-    "benefit_price": 25300,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "데이터 충분 15GB+/100분(모아진)",
-    "plan_code": "pl257f930",
-    "data_allowance_raw": "데이터 충분 15GB+/100분(모아진)",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE · 15GB+최대 3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용이 가능해요",
-    "qos_speed": "3Mbps",
-    "voice_allowance": "집/이동전화 100분",
-    "sms_allowance": "100건",
-    "base_price_text": "월 33,000원",
-    "base_price": 33000,
-    "benefit_price_text": "혜택가 월 25,300원",
-    "benefit_price": 25300,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 15GB+/100분",
@@ -943,7 +899,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "데이터 충분 15GB+/100분(CU)",
+    "plan_code": "pl244n958",
+    "data_allowance_raw": "데이터 충분 15GB+/100분(CU)",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE • 15GB+최대3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 100분",
+    "sms_allowance": "100건",
+    "base_price_text": "월 33,000원",
+    "base_price": 33000,
+    "benefit_price_text": "혜택가 월 25,300원",
+    "benefit_price": 25300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 15GB+(지니뮤직)",
@@ -965,7 +943,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "데이터 충분 15GB+/100분(모아진)",
+    "plan_code": "pl257f930",
+    "data_allowance_raw": "데이터 충분 15GB+/100분(모아진)",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE · 15GB+최대 3Mbps\n데이터 기본 15GB를 다 쓰면 최대 3Mbps 속도로 무제한 이용이 가능해요",
+    "qos_speed": "3Mbps",
+    "voice_allowance": "집/이동전화 100분",
+    "sms_allowance": "100건",
+    "base_price_text": "월 33,000원",
+    "base_price": 33000,
+    "benefit_price_text": "혜택가 월 25,300원",
+    "benefit_price": 25300,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 15GB+(올리브영_5000)",
@@ -987,29 +987,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 15GB+(다이소_5000)",
-    "plan_code": "pl2544315",
-    "data_allowance_raw": "데이터 15 GB",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 33,000원",
-    "base_price": 33000,
-    "benefit_price_text": "혜택가 월 23,700원",
-    "benefit_price": 23700,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 15GB+(Pay_5000)",
@@ -1031,7 +1009,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 15GB+(다이소_5000)",
+    "plan_code": "pl2544315",
+    "data_allowance_raw": "데이터 15 GB",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 33,000원",
+    "base_price": 33000,
+    "benefit_price_text": "혜택가 월 23,700원",
+    "benefit_price": 23700,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 15GB+(CU)",
@@ -1053,7 +1053,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+(지니뮤직)",
@@ -1075,73 +1075,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 15GB+(밀리의서재)",
-    "plan_code": "pl236m151",
-    "data_allowance_raw": "데이터 15 GB",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 38,500원",
-    "base_price": 38500,
-    "benefit_price_text": "혜택가 월 21,500원",
-    "benefit_price": 21500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 15GB+(모아진)",
-    "plan_code": "pl2574885",
-    "data_allowance_raw": "데이터 15 GB",
-    "data_allowance_normalized": "15GB",
-    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 38,500원",
-    "base_price": 38500,
-    "benefit_price_text": "혜택가 월 21,400원",
-    "benefit_price": 21400,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 10GB+(올리브영_5000)",
-    "plan_code": "pl2544317",
-    "data_allowance_raw": "데이터 10 GB",
-    "data_allowance_normalized": "10GB",
-    "qos_raw": "LTE • 10GB+최대1Mbps\n데이터 기본 10GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 27,500원",
-    "base_price": 27500,
-    "benefit_price_text": "혜택가 월 21,200원",
-    "benefit_price": 21200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+(다이소_5000)",
@@ -1163,7 +1097,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+(Pay_5000)",
@@ -1185,21 +1119,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 15GB+(후후안심)",
-    "plan_code": "pl246o443",
+    "plan_name": "모두 충분 15GB+(밀리의서재)",
+    "plan_code": "pl236m151",
     "data_allowance_raw": "데이터 15 GB",
     "data_allowance_normalized": "15GB",
     "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "1Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 28,600원",
-    "base_price": 28600,
-    "benefit_price_text": "혜택가 월 20,900원",
-    "benefit_price": 20900,
+    "base_price_text": "월 38,500원",
+    "base_price": 38500,
+    "benefit_price_text": "혜택가 월 21,500원",
+    "benefit_price": 21500,
     "plan_type": [
       "유심"
     ],
@@ -1207,43 +1141,21 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "통화 충분 20GB",
-    "plan_code": "pl229s136",
-    "data_allowance_raw": "데이터 20 GB",
-    "data_allowance_normalized": "20GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "충분 20GB",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 24,000원",
-    "base_price": 24000,
-    "benefit_price_text": "혜택가 월 20,100원",
-    "benefit_price": 20100,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 10GB+(CU)",
-    "plan_code": "pl247u570",
+    "plan_name": "모두 충분 10GB+(올리브영_5000)",
+    "plan_code": "pl2544317",
     "data_allowance_raw": "데이터 10 GB",
     "data_allowance_normalized": "10GB",
     "qos_raw": "LTE • 10GB+최대1Mbps\n데이터 기본 10GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "1Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 29,700원",
-    "base_price": 29700,
-    "benefit_price_text": "혜택가 월 19,400원",
-    "benefit_price": 19400,
+    "base_price_text": "월 27,500원",
+    "base_price": 27500,
+    "benefit_price_text": "혜택가 월 21,200원",
+    "benefit_price": 21200,
     "plan_type": [
       "유심"
     ],
@@ -1251,29 +1163,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 7GB+(지니뮤직)",
-    "plan_code": "pl223s412",
-    "data_allowance_raw": "데이터 7 GB",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "plan_name": "모두 충분 15GB+(모아진)",
+    "plan_code": "pl2574885",
+    "data_allowance_raw": "데이터 15 GB",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
     "qos_speed": "1Mbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 24,900원",
-    "base_price": 24900,
-    "benefit_price_text": "혜택가 월 19,000원",
-    "benefit_price": 19000,
+    "base_price_text": "월 38,500원",
+    "base_price": 38500,
+    "benefit_price_text": "혜택가 월 21,400원",
+    "benefit_price": 21400,
     "plan_type": [
       "유심"
     ],
     "partnership_flag": false,
-    "network_type": "LTE",
+    "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+(밀리의서재)",
@@ -1295,7 +1207,117 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 7GB+(지니뮤직)",
+    "plan_code": "pl223s412",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 24,900원",
+    "base_price": 24900,
+    "benefit_price_text": "혜택가 월 19,000원",
+    "benefit_price": 19000,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 10GB+(CU)",
+    "plan_code": "pl247u570",
+    "data_allowance_raw": "데이터 10 GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": "LTE • 10GB+최대1Mbps\n데이터 기본 10GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 29,700원",
+    "base_price": 29700,
+    "benefit_price_text": "혜택가 월 19,400원",
+    "benefit_price": 19400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 15GB+(후후안심)",
+    "plan_code": "pl246o443",
+    "data_allowance_raw": "데이터 15 GB",
+    "data_allowance_normalized": "15GB",
+    "qos_raw": "LTE • 15GB+최대1Mbps\n데이터 기본 15GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 28,600원",
+    "base_price": 28600,
+    "benefit_price_text": "혜택가 월 20,900원",
+    "benefit_price": 20900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "통화 충분 20GB",
+    "plan_code": "pl229s136",
+    "data_allowance_raw": "데이터 20 GB",
+    "data_allowance_normalized": "20GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "충분 20GB",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 24,000원",
+    "base_price": 24000,
+    "benefit_price_text": "혜택가 월 20,100원",
+    "benefit_price": 20100,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 슬림 20GB/200분",
+    "plan_code": "pl2639484",
+    "data_allowance_raw": "데이터 20 GB",
+    "data_allowance_normalized": "20GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "집/이동전화 200분",
+    "sms_allowance": "100건",
+    "base_price_text": "월 26,900원",
+    "base_price": 26900,
+    "benefit_price_text": "혜택가 월 18,900원",
+    "benefit_price": 18900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+(모아진)",
@@ -1317,51 +1339,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 7GB+(올리브영_5000)",
-    "plan_code": "pl2544316",
-    "data_allowance_raw": "데이터 7 GB",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 22,000원",
-    "base_price": 22000,
-    "benefit_price_text": "혜택가 월 18,500원",
-    "benefit_price": 18500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 7GB+(Pay_5000)",
-    "plan_code": "pl238p572",
-    "data_allowance_raw": "데이터 7 GB",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 24,900원",
-    "base_price": 24900,
-    "benefit_price_text": "혜택가 월 18,500원",
-    "benefit_price": 18500,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 7GB+(다이소_5000)",
@@ -1383,7 +1361,51 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 7GB+(Pay_5000)",
+    "plan_code": "pl238p572",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 24,900원",
+    "base_price": 24900,
+    "benefit_price_text": "혜택가 월 18,500원",
+    "benefit_price": 18500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 7GB+(올리브영_5000)",
+    "plan_code": "pl2544316",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 22,000원",
+    "base_price": 22000,
+    "benefit_price_text": "혜택가 월 18,500원",
+    "benefit_price": 18500,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 10GB+",
@@ -1405,7 +1427,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 7GB+(Pay_3000)",
@@ -1427,7 +1449,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "통화 충분 15GB",
@@ -1449,7 +1471,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 7GB+(CU)",
+    "plan_code": "pl2639485",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 22,000원",
+    "base_price": 22000,
+    "benefit_price_text": "혜택가 월 16,700원",
+    "benefit_price": 16700,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 7GB+(밀리의서재)",
@@ -1471,7 +1515,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 7GB+(후후안심)",
@@ -1493,51 +1537,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "스쿨 7GB+(밀리의 서재)",
-    "plan_code": "pl237i261",
-    "data_allowance_raw": "데이터 7 GB",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 19,800원",
-    "base_price": 19800,
-    "benefit_price_text": "혜택가 월 16,200원",
-    "benefit_price": 16200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 7GB+(모아진)",
-    "plan_code": "pl259C345",
-    "data_allowance_raw": "데이터 7 GB",
-    "data_allowance_normalized": "7GB",
-    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 22,000원",
-    "base_price": 22000,
-    "benefit_price_text": "혜택가 월 16,200원",
-    "benefit_price": 16200,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 6GB+",
@@ -1559,7 +1559,51 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 7GB+(모아진)",
+    "plan_code": "pl259C345",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 22,000원",
+    "base_price": 22000,
+    "benefit_price_text": "혜택가 월 16,200원",
+    "benefit_price": 16200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "스쿨 7GB+(밀리의 서재)",
+    "plan_code": "pl237i261",
+    "data_allowance_raw": "데이터 7 GB",
+    "data_allowance_normalized": "7GB",
+    "qos_raw": "LTE • 7GB+최대1Mbps\n데이터 기본 7GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 19,800원",
+    "base_price": 19800,
+    "benefit_price_text": "혜택가 월 16,200원",
+    "benefit_price": 16200,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 통화 충분 10GB",
@@ -1568,7 +1612,7 @@
     "data_allowance_normalized": "10GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "량이 많다면? 통화는 무제한~ 데이터는 필요한 만큼!",
+    "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
     "base_price_text": "월 20,900원",
     "base_price": 20900,
@@ -1581,7 +1625,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "스쿨 8GB+",
@@ -1603,7 +1647,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 5GB+/100분",
@@ -1625,7 +1669,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "스마트 데이터 충분 20GB+",
@@ -1647,7 +1691,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "통화 충분 10GB",
@@ -1669,29 +1713,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "골드 8.0GB+",
-    "plan_code": "pl21cm686",
-    "data_allowance_raw": "데이터 8 GB",
-    "data_allowance_normalized": "8GB",
-    "qos_raw": "LTE •8GB+최대1Mbps\n데이터 기본 8GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 14,900원",
-    "base_price": 14900,
-    "benefit_price_text": "혜택가 월 13,900원",
-    "benefit_price": 13900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "모두 충분 4.5GB+",
@@ -1713,7 +1735,29 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "골드 8.0GB+",
+    "plan_code": "pl21cm686",
+    "data_allowance_raw": "데이터 8 GB",
+    "data_allowance_normalized": "8GB",
+    "qos_raw": "LTE •8GB+최대1Mbps\n데이터 기본 8GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 14,900원",
+    "base_price": 14900,
+    "benefit_price_text": "혜택가 월 13,900원",
+    "benefit_price": 13900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "SOS 스쿨 4GB+",
@@ -1735,7 +1779,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "SOS 안심 골드 4GB+",
@@ -1757,7 +1801,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "5G 통화 충분 6GB",
@@ -1766,7 +1810,7 @@
     "data_allowance_normalized": "6GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "량이 많다면? 통화는 무제한~ 데이터는 필요한 만큼!",
+    "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
     "base_price_text": "월 17,900원",
     "base_price": 17900,
@@ -1779,29 +1823,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "모두 충분 2.5GB+",
-    "plan_code": "pl208r108",
-    "data_allowance_raw": "데이터 2.5 GB",
-    "data_allowance_normalized": "2.5GB",
-    "qos_raw": "LTE • 2.5GB+최대400kbps\n데이터 기본 2.5GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "400kbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 49,500원",
-    "base_price": 49500,
-    "benefit_price_text": "혜택가 월 11,800원",
-    "benefit_price": 11800,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "데이터 충분 2.2GB+/100분",
@@ -1823,43 +1845,21 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "SOS 스쿨 2GB+",
-    "plan_code": "pl234d618",
-    "data_allowance_raw": "데이터 2 GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "plan_name": "모두 충분 2.5GB+",
+    "plan_code": "pl208r108",
+    "data_allowance_raw": "데이터 2.5 GB",
+    "data_allowance_normalized": "2.5GB",
+    "qos_raw": "LTE • 2.5GB+최대400kbps\n데이터 기본 2.5GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
     "qos_speed": "400kbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 15,400원",
-    "base_price": 15400,
-    "benefit_price_text": "혜택가 월 11,100원",
-    "benefit_price": 11100,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "통화 충분 6.5GB",
-    "plan_code": "pl22bs573",
-    "data_allowance_raw": "데이터 6.5 GB",
-    "data_allowance_normalized": "6.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "충분 6.5GB",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 11,900원",
-    "base_price": 11900,
-    "benefit_price_text": "혜택가 월 10,900원",
-    "benefit_price": 10900,
+    "base_price_text": "월 49,500원",
+    "base_price": 49500,
+    "benefit_price_text": "혜택가 월 11,800원",
+    "benefit_price": 11800,
     "plan_type": [
       "유심"
     ],
@@ -1867,7 +1867,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "스쿨 4GB+",
@@ -1889,19 +1889,41 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "5G 슬림 10GB/200분",
-    "plan_code": "pl261t206",
-    "data_allowance_raw": "데이터 10 GB",
-    "data_allowance_normalized": "10GB",
+    "plan_name": "SOS 스쿨 2GB+",
+    "plan_code": "pl234d618",
+    "data_allowance_raw": "데이터 2 GB",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "400kbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 15,400원",
+    "base_price": 15400,
+    "benefit_price_text": "혜택가 월 11,100원",
+    "benefit_price": 11100,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "통화 충분 6.5GB",
+    "plan_code": "pl22bs573",
+    "data_allowance_raw": "데이터 6.5 GB",
+    "data_allowance_normalized": "6.5GB",
     "qos_raw": null,
     "qos_speed": null,
-    "voice_allowance": "집/이동전화 200분",
-    "sms_allowance": "100건",
-    "base_price_text": "월 17,900원",
-    "base_price": 17900,
+    "voice_allowance": "충분 6.5GB",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 11,900원",
+    "base_price": 11900,
     "benefit_price_text": "혜택가 월 10,900원",
     "benefit_price": 10900,
     "plan_type": [
@@ -1911,7 +1933,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "스마트 데이터 충분 10GB+",
@@ -1933,7 +1955,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "5G 슬림 10GB/200분",
+    "plan_code": "pl261t206",
+    "data_allowance_raw": "데이터 10 GB",
+    "data_allowance_normalized": "10GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "집/이동전화 200분",
+    "sms_allowance": "100건",
+    "base_price_text": "월 17,900원",
+    "base_price": 17900,
+    "benefit_price_text": "혜택가 월 10,900원",
+    "benefit_price": 10900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "안심 골드 4GB+",
@@ -1955,95 +1999,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "골드 4.0GB+",
-    "plan_code": "pl21cm681",
-    "data_allowance_raw": "데이터 4 GB",
-    "data_allowance_normalized": "4GB",
-    "qos_raw": "LTE • 4GB+최대1Mbps\n데이터 기본 4GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "1Mbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 10,900원",
-    "base_price": 10900,
-    "benefit_price_text": "혜택가 월 9,900원",
-    "benefit_price": 9900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "SOS 안심 골드 2GB+",
-    "plan_code": "pl234d628",
-    "data_allowance_raw": "데이터 2 GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "400kbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 14,300원",
-    "base_price": 14300,
-    "benefit_price_text": "혜택가 월 9,600원",
-    "benefit_price": 9600,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "5G 통화 충분 3GB",
-    "plan_code": "pl261t208",
-    "data_allowance_raw": "데이터 3 GB",
-    "data_allowance_normalized": "3GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "량이 많다면? 통화는 무제한~ 데이터는 필요한 만큼!",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 14,900원",
-    "base_price": 14900,
-    "benefit_price_text": "혜택가 월 8,900원",
-    "benefit_price": 8900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "통화 충분 4.5GB",
-    "plan_code": "pl209o191",
-    "data_allowance_raw": "데이터 4.5 GB",
-    "data_allowance_normalized": "4.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "충분 4.5GB",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 42,900원",
-    "base_price": 42900,
-    "benefit_price_text": "혜택가 월 8,850원",
-    "benefit_price": 8850,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "통화 충분 2.5GB",
@@ -2065,21 +2021,43 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "안심 골드 2GB+",
-    "plan_code": "pl225k718",
-    "data_allowance_raw": "데이터 2 GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "400kbps",
+    "plan_name": "5G 통화 충분 3GB",
+    "plan_code": "pl261t208",
+    "data_allowance_raw": "데이터 3 GB",
+    "data_allowance_normalized": "3GB",
+    "qos_raw": null,
+    "qos_speed": null,
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 11,000원",
-    "base_price": 11000,
-    "benefit_price_text": "혜택가 월 7,400원",
-    "benefit_price": 7400,
+    "base_price_text": "월 14,900원",
+    "base_price": 14900,
+    "benefit_price_text": "혜택가 월 8,900원",
+    "benefit_price": 8900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "골드 4.0GB+",
+    "plan_code": "pl21cm681",
+    "data_allowance_raw": "데이터 4 GB",
+    "data_allowance_normalized": "4GB",
+    "qos_raw": "LTE • 4GB+최대1Mbps\n데이터 기본 4GB를 다 쓰면 최대 1Mbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "1Mbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 10,900원",
+    "base_price": 10900,
+    "benefit_price_text": "혜택가 월 9,900원",
+    "benefit_price": 9900,
     "plan_type": [
       "유심"
     ],
@@ -2087,51 +2065,51 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "모두 충분 1.5GB+",
-    "plan_code": "pl22bs575",
-    "data_allowance_raw": "데이터 1.5 GB",
-    "data_allowance_normalized": "1.5GB",
-    "qos_raw": "LTE • 1.5GB+최대400kbps\n데이터 기본 1.5GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "plan_name": "통화 충분 4.5GB",
+    "plan_code": "pl209o191",
+    "data_allowance_raw": "데이터 4.5 GB",
+    "data_allowance_normalized": "4.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "충분 4.5GB",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 42,900원",
+    "base_price": 42900,
+    "benefit_price_text": "혜택가 월 8,850원",
+    "benefit_price": 8850,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "SOS 안심 골드 2GB+",
+    "plan_code": "pl234d628",
+    "data_allowance_raw": "데이터 2 GB",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
     "qos_speed": "400kbps",
     "voice_allowance": "집/이동전화 기본제공",
     "sms_allowance": "기본제공",
-    "base_price_text": "월 9,900원",
-    "base_price": 9900,
-    "benefit_price_text": "혜택가 월 6,900원",
-    "benefit_price": 6900,
+    "base_price_text": "월 14,300원",
+    "base_price": 14300,
+    "benefit_price_text": "혜택가 월 9,600원",
+    "benefit_price": 9600,
     "plan_type": [
       "유심"
     ],
     "partnership_flag": false,
-    "network_type": "5G",
+    "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "통화 충분 1.5GB",
-    "plan_code": "pl209o190",
-    "data_allowance_raw": "데이터 1.5 GB",
-    "data_allowance_normalized": "1.5GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "충분 1.5GB",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 35,200원",
-    "base_price": 35200,
-    "benefit_price_text": "혜택가 월 6,600원",
-    "benefit_price": 6600,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "5G",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "웨어러블 Watch",
@@ -2153,7 +2131,73 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "모두 충분 1.5GB+",
+    "plan_code": "pl22bs575",
+    "data_allowance_raw": "데이터 1.5 GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": "LTE • 1.5GB+최대400kbps\n데이터 기본 1.5GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "400kbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 9,900원",
+    "base_price": 9900,
+    "benefit_price_text": "혜택가 월 6,900원",
+    "benefit_price": 6900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "통화 충분 1.5GB",
+    "plan_code": "pl209o190",
+    "data_allowance_raw": "데이터 1.5 GB",
+    "data_allowance_normalized": "1.5GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "충분 1.5GB",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 35,200원",
+    "base_price": 35200,
+    "benefit_price_text": "혜택가 월 6,600원",
+    "benefit_price": 6600,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "5G",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "안심 골드 2GB+",
+    "plan_code": "pl225k718",
+    "data_allowance_raw": "데이터 2 GB",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "400kbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 11,000원",
+    "base_price": 11000,
+    "benefit_price_text": "혜택가 월 7,400원",
+    "benefit_price": 7400,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "스쿨 2GB+",
@@ -2175,29 +2219,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
-  },
-  {
-    "plan_name": "슬림 3GB/300분",
-    "plan_code": "pl227s455",
-    "data_allowance_raw": "데이터 3 GB",
-    "data_allowance_normalized": "3GB",
-    "qos_raw": null,
-    "qos_speed": null,
-    "voice_allowance": "집/이동전화 300분",
-    "sms_allowance": "300건",
-    "base_price_text": "월 13,200원",
-    "base_price": 13200,
-    "benefit_price_text": "혜택가 월 5,900원",
-    "benefit_price": 5900,
-    "plan_type": [
-      "유심"
-    ],
-    "partnership_flag": false,
-    "network_type": "LTE",
-    "product_group": "전체",
-    "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "골드 500MB+",
@@ -2219,19 +2241,19 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
-    "plan_name": "골드 2GB+",
-    "plan_code": "pl207r830",
-    "data_allowance_raw": "데이터 2 GB",
-    "data_allowance_normalized": "2GB",
-    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
-    "qos_speed": "400kbps",
-    "voice_allowance": "집/이동전화 기본제공",
-    "sms_allowance": "기본제공",
-    "base_price_text": "월 8,900원",
-    "base_price": 8900,
+    "plan_name": "슬림 3GB/300분",
+    "plan_code": "pl227s455",
+    "data_allowance_raw": "데이터 3 GB",
+    "data_allowance_normalized": "3GB",
+    "qos_raw": null,
+    "qos_speed": null,
+    "voice_allowance": "집/이동전화 300분",
+    "sms_allowance": "300건",
+    "base_price_text": "월 13,200원",
+    "base_price": 13200,
     "benefit_price_text": "혜택가 월 5,900원",
     "benefit_price": 5900,
     "plan_type": [
@@ -2241,7 +2263,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "슬림 2GB/200분",
@@ -2263,7 +2285,29 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
+  },
+  {
+    "plan_name": "골드 2GB+",
+    "plan_code": "pl207r830",
+    "data_allowance_raw": "데이터 2 GB",
+    "data_allowance_normalized": "2GB",
+    "qos_raw": "LTE • 2GB+최대400kbps\n데이터 기본 2GB를 다 쓰면 최대 400kbps 속도로 무제한 이용 가능해요",
+    "qos_speed": "400kbps",
+    "voice_allowance": "집/이동전화 기본제공",
+    "sms_allowance": "기본제공",
+    "base_price_text": "월 8,900원",
+    "base_price": 8900,
+    "benefit_price_text": "혜택가 월 5,900원",
+    "benefit_price": 5900,
+    "plan_type": [
+      "유심"
+    ],
+    "partnership_flag": false,
+    "network_type": "LTE",
+    "product_group": "전체",
+    "source_url": "https://www.skylife.co.kr/product/mobile/all",
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "슬림 1.5GB/150분",
@@ -2285,7 +2329,7 @@
     "network_type": "5G",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "복지전용 슬림 1GB/150분",
@@ -2307,7 +2351,7 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   },
   {
     "plan_name": "슬림 1GB/100분",
@@ -2329,6 +2373,6 @@
     "network_type": "LTE",
     "product_group": "전체",
     "source_url": "https://www.skylife.co.kr/product/mobile/all",
-    "collected_at": "2026-05-28T11:28:51.134Z"
+    "collected_at": "2026-06-30T03:11:10.280Z"
   }
 ]
