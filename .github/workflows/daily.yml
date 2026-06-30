@@ -10,6 +10,9 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.59.1-noble
+      options: --user root
 
     steps:
       - name: Checkout
@@ -23,12 +26,6 @@ jobs:
 
       - name: 의존성 설치
         run: npm ci
-
-      - name: Playwright 브라우저 설치
-        timeout-minutes: 15
-        run: npx playwright install --with-deps chromium
-        env:
-          DEBIAN_FRONTEND: noninteractive
 
       - name: 크롤링 + 리포트 생성
         timeout-minutes: 30
