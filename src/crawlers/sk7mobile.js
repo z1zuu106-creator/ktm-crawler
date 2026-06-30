@@ -60,6 +60,7 @@ async function fetchFromUrl(page, url) {
 async function crawl(log = console.log) {
   const browser = await chromium.launch({
     headless: true,
+    executablePath: process.env.CHROME_BIN || undefined,
     args: ['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
   });
   const context = await browser.newContext({
