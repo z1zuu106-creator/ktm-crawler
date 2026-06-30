@@ -37,7 +37,7 @@ jobs:
 
       - name: Playwright 브라우저 설치
         if: steps.pw-cache.outputs.cache-hit != 'true'
-        timeout-minutes: 5
+        timeout-minutes: 15
         run: npx playwright install chromium
 
       - name: 크롤링 + 리포트 생성
