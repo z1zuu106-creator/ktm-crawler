@@ -1,5 +1,6 @@
 [
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 10GB",
     "plan_code": "PD00000242",
     "data_allowance_raw": "10GB",
@@ -22,6 +23,7 @@
     "collected_at": "2026-06-30T03:10:45.375Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 20GB",
     "plan_code": "PD00000243",
     "data_allowance_raw": "20GB",
@@ -44,6 +46,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 25GB+",
     "plan_code": "PD00000244",
     "data_allowance_raw": "월25GB+일2GB+3Mbps",
@@ -66,6 +69,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "데이터쉐어링",
     "plan_code": "PD00000272",
     "data_allowance_raw": null,
@@ -88,6 +92,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 든든 1GB",
     "plan_code": "PD00000563",
     "data_allowance_raw": "1GB",
@@ -110,6 +115,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 든든 3GB",
     "plan_code": "PD00000565",
     "data_allowance_raw": "3GB",
@@ -132,6 +138,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 든든 5GB",
     "plan_code": "PD00000567",
     "data_allowance_raw": "5GB",
@@ -154,6 +161,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 든든무제한 5GB+",
     "plan_code": "PD00000573",
     "data_allowance_raw": "5GB+1Mbps",
@@ -176,6 +184,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든 2GB",
     "plan_code": "PD00000579",
     "data_allowance_raw": "2GB",
@@ -198,6 +207,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든 4GB",
     "plan_code": "PD00000581",
     "data_allowance_raw": "4GB",
@@ -220,6 +230,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든 6GB",
     "plan_code": "PD00000583",
     "data_allowance_raw": "6GB",
@@ -242,6 +253,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든 8GB",
     "plan_code": "PD00000585",
     "data_allowance_raw": "8GB",
@@ -264,6 +276,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든무제한 12GB+",
     "plan_code": "PD00000587",
     "data_allowance_raw": "12GB+1Mbps",
@@ -286,6 +299,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든무제한 150GB+",
     "plan_code": "PD00000589",
     "data_allowance_raw": "150GB+5Mbps",
@@ -308,6 +322,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든무제한 180GB+",
     "plan_code": "PD00000591",
     "data_allowance_raw": "180GB+10Mbps",
@@ -330,6 +345,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 워치",
     "plan_code": "PD00000613",
     "data_allowance_raw": "250MB",
@@ -352,6 +368,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 11GB+(KT망)",
     "plan_code": "PD00000703",
     "data_allowance_raw": "월11GB(10GB+1GB)+일2GB+3Mbps",
@@ -374,6 +391,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 데이터쉐어링(KT망)",
     "plan_code": "PD00000720",
     "data_allowance_raw": null,
@@ -396,6 +414,7 @@
     "collected_at": "2026-06-30T03:10:45.376Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "데이터같이쓰기 120분 (안심차단)(KT망)",
     "plan_code": "PD00000723",
     "data_allowance_raw": "0GB+2GB(결합시)",
@@ -418,6 +437,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "데이터같이쓰기 240분 (안심차단)(KT망)",
     "plan_code": "PD00000724",
     "data_allowance_raw": "0GB+2GB(결합시)",
@@ -440,6 +460,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 3GB+(200분)(SKT망)",
     "plan_code": "PD00000732",
     "data_allowance_raw": "3GB+1Mbps",
@@ -462,6 +483,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 5GB+(200분)(SKT망)",
     "plan_code": "PD00000733",
     "data_allowance_raw": "5GB+1Mbps",
@@ -484,6 +506,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 15GB+ (100분)(SKT망)",
     "plan_code": "PD00000734",
     "data_allowance_raw": "15GB+3Mbps",
@@ -506,6 +529,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 7GB+(SKT망)",
     "plan_code": "PD00000735",
     "data_allowance_raw": "7GB+1Mbps",
@@ -528,6 +552,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 11GB+(SKT망)",
     "plan_code": "PD00000736",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -550,6 +575,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 100GB+(SKT망)",
     "plan_code": "PD00000737",
     "data_allowance_raw": "100GB+5Mbps",
@@ -572,6 +598,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 15GB+(SKT망)",
     "plan_code": "PD00000738",
     "data_allowance_raw": "15GB+1Mbps",
@@ -594,6 +621,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 110GB+(SKT망)",
     "plan_code": "PD00000739",
     "data_allowance_raw": "110GB+5Mbps",
@@ -616,6 +644,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 200GB+(SKT망)",
     "plan_code": "PD00000740",
     "data_allowance_raw": "200GB+5Mbps",
@@ -638,6 +667,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 7GB+(지니뮤직)(KT망)",
     "plan_code": "PD00000908",
     "data_allowance_raw": "월7GB+1Mbps",
@@ -660,6 +690,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G무제한 14GB+(KT망)",
     "plan_code": "PD00000911",
     "data_allowance_raw": "월14GB+1Mbps",
@@ -682,6 +713,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G무제한 110GB+(KT망)",
     "plan_code": "PD00000912",
     "data_allowance_raw": "월110GB+5Mbps",
@@ -704,6 +736,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G무제한 200GB+(KT망)",
     "plan_code": "PD00000913",
     "data_allowance_raw": "월200GB+10Mbps",
@@ -726,6 +759,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 실속 1GB+(LGU+망)",
     "plan_code": "PD00000914",
     "data_allowance_raw": "월1GB+1Mbps",
@@ -748,6 +782,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 실속 2.5GB+(LGU+망)",
     "plan_code": "PD00000916",
     "data_allowance_raw": "월2.5GB+1Mbps",
@@ -770,6 +805,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 1GB (안심차단)(LGU+망)",
     "plan_code": "PD00000918",
     "data_allowance_raw": "월1GB",
@@ -792,6 +828,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 3GB (안심차단)(LGU+망)",
     "plan_code": "PD00000920",
     "data_allowance_raw": "월3GB",
@@ -814,6 +851,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 2GB(안심차단)(KT망)",
     "plan_code": "PD00000922",
     "data_allowance_raw": "월2GB",
@@ -836,6 +874,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "주니어 LTE 4GB(안심차단)(KT망)",
     "plan_code": "PD00000923",
     "data_allowance_raw": "월4GB",
@@ -858,6 +897,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "골든라이프 LTE 8GB+(LGU+망)",
     "plan_code": "PD00000927",
     "data_allowance_raw": "월8GB+1Mbps",
@@ -880,6 +920,7 @@
     "collected_at": "2026-06-30T03:10:45.377Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "골든라이프 LTE 2GB+(KT망)",
     "plan_code": "PD00000929",
     "data_allowance_raw": "월2GB+400Kbps",
@@ -902,6 +943,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "골든라이프 LTE 4GB+(KT망)",
     "plan_code": "PD00000930",
     "data_allowance_raw": "월4GB+400Kbps",
@@ -924,6 +966,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 7GB+(LGU+망)",
     "plan_code": "PD00000931",
     "data_allowance_raw": "7GB+1Mbps",
@@ -946,6 +989,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+ (LGU+망)",
     "plan_code": "PD00000933",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -968,6 +1012,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 150GB+(LGU+망)",
     "plan_code": "PD00000935",
     "data_allowance_raw": "매일 5GB+5Mbps",
@@ -990,6 +1035,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 10GB+(KT망)",
     "plan_code": "PD00000960",
     "data_allowance_raw": "월10GB+200Kbps",
@@ -1012,6 +1058,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 20GB+(KT망)",
     "plan_code": "PD00000961",
     "data_allowance_raw": "월20GB+200Kbps",
@@ -1034,6 +1081,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 5GB(SKT망)",
     "plan_code": "PD00000962",
     "data_allowance_raw": "월5GB",
@@ -1056,6 +1104,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "태블릿 LTE 10GB(SKT망)",
     "plan_code": "PD00000963",
     "data_allowance_raw": "월10GB",
@@ -1078,6 +1127,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "청년도약 LTE 71GB+ (LGU+망)",
     "plan_code": "PD00000969",
     "data_allowance_raw": "71GB+(월11GB+일2GB)",
@@ -1100,6 +1150,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 31GB+(LGU+망)",
     "plan_code": "PD00000978",
     "data_allowance_raw": "31GB+1Mbps",
@@ -1122,6 +1173,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 50GB+(LGU+망)",
     "plan_code": "PD00000979",
     "data_allowance_raw": "50GB+1Mbps",
@@ -1144,6 +1196,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 30GB+(KT망)",
     "plan_code": "PD00000980",
     "data_allowance_raw": "30GB+1Mbps",
@@ -1166,6 +1219,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 50GB+(KT망)",
     "plan_code": "PD00000981",
     "data_allowance_raw": "50GB+1Mbps",
@@ -1188,6 +1242,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 24GB+(SKT망)",
     "plan_code": "PD00000982",
     "data_allowance_raw": "24GB+1Mbps",
@@ -1210,6 +1265,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 54GB+(SKT망)",
     "plan_code": "PD00000983",
     "data_allowance_raw": "54GB+1Mbps",
@@ -1232,6 +1288,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 15GB+(100분) (밀리의서재)(KT망)",
     "plan_code": "PD00000989",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1254,6 +1311,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 7GB+ (밀리의서재)(KT망)",
     "plan_code": "PD00000990",
     "data_allowance_raw": "7GB+1Mbps",
@@ -1276,6 +1334,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 11GB+ (밀리의서재)(KT망)",
     "plan_code": "PD00000991",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1298,6 +1357,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 100GB+ (밀리의서재)(KT망)",
     "plan_code": "PD00000992",
     "data_allowance_raw": "100GB+5Mbps",
@@ -1320,6 +1380,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 10GB+ (밀리의서재)(KT망)",
     "plan_code": "PD00000993",
     "data_allowance_raw": "월10GB+1Mbps",
@@ -1342,6 +1403,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 무제한 15GB+ (밀리의서재)(KT망)",
     "plan_code": "PD00000994",
     "data_allowance_raw": "월15GB+1Mbps",
@@ -1364,6 +1426,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+ (100분/100건)(LGU+망)",
     "plan_code": "PD00001023",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1386,6 +1449,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+ (300분/300건)(LGU+망)",
     "plan_code": "PD00001025",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1408,6 +1472,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "내맘대로 LTE",
     "plan_code": "PD00001076",
     "data_allowance_raw": "1~5GB",
@@ -1430,6 +1495,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 100GB+(LGU+망)",
     "plan_code": "PD00001078",
     "data_allowance_raw": "100GB+5Mbps",
@@ -1452,6 +1518,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "보이스피싱예방 LTE 15GB+(100분/100건)",
     "plan_code": "PD00001086",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1474,6 +1541,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "보이스피싱예방 LTE 15GB+(300분/300건)",
     "plan_code": "PD00001087",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1496,6 +1564,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "KB그룹 임직원 프리미엄 LTE 100GB+(LGU+망)",
     "plan_code": "PD00001089",
     "data_allowance_raw": "100GB+5Mbps",
@@ -1518,6 +1587,7 @@
     "collected_at": "2026-06-30T03:10:45.378Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 10GB+(LGU+망)",
     "plan_code": "PD00001124",
     "data_allowance_raw": "10GB+1Mbps",
@@ -1540,6 +1610,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+(LGU+망)",
     "plan_code": "PD00001125",
     "data_allowance_raw": "15GB+1Mbps",
@@ -1562,6 +1633,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "골든라이프 LTE 4GB+(LGU+망)",
     "plan_code": "PD00001126",
     "data_allowance_raw": "4GB+1Mbps",
@@ -1584,6 +1656,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "보이스피싱예방 LTE 7GB+(안심직거래)(KT망)",
     "plan_code": "PD00001127",
     "data_allowance_raw": "7GB+1Mbps",
@@ -1606,6 +1679,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "보이스피싱예방 LTE 15GB+(안심직거래)(KT망)",
     "plan_code": "PD00001128",
     "data_allowance_raw": "15GB+1Mbps",
@@ -1628,6 +1702,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 100GB+ (CU할인)(KT망)",
     "plan_code": "PD00001138",
     "data_allowance_raw": "100GB+5Mbps",
@@ -1650,6 +1725,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+ (CU할인)(KT망)",
     "plan_code": "PD00001139",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1672,6 +1748,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+ (300분)(CU할인)(KT망)",
     "plan_code": "PD00001140",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1694,6 +1771,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+ (100분)(CU할인)(KT망)",
     "plan_code": "PD00001141",
     "data_allowance_raw": "15GB+3Mbps",
@@ -1716,6 +1794,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+ (CU할인)(KT망)",
     "plan_code": "PD00001142",
     "data_allowance_raw": "15GB+1Mbps",
@@ -1738,6 +1817,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "ESG LTE 3GB+(100분)(LGU+망)",
     "plan_code": "PD00001143",
     "data_allowance_raw": "3GB+1Mbps",
@@ -1760,6 +1840,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "ESG LTE 5GB+(100분)(LGU+망)",
     "plan_code": "PD00001144",
     "data_allowance_raw": "5GB+1Mbps",
@@ -1782,6 +1863,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "ESG LTE 71GB+(LGU+망)",
     "plan_code": "PD00001145",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1804,6 +1886,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 20GB(100분)",
     "plan_code": "PD00001190",
     "data_allowance_raw": "20GB",
@@ -1826,6 +1909,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "직장인우대(연금) LTE 7GB+ 밀리의서재(KT망)",
     "plan_code": "PD00001198",
     "data_allowance_raw": "7GB+10GB+1Mbps",
@@ -1848,6 +1932,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "더블업 LTE 17GB+",
     "plan_code": "PD00001300",
     "data_allowance_raw": "7GB+10GB(24개월)+1Mbps",
@@ -1870,6 +1955,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "더블업 LTE 20GB+(LGU+망)",
     "plan_code": "PD00001301",
     "data_allowance_raw": "10GB+10GB(24개월)+1Mbps",
@@ -1892,6 +1978,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "더블업 LTE 25GB+(LGU+망)",
     "plan_code": "PD00001302",
     "data_allowance_raw": "15GB+10GB(24개월)+1Mbps",
@@ -1914,6 +2001,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "선생님든든 LTE(신)",
     "plan_code": "PD00001307",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1936,6 +2024,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "무궁화 LTE(신)",
     "plan_code": "PD00001308",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1958,6 +2047,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "나라사랑 LTE(신)",
     "plan_code": "PD00001309",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -1980,6 +2070,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "공무원든든 LTE(신)",
     "plan_code": "PD00001315",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -2002,6 +2093,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "KB 영웅 LTE 71GB+",
     "plan_code": "PD00001316",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -2024,6 +2116,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "사장님 LTE 71GB+",
     "plan_code": "PD00001317",
     "data_allowance_raw": "월11GB+일2GB+3Mbps",
@@ -2046,6 +2139,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "사장님 LTE 17GB+(LGU+망)",
     "plan_code": "PD00001319",
     "data_allowance_raw": "7GB+1Mbps",
@@ -2068,6 +2162,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "사장님 LTE 7GB+밀리의서재(KT망)",
     "plan_code": "PD00001321",
     "data_allowance_raw": "7GB+1Mbps",
@@ -2090,6 +2185,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "직장인우대(연금) 15GB(LGU+망)",
     "plan_code": "PD00001325",
     "data_allowance_raw": "15GB(10GB+5GB(24개월))",
@@ -2112,6 +2208,7 @@
     "collected_at": "2026-06-30T03:10:45.379Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "GS LTE 71GB+(LGU+망)",
     "plan_code": "PD00001329",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2134,6 +2231,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "GS LTE 25GB+(LGU+망)",
     "plan_code": "PD00001330",
     "data_allowance_raw": "15GB+10GB+1Mbps",
@@ -2156,6 +2254,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "사장님(GS) LTE 17GB+(LGU+망)",
     "plan_code": "PD00001331",
     "data_allowance_raw": "7GB+10GB+1Mbps",
@@ -2178,6 +2277,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 1GB(100분)(SKT망)",
     "plan_code": "PD00001332",
     "data_allowance_raw": "1GB",
@@ -2200,6 +2300,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 3GB(100분)(SKT망)",
     "plan_code": "PD00001333",
     "data_allowance_raw": "3GB",
@@ -2222,6 +2323,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 5GB(100분)(SKT망)",
     "plan_code": "PD00001334",
     "data_allowance_raw": "5GB",
@@ -2244,6 +2346,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 실속 9GB(100분)(SKT망)",
     "plan_code": "PD00001335",
     "data_allowance_raw": "9GB",
@@ -2266,6 +2369,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 실속 2GB(100분)(SKT망)",
     "plan_code": "PD00001338",
     "data_allowance_raw": "2GB",
@@ -2288,6 +2392,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 실속 4GB(100분)(SKT망)",
     "plan_code": "PD00001339",
     "data_allowance_raw": "4GB",
@@ -2310,6 +2415,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 실속 15GB(100분)(SKT망)",
     "plan_code": "PD00001340",
     "data_allowance_raw": "15GB",
@@ -2332,6 +2438,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 실속 4GB(100분)(KT망)",
     "plan_code": "PD00001341",
     "data_allowance_raw": "4GB",
@@ -2354,6 +2461,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 실속 2GB(100분)(KT망)",
     "plan_code": "PD00001342",
     "data_allowance_raw": "2GB",
@@ -2376,6 +2484,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 든든무제한 95GB+",
     "plan_code": "PD00001345",
     "data_allowance_raw": "95GB+3Mbps",
@@ -2398,6 +2507,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 무제한 99GB+(SKT망)",
     "plan_code": "PD00001346",
     "data_allowance_raw": "99GB+1Mbps",
@@ -2420,6 +2530,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 7GB+(평생)",
     "plan_code": "PD00001347",
     "data_allowance_raw": "7GB+1Mbps",
@@ -2442,6 +2553,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+(평생)",
     "plan_code": "PD00001348",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2464,6 +2576,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 95GB+(평생)",
     "plan_code": "PD00001349",
     "data_allowance_raw": "95GB+3Mbps",
@@ -2486,6 +2599,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+(초알뜰)",
     "plan_code": "PD00001360",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2508,6 +2622,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 95GB+(초알뜰)",
     "plan_code": "PD00001361",
     "data_allowance_raw": "95GB+3Mbps",
@@ -2530,6 +2645,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+(혜택형)",
     "plan_code": "PD00001374",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2552,6 +2668,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 95GB+(혜택형)",
     "plan_code": "PD00001375",
     "data_allowance_raw": "95GB+3Mbps",
@@ -2574,6 +2691,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+(라이더)",
     "plan_code": "PD00001377",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2596,6 +2714,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 95GB+(라이더)",
     "plan_code": "PD00001378",
     "data_allowance_raw": "95GB+3Mbps",
@@ -2618,6 +2737,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 15GB+(100분)(청년미래)",
     "plan_code": "PD00001387",
     "data_allowance_raw": "15GB+3Mbps",
@@ -2640,6 +2760,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "LTE 71GB+(청년미래)",
     "plan_code": "PD00001388",
     "data_allowance_raw": "11GB+일2GB+3Mbps",
@@ -2662,6 +2783,7 @@
     "collected_at": "2026-06-30T03:10:45.380Z"
   },
   {
+    "operator": "리브엠모바일",
     "plan_name": "5G 95GB+(청년미래)",
     "plan_code": "PD00001389",
     "data_allowance_raw": "95GB+3Mbps",
