@@ -241,22 +241,23 @@ function fillSheet(ws, HEADERS, rows) {
     const isHidden = gapVal === '비노출';
     const isNew    = isNewGap(gapVal);
 
-    const rowData = [
-      r.operator || '',
-      Array.isArray(r.plan_type) ? r.plan_type[0] : (r.plan_type || ''),
-      r.network_type || '',
-      r.plan_name || '',
-      r.voice_allowance || '',
-      r.sms_allowance || '',
-      dataGB(r.data_allowance_normalized),
-      r.qos_speed || '',
-      mainBenefit(r),
-      isHidden ? '' : (r.base_price ?? ''),
-      r['전일'] ?? '',
-      r['당일'] ?? '',
-      gapDisplay(gapVal),
-      r.bigo || '',
-    ];
+    const vals = {
+      operator:   r.operator || '',
+      plan_type:  Array.isArray(r.plan_type) ? r.plan_type[0] : (r.plan_type || ''),
+      network:    r.network_type || '',
+      plan_name:  r.plan_name || '',
+      voice:      r.voice_allowance || '',
+      sms:        r.sms_allowance || '',
+      data:       dataGB(r.data_allowance_normalized),
+      qos:        r.qos_speed || '',
+      benefit:    mainBenefit(r),
+      base_price: isHidden ? '' : (r.base_price ?? ''),
+      '전일':      r['전일'] ?? '',
+      '당일':      r['당일'] ?? '',
+      gap:        gapDisplay(gapVal),
+      bigo:       r.bigo || '',
+    };
+    const rowData = HEADERS.map(h => vals[h.key] ?? '');
 
     const dataRow = ws.addRow(rowData);
     dataRow.height = 16;

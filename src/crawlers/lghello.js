@@ -66,7 +66,7 @@ function buildDataAllowance(item) {
 }
 
 function buildQoS(depletionRate, dataRaw) {
-  const rate = parseInt(depletionRate, 10);
+  const rate = Math.round(parseFloat(depletionRate));
   if (!rate || rate === 0) return { qos_speed: null, qos_raw: null };
   return {
     qos_speed: `${rate}Mbps`,
@@ -92,7 +92,12 @@ function parsePlan(item, telecom, rateType) {
   const { raw: data_allowance_raw, normalized: data_allowance_normalized } = buildDataAllowance(item);
   const { qos_speed, qos_raw } = buildQoS(item.dedicatedDataDepletionRate, data_allowance_normalized);
 
-  const price = parseInt(item.directPromotionDirectmallPrice, 10) || null;
+  const currentPrice = parseInt(item.directPromotionDirectmallPrice, 10) || null;
+  const afterPrice   = parseInt(item.directPromotionAfterPrice,           10) || null;
+  // afterPrice > currentPrice → 현재가가 프로모션 할인가, afterPrice가 기본료
+  const hasPromo    = afterPrice && currentPrice && afterPrice > currentPrice;
+  const base_price   = hasPromo ? afterPrice   : currentPrice;
+  const benefit_price = hasPromo ? currentPrice : null;
 
   return {
     plan_name: item.salesName?.trim() || '',
@@ -103,10 +108,10 @@ function parsePlan(item, telecom, rateType) {
     qos_speed,
     voice_allowance: buildVoice(item),
     sms_allowance: buildSMS(item),
-    base_price_text: price ? `월 ${price.toLocaleString()}원` : null,
-    base_price: price,
-    benefit_price_text: null,
-    benefit_price: null,
+    base_price_text:    base_price    ? `월 ${base_price.toLocaleString()}원`    : null,
+    base_price,
+    benefit_price_text: benefit_price ? `혜택가 월 ${benefit_price.toLocaleString()}원` : null,
+    benefit_price,
     plan_type: [rateType === 'P' ? '휴대폰' : '유심'],
     partnership_flag: false,
     network_type: item.usimType === '5G' ? '5G' : 'LTE',
