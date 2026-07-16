@@ -139,6 +139,8 @@ function compare(today, prev, registry, todayDateStr) {
   // 비노출
   for (const [key, prevPlan] of prevMap) {
     if (!todaySet.has(key)) {
+      // 슬러그 형태 요금제(pl로 시작하는 영숫자)는 비노출 목록에서 제외
+      if (/^pl[a-z0-9]+$/i.test(prevPlan.plan_name || '')) continue;
       rows.push({ ...prevPlan, 전일: effectivePrice(prevPlan), 당일: null, gap: '비노출', bigo: '' });
     }
   }

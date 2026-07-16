@@ -203,6 +203,12 @@ async function crawl(log = console.log) {
         const moIdx = moIndices.length > 0 ? moIndices[moIndices.length - 1] : -1;
         const planName = moIdx >= 0 ? allLines[moIdx + 1] : allLines.find(l => l.match(/GB|무제한/));
 
+        // 이름 추출 실패 시 슬러그가 그대로 저장되지 않도록 건너뜀
+        if (!planName?.trim()) {
+          log(`    ? [스카이라이프] ${slug} - 이름 미추출, 건너뜀`);
+          continue;
+        }
+
         const priceLine1 = allLines.find(l => l.match(/^월\s*[\d,]+원$/));
         const priceNum1 = parsePrice(priceLine1);
         const priceLine2 = allLines.find(l => l.match(/^[\d,]+$/) && l.replace(/,/g,'').length >= 4 && !l.includes('0000'));
