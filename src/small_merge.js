@@ -45,10 +45,10 @@ function todayStr() {
   const d = new Date();
   return `${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
 }
-function yesterdayStr() {
-  const d = new Date();
-  d.setDate(d.getDate() - 1);
-  return `${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}`;
+/** "20260630" → "06/30" */
+function isoToMD(dateStr) {
+  if (!dateStr || dateStr.length !== 8) return null;
+  return `${dateStr.slice(4,6)}/${dateStr.slice(6,8)}`;
 }
 function isoDate() {
   return new Date().toISOString().substring(0, 10).replace(/-/g, '');
@@ -67,23 +67,40 @@ function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 }
 
-/** 이전 스냅샷 로드 (plan_code → monthly_fee 맵) */
+/**
+ * 이전 스냅샷 로드
+ * @returns {{ fees: Object, date: string|null }}
+ *   fees: { plan_code: monthly_fee }
+ *   date: "20260630" (스냅샷이 저장된 날짜) 또는 null
+ */
 function loadPrevSnapshot(operatorKey) {
   const fp = path.join(OUTPUT_DIR, `${operatorKey}_snapshot.json`);
-  if (!fs.existsSync(fp)) return {};
+  if (!fs.existsSync(fp)) return { fees: {}, date: null };
   try {
     const data = JSON.parse(fs.readFileSync(fp, 'utf8'));
-    // { plan_code: monthly_fee } 형태
-    return data;
-  } catch(e) { return {}; }
+    const date = data._date || null;
+    const fees = {};
+    for (const [k, v] of Object.entries(data)) {
+      if (k === '_date') continue;
+      fees[k] = v;
+    }
+    // _date 없는 구버전 스냅샷 → 파일 수정 시간으로 대체
+    if (!date) {
+      const stat = fs.statSync(fp);
+      const d = new Date(stat.mtime);
+      const fallback = `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,'0')}${String(d.getDate()).padStart(2,'0')}`;
+      return { fees, date: fallback };
+    }
+    return { fees, date };
+  } catch(e) { return { fees: {}, date: null }; }
 }
 
-/** 현재 스냅샷 저장 */
+/** 현재 스냅샷 저장 (캡처 날짜 포함) */
 function saveSnapshot(operatorKey, plans) {
-  const snapshot = {};
+  const snapshot = { _date: isoDate() };
   plans.forEach(p => {
-    if (p.plan_code) snapshot[p.plan_code] = p.monthly_fee;
-    else snapshot[p.plan_name] = p.monthly_fee; // plan_code 없을 때 이름으로
+    const key = p.plan_code || p.plan_name;
+    snapshot[key] = p.monthly_fee;
   });
   const fp = path.join(OUTPUT_DIR, `${operatorKey}_snapshot.json`);
   fs.writeFileSync(fp, JSON.stringify(snapshot, null, 2), 'utf8');
@@ -104,13 +121,19 @@ function calcGap(prevFee, currFee) {
   return diff > 0 ? `+${diff.toLocaleString()}` : diff.toLocaleString();
 }
 
-/** 엑셀 저장 */
-async function saveExcel(rows, filename) {
+/**
+ * 엑셀 저장
+ * @param {Array}       rows
+ * @param {string}      filename
+ * @param {string|null} prevDateStr  "20260630" 형태 (스냅샷 실제 날짜)
+ */
+async function saveExcel(rows, filename, prevDateStr) {
   const wb = new ExcelJS.Workbook();
   const ws = wb.addWorksheet('중소사업자 요금제');
 
   const today = todayStr();
-  const yesterday = yesterdayStr();
+  const prevMD = isoToMD(prevDateStr);
+  const prevLabel = prevMD ? `${prevMD}(전일)` : '전일';
 
   const COLS = [
     { header: '회사명',       key: 'company',               width: 12 },
@@ -124,7 +147,7 @@ async function saveExcel(rows, filename) {
     { header: 'QoS',          key: 'qos',                   width: 10 },
     { header: '추가혜택',     key: 'benefits',              width: 40 },
     { header: '기본료',       key: 'base_price',            width: 12 },
-    { header: `${yesterday}(전일)`, key: 'prev_fee',        width: 14 },
+    { header: prevLabel,            key: 'prev_fee',        width: 14 },
     { header: `${today}(당일)`,     key: 'curr_fee',        width: 14 },
     { header: 'GAP',          key: 'gap',                   width: 10 },
     { header: '할인기간',     key: 'discount_period',       width: 12 },
@@ -185,10 +208,9 @@ async function main() {
   const startTime = Date.now();
   log('=== 중소사업자 요금제 크롤링 시작 ===');
 
-  const today = todayStr();
-  const yesterday = yesterdayStr();
-
   const allRows = [];
+  // 모든 사업자 스냅샷의 날짜 수집 (가장 오래된 것 = 가장 신뢰할 수 있는 전일 기준)
+  let prevDateStr = null;
 
   for (const [idx, op] of OPERATORS.entries()) {
     log(`\n[${idx+1}/${OPERATORS.length}] ${op.label} 수집 시작`);
@@ -201,8 +223,14 @@ async function main() {
       log(`[${idx+1}/${OPERATORS.length}] ${op.label} 실패: ${e.message}`);
     }
 
-    // 이전 스냅샷 로드
-    const prevSnapshot = loadPrevSnapshot(op.key);
+    // 이전 스냅샷 로드 (실제 캡처 날짜 포함)
+    const { fees: prevSnapshot, date: snapshotDate } = loadPrevSnapshot(op.key);
+
+    // 가장 최신 스냅샷 날짜를 전일 기준으로 사용
+    if (snapshotDate && (!prevDateStr || snapshotDate > prevDateStr)) {
+      prevDateStr = snapshotDate;
+    }
+
     const prevKeys = new Set(Object.keys(prevSnapshot));
     const currKeys = new Set();
 
@@ -264,13 +292,16 @@ async function main() {
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   log(`\n=== 통합 완료: ${allRows.length}건 (${elapsed}초) ===`);
 
+  const prevMD = isoToMD(prevDateStr);
+  log(`비교 기준: ${prevMD || '없음'}(전일) → ${todayStr()}(당일)`);
+
   // JSON 저장
   const jsonPath = path.join(OUTPUT_DIR, 'small_operators_plans.json');
   fs.writeFileSync(jsonPath, JSON.stringify(allRows, null, 2), 'utf8');
   log(`JSON 저장: ${jsonPath}`);
 
-  // 엑셀 저장
-  await saveExcel(allRows, `중소사업자_요금제현황_${isoDate()}.xlsx`);
+  // 엑셀 저장 (실제 스냅샷 날짜를 전일 헤더에 표시)
+  await saveExcel(allRows, `중소사업자_요금제현황_${isoDate()}.xlsx`, prevDateStr);
 
   log('\n=== 완료 ===');
   return allRows;
