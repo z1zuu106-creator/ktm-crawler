@@ -40,18 +40,41 @@ async function fetchFromUrl(page, url) {
   await page.goto(url, { waitUntil: 'networkidle', timeout: 40000 });
   await page.waitForTimeout(2000);
 
+  // 기본값 BEST → 전체 탭으로 전환 (127건 전체 노출)
+  await page.evaluate(() => {
+    const bestInput = document.querySelector('input[name="planTabCate"][value="BEST"]');
+    const allInput  = document.querySelector('input[name="planTabCate"][value="ALL"]');
+    if (bestInput && bestInput.checked) bestInput.click();
+    if (allInput  && !allInput.checked) allInput.click();
+  });
+  // DOM 업데이트 대기 (전체 탭 클릭 후 목록이 늘어날 때까지)
+  await page.waitForFunction(
+    () => document.querySelectorAll('ul.planTab-list > li.planTab-item').length > 50,
+    { timeout: 10000 }
+  ).catch(() => {}); // 이미 전체인 경우(휴대폰 탭 등) 타임아웃 무시
+
   return page.evaluate(() => {
     const results = [];
-    document.querySelectorAll('a.planItem').forEach(el => {
-      const onclickAttr = el.getAttribute('onclick') || '';
+    document.querySelectorAll('ul.planTab-list > li.planTab-item').forEach(el => {
+      const link = el.querySelector('a.planTab-item-link');
+      const onclickAttr = link?.getAttribute('onclick') || '';
       const codeMatch = onclickAttr.match(/fnSearchView\('([^']+)'\)/);
       const code = codeMatch ? codeMatch[1] : '';
-      const planName = el.querySelector('.name')?.textContent?.trim() || '';
-      const badges = Array.from(el.querySelectorAll('.badge-wp span')).map(s => s.textContent.trim());
-      const serviceItems = Array.from(el.querySelectorAll('ul.service li')).map(li => li.textContent.trim());
-      const priceText = el.querySelector('.price strong, .data-price strong')?.textContent?.trim() || '';
-      const salePriceText = el.querySelector('.sale-price, .cost-pre b, .origin-price')?.textContent?.trim() || '';
-      results.push({ code, planName, badges, serviceItems, priceText, salePriceText });
+
+      const planName = el.querySelector('.planTab-item-title')?.textContent?.trim() || '';
+
+      // badge-keyin (QoS Mbps) + badge-keyin2 (결합 보너스) 텍스트 모두 수집
+      const badges = Array.from(el.querySelectorAll('.planTab-item-badge > span > span:first-child'))
+        .map(s => s.textContent.trim()).filter(t => t);
+
+      // 데이터, 음성, 문자 (planTab-item-data 내 span 3개)
+      const serviceItems = Array.from(el.querySelectorAll('.planTab-item-data span'))
+        .map(s => s.textContent.trim());
+
+      // 가격 ("월 XX,XXX원" 형태)
+      const priceText = el.querySelector('.planTab-item-price')?.textContent?.trim() || '';
+
+      results.push({ code, planName, badges, serviceItems, priceText, salePriceText: '' });
     });
     return results;
   });
@@ -79,8 +102,10 @@ async function crawl(log = console.log) {
 
     for (const item of rawItems) {
       if (!item.planName) continue;
-      if (item.code && seenCodes.has(item.code)) continue;
-      if (item.code) seenCodes.add(item.code);
+      // code 없는 항목은 coachmark 장식용 복제본 → 건너뜀
+      if (!item.code) continue;
+      if (seenCodes.has(item.code)) continue;
+      seenCodes.add(item.code);
 
       const dataText = item.serviceItems[0] || '';
       const voiceText = item.serviceItems[1] || '기본제공';

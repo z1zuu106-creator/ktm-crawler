@@ -1,2 +1,9 @@
 node_modules/
 logs/*.log
+email_config.bat
+# Excel/CSV 출력 파일 (JSON만 git으로 관리)
+output/**/*.xlsx
+output/**/*.xls
+output/**/*.csv
+# 임시 probe 스크립트
+probe_*.js

@@ -34,6 +34,26 @@ function toMD(dateStr) {
   return `${parseInt(dateStr.slice(4, 6))}/${parseInt(dateStr.slice(6, 8))}`;
 }
 
+/** 두 날짜 문자열 간 일 수 차이 */
+function dayDiff(fromStr, toStr) {
+  const parse = s => new Date(
+    parseInt(s.slice(0,4)), parseInt(s.slice(4,6)) - 1, parseInt(s.slice(6,8))
+  );
+  return Math.round((parse(toStr) - parse(fromStr)) / 86400000);
+}
+
+/**
+ * 전일 컬럼 레이블 결정
+ * - 실제 전날: "4/8(전일)"
+ * - 1일 이상 간격: "4/8(기준일)" — 전일이 아님을 명시
+ */
+function prevLabel(prevDateStr, todayDateStr) {
+  if (!prevDateStr) return '전일';
+  const diff = dayDiff(prevDateStr, todayDateStr);
+  const md = toMD(prevDateStr);
+  return diff <= 1 ? `${md}(전일)` : `${md}(기준일)`;
+}
+
 // ── 이력 관리 ─────────────────────────────────────────────────────────────────
 
 /**
@@ -177,7 +197,7 @@ const BASE_FONT = { size: 10 };
  * @param {string}      todayDateStr "20260409"
  */
 function buildHeaders(prevDateStr, todayDateStr) {
-  const prevLabel  = prevDateStr  ? `${toMD(prevDateStr)}(전일)`  : '전일';
+  const pLabel     = prevLabel(prevDateStr, todayDateStr);
   const todayLabel = `${toMD(todayDateStr)}(당일)`;
 
   return [
@@ -191,7 +211,7 @@ function buildHeaders(prevDateStr, todayDateStr) {
     { key: 'qos',        label: 'QOS',         width: 8  },
     { key: 'benefit',    label: '주가혜택',    width: 30 },
     { key: 'base_price', label: '기본료',      width: 10 },
-    { key: '전일',        label: prevLabel,    width: 12 },
+    { key: '전일',        label: pLabel,       width: 12 },
     { key: '당일',        label: todayLabel,   width: 12 },
     { key: 'gap',        label: 'GAP',         width: 14 },
     { key: 'bigo',       label: '비고',        width: 14 },
@@ -412,14 +432,14 @@ async function main() {
   console.log(`Excel 저장: ${excelPath}`);
 
   // report_meta 저장 (notify.js에서 사용)
-  const prevLabel  = prevDateStr ? `${toMD(prevDateStr)}(전일)` : '전일';
+  const pLabel     = prevLabel(prevDateStr, todayDateStr);
   const todayLabel = `${toMD(todayDateStr)}(당일)`;
 
   const reportMeta = {
     todayDateStr,
     prevDateStr,
     prev2DateStr,
-    prevLabel,
+    prevLabel: pLabel,
     todayLabel,
     excelPath,
     totalToday: today.length,
