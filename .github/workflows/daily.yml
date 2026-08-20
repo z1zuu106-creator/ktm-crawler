@@ -44,9 +44,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Docker root 환경에서 git safe.directory 오류 방지
+          git config --global --add safe.directory "${GITHUB_WORKSPACE}"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 토큰을 remote URL에 직접 주입 (컨테이너 환경 인증 문제 우회)
+          # 토큰을 remote URL에 직접 주입
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           # JSON 데이터만 커밋 (Excel 제외)
           git add output/history/ output/new_plans_registry.json output/report_meta.json || true
