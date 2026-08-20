@@ -7,8 +7,8 @@
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260820.xlsx",
   "totalToday": 1059,
   "summary": {
-    "newCount": 33,
-    "hiddenCount": 80,
+    "newCount": 29,
+    "hiddenCount": 76,
     "changedCount": 44,
     "newPlans": [
       {
@@ -246,42 +246,6 @@
         "bigo": "출시: 8/20"
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
-        "network_type": "5G",
-        "data": "125GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 46100,
-        "bigo": "출시: 8/20"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
-        "network_type": "5G",
-        "data": "50GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 41900,
-        "bigo": "출시: 8/20"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
-        "network_type": "5G",
-        "data": "95GB+3Mbps",
-        "qos": "3Mbps",
-        "당일": 44900,
-        "bigo": "출시: 8/20"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
-        "network_type": "LTE",
-        "data": "100GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 42000,
-        "bigo": "출시: 8/20"
-      },
-      {
         "operator": "SK세븐모바일",
         "plan_name": "5G 유심 (30GB/통화맘껏)",
         "network_type": "5G",
@@ -477,30 +441,6 @@
         "plan_name": "SOS 안심 골드 4GB+",
         "network_type": "LTE",
         "전일": 12100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 15GB+",
-        "network_type": "5G",
-        "전일": 22900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 100GB+",
-        "network_type": "LTE",
-        "전일": 40500
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 71GB+",
-        "network_type": "LTE",
-        "전일": 35000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 7GB+",
-        "network_type": "LTE",
-        "전일": 18900
       },
       {
         "operator": "SK세븐모바일",
