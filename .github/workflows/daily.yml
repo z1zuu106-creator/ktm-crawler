@@ -41,11 +41,14 @@ jobs:
           EMAIL_TO:  ${{ secrets.EMAIL_TO }}
 
       - name: 결과 파일 커밋
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 토큰을 remote URL에 직접 주입 (컨테이너 환경 인증 문제 우회)
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           # JSON 데이터만 커밋 (Excel 제외)
           git add output/history/ output/new_plans_registry.json output/report_meta.json || true
-          git add output/small/*_snapshot.json output/small/small_operators_plans.json || true
           git diff --cached --quiet || git commit -m "chore: 요금제 데이터 업데이트 $(date +'%Y-%m-%d')"
           git push origin HEAD:main
