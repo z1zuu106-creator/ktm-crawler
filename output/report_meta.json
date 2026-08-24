@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260823",
-  "prevDateStr": "20260822",
-  "prev2DateStr": "20260821",
-  "prevLabel": "8/22(전일)",
-  "todayLabel": "8/23(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260823.xlsx",
+  "todayDateStr": "20260824",
+  "prevDateStr": "20260823",
+  "prev2DateStr": "20260822",
+  "prevLabel": "8/23(전일)",
+  "todayLabel": "8/24(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260824.xlsx",
   "totalToday": 1058,
   "summary": {
     "newCount": 73,
-    "hiddenCount": 0,
+    "hiddenCount": 4,
     "changedCount": 0,
     "newPlans": [
       {
@@ -607,39 +607,39 @@
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "plan_name": "유독 플러스 15GB+",
         "network_type": "5G",
-        "data": "125GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 46100,
-        "bigo": "출시: 8/20"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
-        "network_type": "5G",
-        "data": "50GB+1Mbps",
+        "data": "15GB+1Mbps",
         "qos": "1Mbps",
-        "당일": 41900,
-        "bigo": "출시: 8/20"
+        "당일": 22900,
+        "bigo": "출시: 8/23"
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
-        "network_type": "5G",
-        "data": "95GB+3Mbps",
-        "qos": "3Mbps",
-        "당일": 44900,
-        "bigo": "출시: 8/20"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "plan_name": "유독 플러스 100GB+",
         "network_type": "LTE",
         "data": "100GB+5Mbps",
         "qos": "5Mbps",
-        "당일": 42000,
-        "bigo": "출시: 8/20"
+        "당일": 40500,
+        "bigo": "출시: 8/23"
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 71GB+",
+        "network_type": "LTE",
+        "data": "71GB+3Mbps",
+        "qos": "3Mbps",
+        "당일": 35000,
+        "bigo": "출시: 8/23"
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 7GB+",
+        "network_type": "LTE",
+        "data": "7GB+1Mbps",
+        "qos": "1Mbps",
+        "당일": 18900,
+        "bigo": "출시: 8/23"
       },
       {
         "operator": "SK세븐모바일",
@@ -669,7 +669,32 @@
         "bigo": "출시: 8/20"
       }
     ],
-    "hiddenPlans": [],
+    "hiddenPlans": [
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "network_type": "5G",
+        "전일": 46100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
+        "network_type": "5G",
+        "전일": 41900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
+        "network_type": "5G",
+        "전일": 44900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "network_type": "LTE",
+        "전일": 42000
+      }
+    ],
     "changedPlans": []
   }
 }
