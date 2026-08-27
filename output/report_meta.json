@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260826",
-  "prevDateStr": "20260825",
-  "prev2DateStr": "20260824",
-  "prevLabel": "8/25(전일)",
-  "todayLabel": "8/26(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260826.xlsx",
+  "todayDateStr": "20260827",
+  "prevDateStr": "20260826",
+  "prev2DateStr": "20260825",
+  "prevLabel": "8/26(전일)",
+  "todayLabel": "8/27(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260827.xlsx",
   "totalToday": 1058,
   "summary": {
     "newCount": 73,
-    "hiddenCount": 4,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -669,32 +669,7 @@
         "bigo": "출시: 8/20"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
-        "network_type": "5G",
-        "전일": 46100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
-        "network_type": "5G",
-        "전일": 41900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
-        "network_type": "5G",
-        "전일": 44900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
-        "network_type": "LTE",
-        "전일": 42000
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
