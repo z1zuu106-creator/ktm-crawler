@@ -5,10 +5,10 @@
   "prevLabel": "8/28(전일)",
   "todayLabel": "8/29(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260829.xlsx",
-  "totalToday": 1056,
+  "totalToday": 1057,
   "summary": {
     "newCount": 73,
-    "hiddenCount": 1,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -669,14 +669,7 @@
         "bigo": "출시: 8/20"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 10GB+(밀리의서재)",
-        "network_type": "LTE",
-        "전일": 19000
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
