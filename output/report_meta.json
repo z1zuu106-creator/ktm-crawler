@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260828",
-  "prevDateStr": "20260827",
-  "prev2DateStr": "20260826",
-  "prevLabel": "8/27(전일)",
-  "todayLabel": "8/28(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260828.xlsx",
+  "todayDateStr": "20260829",
+  "prevDateStr": "20260828",
+  "prev2DateStr": "20260827",
+  "prevLabel": "8/28(전일)",
+  "todayLabel": "8/29(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260829.xlsx",
   "totalToday": 1057,
   "summary": {
     "newCount": 73,
-    "hiddenCount": 1,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -669,14 +669,7 @@
         "bigo": "출시: 8/20"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "유모바일",
-        "plan_name": "LTE (1.5GB/150분)",
-        "network_type": "LTE",
-        "전일": 4900
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
