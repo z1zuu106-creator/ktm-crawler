@@ -5,13 +5,165 @@
   "prevLabel": "8/31(전일)",
   "todayLabel": "9/1(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260901.xlsx",
-  "totalToday": 1064,
+  "totalToday": 1074,
   "summary": {
-    "newCount": 0,
-    "hiddenCount": 0,
+    "newCount": 14,
+    "hiddenCount": 4,
     "changedCount": 5,
-    "newPlans": [],
-    "hiddenPlans": [],
+    "newPlans": [
+      {
+        "operator": "유모바일",
+        "plan_name": "GS25 5G (10GB/200분)",
+        "network_type": "5G",
+        "data": 10,
+        "qos": null,
+        "당일": 13500,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (1.5GB/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": 1.5,
+        "qos": null,
+        "당일": 8900,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (17GB+/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": "(7+10)GB",
+        "qos": "1Mbps",
+        "당일": 19400,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (1GB+/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 10900,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (25GB+/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": "(15+10)GB",
+        "qos": "1Mbps",
+        "당일": 23800,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (71GB+/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": "11GB+일2GB",
+        "qos": "3Mbps",
+        "당일": 35190,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "다성비 (7GB+/통화기본) [매월 다이소 5천원]",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 17800,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "이츠 (100GB+/통화기본)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 40700,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "이츠 (25GB+/통화기본)",
+        "network_type": "LTE",
+        "data": "(15+10)GB",
+        "qos": "1Mbps",
+        "당일": 24000,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "이츠 (71GB+/통화기본)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB",
+        "qos": "3Mbps",
+        "당일": 35500,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "이츠 (7GB+/통화기본)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 18400,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "GS25 (150GB+/통화기본)",
+        "network_type": "LTE",
+        "data": "일5GB",
+        "qos": "5Mbps",
+        "당일": 40500,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "GS25 (25GB+/100분)",
+        "network_type": "LTE",
+        "data": "(15+10)GB",
+        "qos": "3Mbps",
+        "당일": 29300,
+        "bigo": "출시: 9/1"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "GS25 (71GB+/통화기본)",
+        "network_type": "LTE",
+        "data": "11GB+일2GB",
+        "qos": "3Mbps",
+        "당일": 35300,
+        "bigo": "출시: 9/1"
+      }
+    ],
+    "hiddenPlans": [
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 2GB+",
+        "network_type": "LTE",
+        "전일": 5900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 500MB+",
+        "network_type": "LTE",
+        "전일": 5900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스쿨 2GB+",
+        "network_type": "LTE",
+        "전일": 6400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "슬림 2GB/200분",
+        "network_type": "LTE",
+        "전일": 4900
+      }
+    ],
     "changedPlans": [
       {
         "operator": "KT M모바일",
