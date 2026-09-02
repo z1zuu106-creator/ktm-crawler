@@ -5,10 +5,10 @@
   "prevLabel": "9/1(전일)",
   "todayLabel": "9/2(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260902.xlsx",
-  "totalToday": 1078,
+  "totalToday": 1076,
   "summary": {
     "newCount": 14,
-    "hiddenCount": 0,
+    "hiddenCount": 2,
     "changedCount": 0,
     "newPlans": [
       {
@@ -138,7 +138,20 @@
         "bigo": "출시: 9/1"
       }
     ],
-    "hiddenPlans": [],
+    "hiddenPlans": [
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "network_type": "LTE",
+        "전일": 24200
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (15GB+/100분)",
+        "network_type": "LTE",
+        "전일": 25300
+      }
+    ],
     "changedPlans": []
   }
 }
