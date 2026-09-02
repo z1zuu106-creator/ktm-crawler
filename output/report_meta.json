@@ -1,15 +1,15 @@
 {
-  "todayDateStr": "20260901",
-  "prevDateStr": "20260831",
-  "prev2DateStr": "20260830",
-  "prevLabel": "8/31(전일)",
-  "todayLabel": "9/1(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260901.xlsx",
-  "totalToday": 1078,
+  "todayDateStr": "20260902",
+  "prevDateStr": "20260901",
+  "prev2DateStr": "20260831",
+  "prevLabel": "9/1(전일)",
+  "todayLabel": "9/2(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260902.xlsx",
+  "totalToday": 1074,
   "summary": {
     "newCount": 14,
-    "hiddenCount": 0,
-    "changedCount": 5,
+    "hiddenCount": 8,
+    "changedCount": 0,
     "newPlans": [
       {
         "operator": "유모바일",
@@ -138,43 +138,56 @@
         "bigo": "출시: 9/1"
       }
     ],
-    "hiddenPlans": [],
-    "changedPlans": [
+    "hiddenPlans": [
       {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 실속 10GB+",
-        "전일": 18400,
-        "당일": 16400,
-        "gap": -2000
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "network_type": "5G",
+        "전일": 46100
       },
       {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 실속 15GB+",
-        "전일": 20900,
-        "당일": 18900,
-        "gap": -2000
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
+        "network_type": "5G",
+        "전일": 41900
       },
       {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 실속 3GB+",
-        "전일": 13400,
-        "당일": 11900,
-        "gap": -1500
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
+        "network_type": "5G",
+        "전일": 44900
       },
       {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 실속 5GB+",
-        "전일": 14400,
-        "당일": 12900,
-        "gap": -1500
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 15GB+",
+        "network_type": "5G",
+        "전일": 20000
       },
       {
-        "operator": "KT M모바일",
-        "plan_name": "모두다 맘껏 실속 7GB+",
-        "전일": 15900,
-        "당일": 13900,
-        "gap": -2000
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 10GB+",
+        "network_type": "LTE",
+        "전일": 18000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 17GB+",
+        "network_type": "LTE",
+        "전일": 19500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "network_type": "LTE",
+        "전일": 42000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 71GB+",
+        "network_type": "LTE",
+        "전일": 30000
       }
-    ]
+    ],
+    "changedPlans": []
   }
 }
