@@ -147,9 +147,9 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/100분)",
+        "plan_name": "LTE 유심 (10GB+/통화맘껏)",
         "network_type": "LTE",
-        "전일": 25300
+        "전일": 20000
       }
     ],
     "changedPlans": []
