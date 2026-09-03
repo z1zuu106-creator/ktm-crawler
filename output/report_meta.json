@@ -159,15 +159,15 @@
     "hiddenPlans": [
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (10GB+)",
+        "plan_name": "LTE 유심 (15GB+/300분)",
         "network_type": "LTE",
-        "전일": 18900
+        "전일": 28600
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
         "network_type": "LTE",
-        "전일": 16900
+        "전일": 18000
       }
     ],
     "changedPlans": []
