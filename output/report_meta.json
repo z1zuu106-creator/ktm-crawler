@@ -5,10 +5,10 @@
   "prevLabel": "9/5(전일)",
   "todayLabel": "9/6(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260906.xlsx",
-  "totalToday": 1076,
+  "totalToday": 1072,
   "summary": {
     "newCount": 19,
-    "hiddenCount": 2,
+    "hiddenCount": 9,
     "changedCount": 0,
     "newPlans": [
       {
@@ -157,12 +157,12 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
         "network_type": "LTE",
-        "data": 15,
-        "qos": "3Mbps",
-        "당일": 24200,
-        "bigo": "출시: 9/3"
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 16900,
+        "bigo": "출시: 9/4"
       },
       {
         "operator": "SK세븐모바일",
@@ -185,16 +185,58 @@
     ],
     "hiddenPlans": [
       {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (10GB+)",
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "network_type": "5G",
+        "전일": 46100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
+        "network_type": "5G",
+        "전일": 41900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
+        "network_type": "5G",
+        "전일": 44900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 15GB+",
+        "network_type": "5G",
+        "전일": 20000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 10GB+",
         "network_type": "LTE",
-        "전일": 18900
+        "전일": 18000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 17GB+",
+        "network_type": "LTE",
+        "전일": 19500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "network_type": "LTE",
+        "전일": 42000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 71GB+",
+        "network_type": "LTE",
+        "전일": 30000
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "plan_name": "LTE 유심 (11GB+/통화맘껏)",
         "network_type": "LTE",
-        "전일": 16900
+        "전일": 34100
       }
     ],
     "changedPlans": []
