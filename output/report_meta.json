@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260906",
-  "prevDateStr": "20260905",
-  "prev2DateStr": "20260904",
-  "prevLabel": "9/5(전일)",
-  "todayLabel": "9/6(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260906.xlsx",
-  "totalToday": 1072,
+  "todayDateStr": "20260907",
+  "prevDateStr": "20260906",
+  "prev2DateStr": "20260905",
+  "prevLabel": "9/6(전일)",
+  "todayLabel": "9/7(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260907.xlsx",
+  "totalToday": 1076,
   "summary": {
-    "newCount": 19,
-    "hiddenCount": 9,
+    "newCount": 20,
+    "hiddenCount": 6,
     "changedCount": 0,
     "newPlans": [
       {
@@ -157,6 +157,15 @@
       },
       {
         "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "network_type": "LTE",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200,
+        "bigo": "출시: 9/3"
+      },
+      {
+        "operator": "SK세븐모바일",
         "plan_name": "[셀프] LTE 유심 (7GB+)",
         "network_type": "LTE",
         "data": 7,
@@ -175,68 +184,50 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/100분)",
+        "plan_name": "LTE 유심 (11GB+/통화맘껏)",
         "network_type": "LTE",
-        "data": 15,
+        "data": 11,
         "qos": "3Mbps",
-        "당일": 25300,
-        "bigo": "출시: 9/5"
+        "당일": 34100,
+        "bigo": "출시: 9/7"
       }
     ],
     "hiddenPlans": [
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "plan_name": "유독 플러스 15GB+",
         "network_type": "5G",
-        "전일": 46100
+        "전일": 22900
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
-        "network_type": "5G",
-        "전일": 41900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
-        "network_type": "5G",
-        "전일": 44900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 셀럽 15GB+",
-        "network_type": "5G",
-        "전일": 20000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 멤버십 데이터 업 LTE 10GB+",
+        "plan_name": "유독 플러스 100GB+",
         "network_type": "LTE",
-        "전일": 18000
+        "전일": 40500
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 멤버십 데이터 업 LTE 17GB+",
+        "plan_name": "유독 플러스 71GB+",
         "network_type": "LTE",
-        "전일": 19500
+        "전일": 35000
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "plan_name": "유독 플러스 7GB+",
         "network_type": "LTE",
-        "전일": 42000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 셀럽 71GB+",
-        "network_type": "LTE",
-        "전일": 30000
+        "전일": 18900
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (11GB+/통화맘껏)",
+        "plan_name": "LTE 유심 (15GB+/100분)",
         "network_type": "LTE",
-        "전일": 34100
+        "전일": 25300
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "전일": 18000
       }
     ],
     "changedPlans": []
