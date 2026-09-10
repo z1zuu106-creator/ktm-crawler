@@ -1,10 +1,10 @@
 {
-  "todayDateStr": "20260909",
-  "prevDateStr": "20260908",
-  "prev2DateStr": "20260907",
-  "prevLabel": "9/8(전일)",
-  "todayLabel": "9/9(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260909.xlsx",
+  "todayDateStr": "20260910",
+  "prevDateStr": "20260909",
+  "prev2DateStr": "20260908",
+  "prevLabel": "9/9(전일)",
+  "todayLabel": "9/10(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260910.xlsx",
   "totalToday": 1076,
   "summary": {
     "newCount": 21,
@@ -166,12 +166,12 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
         "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16900,
-        "bigo": "출시: 9/4"
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200,
+        "bigo": "출시: 9/3"
       },
       {
         "operator": "SK세븐모바일",
@@ -193,26 +193,26 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
+        "plan_name": "LTE 유심 (15GB+/100분)",
         "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 18000,
-        "bigo": "출시: 9/9"
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 25300,
+        "bigo": "출시: 9/5"
       }
     ],
     "hiddenPlans": [
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
         "network_type": "LTE",
-        "전일": 24200
+        "전일": 16900
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/100분)",
+        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
         "network_type": "LTE",
-        "전일": 25300
+        "전일": 18000
       }
     ],
     "changedPlans": []
