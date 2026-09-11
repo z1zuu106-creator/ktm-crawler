@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260910",
-  "prevDateStr": "20260909",
-  "prev2DateStr": "20260908",
-  "prevLabel": "9/9(전일)",
-  "todayLabel": "9/10(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260910.xlsx",
-  "totalToday": 1076,
+  "todayDateStr": "20260911",
+  "prevDateStr": "20260910",
+  "prev2DateStr": "20260909",
+  "prevLabel": "9/10(전일)",
+  "todayLabel": "9/11(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260911.xlsx",
+  "totalToday": 1072,
   "summary": {
     "newCount": 22,
-    "hiddenCount": 2,
+    "hiddenCount": 8,
     "changedCount": 0,
     "newPlans": [
       {
@@ -212,16 +212,52 @@
     ],
     "hiddenPlans": [
       {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (10GB+)",
-        "network_type": "LTE",
-        "전일": 18900
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "network_type": "5G",
+        "전일": 46100
       },
       {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
+        "network_type": "5G",
+        "전일": 41900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
+        "network_type": "5G",
+        "전일": 44900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 15GB+",
+        "network_type": "5G",
+        "전일": 20000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 10GB+",
         "network_type": "LTE",
-        "전일": 27500
+        "전일": 18000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 멤버십 데이터 업 LTE 17GB+",
+        "network_type": "LTE",
+        "전일": 19500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "network_type": "LTE",
+        "전일": 42000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 셀럽 71GB+",
+        "network_type": "LTE",
+        "전일": 30000
       }
     ],
     "changedPlans": []
