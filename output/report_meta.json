@@ -7,7 +7,7 @@
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260911.xlsx",
   "totalToday": 1076,
   "summary": {
-    "newCount": 23,
+    "newCount": 22,
     "hiddenCount": 2,
     "changedCount": 0,
     "newPlans": [
@@ -193,15 +193,6 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (10GB+/통화맘껏)",
-        "network_type": "LTE",
-        "data": 10,
-        "qos": "1Mbps",
-        "당일": 20000,
-        "bigo": "출시: 9/3"
-      },
-      {
-        "operator": "SK세븐모바일",
         "plan_name": "LTE 유심 (11GB+/통화맘껏)",
         "network_type": "LTE",
         "data": 11,
@@ -222,9 +213,9 @@
     "hiddenPlans": [
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/300분)",
+        "plan_name": "LTE 유심 (10GB+/통화맘껏)",
         "network_type": "LTE",
-        "전일": 28600
+        "전일": 20000
       },
       {
         "operator": "SK세븐모바일",
