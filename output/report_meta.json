@@ -8,7 +8,7 @@
   "totalToday": 1072,
   "summary": {
     "newCount": 22,
-    "hiddenCount": 10,
+    "hiddenCount": 9,
     "changedCount": 0,
     "newPlans": [
       {
@@ -148,6 +148,15 @@
       },
       {
         "operator": "SK세븐모바일",
+        "plan_name": "5G 유심 (54GB+/통화맘껏)",
+        "network_type": "5G",
+        "data": 54,
+        "qos": "1Mbps",
+        "당일": 37900,
+        "bigo": "출시: 9/6"
+      },
+      {
+        "operator": "SK세븐모바일",
         "plan_name": "[셀프] LTE 유심 (10GB+)",
         "network_type": "LTE",
         "data": 10,
@@ -157,21 +166,21 @@
       },
       {
         "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "network_type": "LTE",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200,
+        "bigo": "출시: 9/3"
+      },
+      {
+        "operator": "SK세븐모바일",
         "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
         "network_type": "LTE",
         "data": 15,
         "qos": "3Mbps",
         "당일": 27500,
         "bigo": "출시: 9/11"
-      },
-      {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16900,
-        "bigo": "출시: 9/4"
       },
       {
         "operator": "SK세븐모바일",
@@ -199,15 +208,6 @@
         "qos": "3Mbps",
         "당일": 25300,
         "bigo": "출시: 9/5"
-      },
-      {
-        "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 18000,
-        "bigo": "출시: 9/9"
       }
     ],
     "hiddenPlans": [
@@ -261,15 +261,9 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "5G 유심 (54GB+/통화맘껏)",
-        "network_type": "5G",
-        "전일": 37900
-      },
-      {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
         "network_type": "LTE",
-        "전일": 24200
+        "전일": 16900
       }
     ],
     "changedPlans": []
