@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20260912",
-  "prevDateStr": "20260911",
-  "prev2DateStr": "20260910",
-  "prevLabel": "9/11(전일)",
-  "todayLabel": "9/12(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260912.xlsx",
+  "todayDateStr": "20260913",
+  "prevDateStr": "20260912",
+  "prev2DateStr": "20260911",
+  "prevLabel": "9/12(전일)",
+  "todayLabel": "9/13(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20260913.xlsx",
   "totalToday": 1076,
   "summary": {
     "newCount": 22,
-    "hiddenCount": 1,
+    "hiddenCount": 2,
     "changedCount": 0,
     "newPlans": [
       {
@@ -157,12 +157,12 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (10GB+)",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
         "network_type": "LTE",
-        "data": 10,
-        "qos": "1Mbps",
-        "당일": 18900,
-        "bigo": "출시: 9/8"
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200,
+        "bigo": "출시: 9/3"
       },
       {
         "operator": "SK세븐모바일",
@@ -172,15 +172,6 @@
         "qos": "3Mbps",
         "당일": 27500,
         "bigo": "출시: 9/11"
-      },
-      {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16900,
-        "bigo": "출시: 9/4"
       },
       {
         "operator": "SK세븐모바일",
@@ -208,14 +199,29 @@
         "qos": "3Mbps",
         "당일": 25300,
         "bigo": "출시: 9/5"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "LTE 유심 (7GB+/통화맘껏)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 18000,
+        "bigo": "출시: 9/9"
       }
     ],
     "hiddenPlans": [
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "plan_name": "[셀프] LTE 유심 (10GB+)",
         "network_type": "LTE",
-        "전일": 24200
+        "전일": 18900
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "network_type": "LTE",
+        "전일": 16900
       }
     ],
     "changedPlans": []
