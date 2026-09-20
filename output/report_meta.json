@@ -8,7 +8,7 @@
   "totalToday": 1075,
   "summary": {
     "newCount": 28,
-    "hiddenCount": 1,
+    "hiddenCount": 2,
     "changedCount": 0,
     "newPlans": [
       {
@@ -211,21 +211,21 @@
       },
       {
         "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (15GB+/100분)",
+        "network_type": "LTE",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 24200,
+        "bigo": "출시: 9/3"
+      },
+      {
+        "operator": "SK세븐모바일",
         "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
         "network_type": "LTE",
         "data": 15,
         "qos": "3Mbps",
         "당일": 27500,
         "bigo": "출시: 9/11"
-      },
-      {
-        "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16900,
-        "bigo": "출시: 9/4"
       },
       {
         "operator": "SK세븐모바일",
@@ -265,6 +265,12 @@
       }
     ],
     "hiddenPlans": [
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "network_type": "LTE",
+        "전일": 16900
+      },
       {
         "operator": "SK세븐모바일",
         "plan_name": "LTE 유심 (7GB+/통화맘껏)",
