@@ -211,12 +211,12 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (7GB+)",
+        "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
         "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16900,
-        "bigo": "출시: 9/4"
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 27500,
+        "bigo": "출시: 9/11"
       },
       {
         "operator": "SK세븐모바일",
@@ -291,9 +291,9 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "[셀프] LTE 유심 (15GB+/300분)",
+        "plan_name": "[셀프] LTE 유심 (7GB+)",
         "network_type": "LTE",
-        "전일": 27500
+        "전일": 16900
       }
     ],
     "changedPlans": []
