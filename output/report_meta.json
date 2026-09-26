@@ -256,20 +256,20 @@
       },
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/100분)",
+        "plan_name": "LTE 유심 (15GB+/300분)",
         "network_type": "LTE",
         "data": 15,
         "qos": "3Mbps",
-        "당일": 25300,
-        "bigo": "출시: 9/5"
+        "당일": 28600,
+        "bigo": "출시: 9/14"
       }
     ],
     "hiddenPlans": [
       {
         "operator": "SK세븐모바일",
-        "plan_name": "LTE 유심 (15GB+/300분)",
+        "plan_name": "LTE 유심 (15GB+/100분)",
         "network_type": "LTE",
-        "전일": 28600
+        "전일": 25300
       },
       {
         "operator": "SK세븐모바일",
