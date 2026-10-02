@@ -5,10 +5,10 @@
   "prevLabel": "10/1(전일)",
   "todayLabel": "10/2(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261002.xlsx",
-  "totalToday": 1078,
+  "totalToday": 1069,
   "summary": {
-    "newCount": 18,
-    "hiddenCount": 0,
+    "newCount": 9,
+    "hiddenCount": 9,
     "changedCount": 0,
     "newPlans": [
       {
@@ -91,90 +91,64 @@
         "qos": "400kbps",
         "당일": 15900,
         "bigo": "출시: 10/1"
-      },
+      }
+    ],
+    "hiddenPlans": [
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 5G 125GB+",
         "network_type": "5G",
-        "data": "125GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 37800,
-        "bigo": "출시: 10/1"
+        "전일": 37800
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 더블쿠폰 5G 125GB+",
         "network_type": "5G",
-        "data": "125GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 40300,
-        "bigo": "출시: 10/1"
+        "전일": 40300
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 더블쿠폰 LTE 15GB+",
         "network_type": "5G",
-        "data": "15GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 20700,
-        "bigo": "출시: 10/1"
+        "전일": 20700
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 LTE 15GB+",
         "network_type": "5G",
-        "data": "15GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 18200,
-        "bigo": "출시: 10/1"
+        "전일": 18200
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 더블쿠폰 LTE 100GB+",
         "network_type": "LTE",
-        "data": "100GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 37100,
-        "bigo": "출시: 10/1"
+        "전일": 37100
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 더블쿠폰 LTE 71GB+",
         "network_type": "LTE",
-        "data": "71GB+3Mbps",
-        "qos": "3Mbps",
-        "당일": 32200,
-        "bigo": "출시: 10/1"
+        "전일": 32200
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 LTE 100GB+",
         "network_type": "LTE",
-        "data": "100GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 34600,
-        "bigo": "출시: 10/1"
+        "전일": 34600
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 LTE 1GB",
         "network_type": "LTE",
-        "data": 1,
-        "qos": null,
-        "당일": 5400,
-        "bigo": "출시: 10/1"
+        "전일": 5400
       },
       {
         "operator": "우리WON모바일",
         "plan_name": "우리 사장님 LTE 71GB+",
         "network_type": "LTE",
-        "data": "71GB+3Mbps",
-        "qos": "3Mbps",
-        "당일": 29700,
-        "bigo": "출시: 10/1"
+        "전일": 29700
       }
     ],
-    "hiddenPlans": [],
     "changedPlans": []
   }
 }
