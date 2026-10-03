@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261002",
-  "prevDateStr": "20261001",
-  "prev2DateStr": "20260930",
-  "prevLabel": "10/1(전일)",
-  "todayLabel": "10/2(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261002.xlsx",
+  "todayDateStr": "20261003",
+  "prevDateStr": "20261002",
+  "prev2DateStr": "20261001",
+  "prevLabel": "10/2(전일)",
+  "todayLabel": "10/3(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261003.xlsx",
   "totalToday": 1069,
   "summary": {
     "newCount": 9,
-    "hiddenCount": 9,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -93,62 +93,7 @@
         "bigo": "출시: 10/1"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 5G 125GB+",
-        "network_type": "5G",
-        "전일": 37800
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 더블쿠폰 5G 125GB+",
-        "network_type": "5G",
-        "전일": 40300
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 더블쿠폰 LTE 15GB+",
-        "network_type": "5G",
-        "전일": 20700
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 LTE 15GB+",
-        "network_type": "5G",
-        "전일": 18200
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 더블쿠폰 LTE 100GB+",
-        "network_type": "LTE",
-        "전일": 37100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 더블쿠폰 LTE 71GB+",
-        "network_type": "LTE",
-        "전일": 32200
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 LTE 100GB+",
-        "network_type": "LTE",
-        "전일": 34600
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 LTE 1GB",
-        "network_type": "LTE",
-        "전일": 5400
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 사장님 LTE 71GB+",
-        "network_type": "LTE",
-        "전일": 29700
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
