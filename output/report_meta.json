@@ -1,10 +1,10 @@
 {
-  "todayDateStr": "20261010",
-  "prevDateStr": "20261009",
-  "prev2DateStr": "20261008",
-  "prevLabel": "10/9(전일)",
-  "todayLabel": "10/10(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261010.xlsx",
+  "todayDateStr": "20261011",
+  "prevDateStr": "20261010",
+  "prev2DateStr": "20261009",
+  "prevLabel": "10/10(전일)",
+  "todayLabel": "10/11(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261011.xlsx",
   "totalToday": 1069,
   "summary": {
     "newCount": 9,
