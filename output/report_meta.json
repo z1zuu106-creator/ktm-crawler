@@ -1,13 +1,13 @@
 {
-  "todayDateStr": "20261011",
-  "prevDateStr": "20261010",
-  "prev2DateStr": "20261009",
-  "prevLabel": "10/10(전일)",
-  "todayLabel": "10/11(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261011.xlsx",
-  "totalToday": 1069,
+  "todayDateStr": "20261012",
+  "prevDateStr": "20261011",
+  "prev2DateStr": "20261010",
+  "prevLabel": "10/11(전일)",
+  "todayLabel": "10/12(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261012.xlsx",
+  "totalToday": 1081,
   "summary": {
-    "newCount": 9,
+    "newCount": 21,
     "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
@@ -66,6 +66,60 @@
         "bigo": "출시: 10/1"
       },
       {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 맘껏 2.2GB+/100분",
+        "network_type": "LTE",
+        "data": 2.2,
+        "qos": "1Mbps",
+        "당일": 28200,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 함께쓰기 120분",
+        "network_type": "LTE",
+        "data": "0MB+2GB(결합시)",
+        "qos": null,
+        "당일": 3900,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 함께쓰기 120분+400K",
+        "network_type": "LTE",
+        "data": "0MB+2GB(결합시)",
+        "qos": "400Kbps",
+        "당일": 4500,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 함께쓰기 240분",
+        "network_type": "LTE",
+        "data": "0MB+2GB(결합시)",
+        "qos": null,
+        "당일": 5000,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 함께쓰기 240분+400K",
+        "network_type": "LTE",
+        "data": "0MB+2GB(결합시)",
+        "qos": "400Kbps",
+        "당일": 5500,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "KT M모바일",
+        "plan_name": "데이터 함께쓰기 60분/500MB",
+        "network_type": "LTE",
+        "data": "500MB+2GB(결합시)",
+        "qos": null,
+        "당일": 3900,
+        "bigo": "출시: 10/12"
+      },
+      {
         "operator": "헬로모바일",
         "plan_name": "The 착한 데이터 유심 300MB",
         "network_type": "LTE",
@@ -91,6 +145,60 @@
         "qos": "400kbps",
         "당일": 15900,
         "bigo": "출시: 10/1"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (100GB+)",
+        "network_type": "LTE",
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 47850,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (10GB+)",
+        "network_type": "LTE",
+        "data": 10,
+        "qos": "1Mbps",
+        "당일": 24700,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (11GB+)",
+        "network_type": "LTE",
+        "data": 11,
+        "qos": "3Mbps",
+        "당일": 41200,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (15GB+)",
+        "network_type": "LTE",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 30800,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (1GB+)",
+        "network_type": "LTE",
+        "data": 1,
+        "qos": "1Mbps",
+        "당일": 18400,
+        "bigo": "출시: 10/12"
+      },
+      {
+        "operator": "SK세븐모바일",
+        "plan_name": "[Online] CMLink (7GB+)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 24200,
+        "bigo": "출시: 10/12"
       }
     ],
     "hiddenPlans": [],
