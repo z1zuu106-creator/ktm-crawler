@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261019",
-  "prevDateStr": "20261018",
-  "prev2DateStr": "20261017",
-  "prevLabel": "10/18(전일)",
-  "todayLabel": "10/19(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261019.xlsx",
+  "todayDateStr": "20261020",
+  "prevDateStr": "20261019",
+  "prev2DateStr": "20261018",
+  "prevLabel": "10/19(전일)",
+  "todayLabel": "10/20(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261020.xlsx",
   "totalToday": 1080,
   "summary": {
     "newCount": 20,
-    "hiddenCount": 1,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -192,14 +192,7 @@
         "bigo": "출시: 10/12"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "KT M모바일",
-        "plan_name": "데이터 맘껏 2.2GB+/100분",
-        "network_type": "LTE",
-        "전일": 28200
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
