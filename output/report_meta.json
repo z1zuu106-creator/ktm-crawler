@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261020",
-  "prevDateStr": "20261019",
-  "prev2DateStr": "20261018",
-  "prevLabel": "10/19(전일)",
-  "todayLabel": "10/20(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261020.xlsx",
-  "totalToday": 1075,
+  "todayDateStr": "20261021",
+  "prevDateStr": "20261020",
+  "prev2DateStr": "20261019",
+  "prevLabel": "10/20(전일)",
+  "todayLabel": "10/21(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261021.xlsx",
+  "totalToday": 1080,
   "summary": {
-    "newCount": 20,
-    "hiddenCount": 5,
+    "newCount": 25,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -138,6 +138,51 @@
         "bigo": "출시: 10/1"
       },
       {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 20GB",
+        "network_type": "5G",
+        "data": 20,
+        "qos": null,
+        "당일": 25900,
+        "bigo": "출시: 10/21"
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(웨이브)",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "3Mbps",
+        "당일": 29900,
+        "bigo": "출시: 10/21"
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 일5GB+(왓챠)",
+        "network_type": "5G",
+        "data": 5,
+        "qos": "5Mbps",
+        "당일": 41100,
+        "bigo": "출시: 10/21"
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 2GB+",
+        "network_type": "LTE",
+        "data": 2,
+        "qos": "400kbps",
+        "당일": 5900,
+        "bigo": "출시: 10/21"
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(모아진)",
+        "network_type": "LTE",
+        "data": 7,
+        "qos": "1Mbps",
+        "당일": 16700,
+        "bigo": "출시: 10/21"
+      },
+      {
         "operator": "SK세븐모바일",
         "plan_name": "[Online] CMLink (100GB+)",
         "network_type": "LTE",
@@ -192,38 +237,7 @@
         "bigo": "출시: 10/12"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 통화 충분 20GB",
-        "network_type": "5G",
-        "전일": 25900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "데이터 충분 15GB+/100분(웨이브)",
-        "network_type": "5G",
-        "전일": 29900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 일5GB+(왓챠)",
-        "network_type": "5G",
-        "전일": 41100
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "골드 2GB+",
-        "network_type": "LTE",
-        "전일": 5900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 7GB+(모아진)",
-        "network_type": "LTE",
-        "전일": 16700
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
