@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261022",
-  "prevDateStr": "20261021",
-  "prev2DateStr": "20261020",
-  "prevLabel": "10/21(전일)",
-  "todayLabel": "10/22(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261022.xlsx",
+  "todayDateStr": "20261023",
+  "prevDateStr": "20261022",
+  "prev2DateStr": "20261021",
+  "prevLabel": "10/22(전일)",
+  "todayLabel": "10/23(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261023.xlsx",
   "totalToday": 1078,
   "summary": {
     "newCount": 142,
-    "hiddenCount": 2,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -1290,20 +1290,7 @@
         "bigo": "출시: 10/12"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "KT M모바일",
-        "plan_name": "3G 알뜰 180분/30MB",
-        "network_type": "LTE",
-        "전일": 26400
-      },
-      {
-        "operator": "KT M모바일",
-        "plan_name": "3G 알뜰 통화맘껏/30MB",
-        "network_type": "LTE",
-        "전일": 34100
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
