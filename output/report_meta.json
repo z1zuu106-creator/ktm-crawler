@@ -5,10 +5,10 @@
   "prevLabel": "10/25(전일)",
   "todayLabel": "10/26(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261026.xlsx",
-  "totalToday": 1072,
+  "totalToday": 1073,
   "summary": {
     "newCount": 137,
-    "hiddenCount": 6,
+    "hiddenCount": 5,
     "changedCount": 0,
     "newPlans": [
       {
@@ -1275,12 +1275,6 @@
         "plan_name": "10%적립 스페셜",
         "network_type": "LTE",
         "전일": 34900
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 7GB+(올리브영_5000)",
-        "network_type": "LTE",
-        "전일": 19000
       }
     ],
     "changedPlans": []
