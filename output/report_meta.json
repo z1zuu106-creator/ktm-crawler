@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261027",
-  "prevDateStr": "20261026",
-  "prev2DateStr": "20261025",
-  "prevLabel": "10/26(전일)",
-  "todayLabel": "10/27(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261027.xlsx",
-  "totalToday": 1082,
+  "todayDateStr": "20261028",
+  "prevDateStr": "20261027",
+  "prev2DateStr": "20261026",
+  "prevLabel": "10/27(전일)",
+  "todayLabel": "10/28(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261028.xlsx",
+  "totalToday": 987,
   "summary": {
-    "newCount": 150,
-    "hiddenCount": 8,
+    "newCount": 131,
+    "hiddenCount": 103,
     "changedCount": 0,
     "newPlans": [
       {
@@ -1129,183 +1129,12 @@
       },
       {
         "operator": "스카이라이프",
-        "plan_name": "5G 모두 충분 안심 10GB+",
-        "network_type": "5G",
-        "data": 10,
-        "qos": "400kbps",
-        "당일": 18900,
-        "bigo": "출시: 10/1"
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 모두 충분 안심 6GB+",
-        "network_type": "5G",
-        "data": 6,
-        "qos": "400kbps",
-        "당일": 15900,
-        "bigo": "출시: 10/1"
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "5G 통화 충분 20GB",
-        "network_type": "5G",
-        "data": 20,
-        "qos": null,
-        "당일": 25900,
-        "bigo": "출시: 10/21"
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "데이터 충분 15GB+/100분(웨이브)",
-        "network_type": "5G",
-        "data": 15,
-        "qos": "3Mbps",
-        "당일": 29900,
-        "bigo": "출시: 10/21"
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 일5GB+(왓챠)",
-        "network_type": "5G",
-        "data": 5,
-        "qos": "5Mbps",
-        "당일": 41100,
-        "bigo": "출시: 10/21"
-      },
-      {
-        "operator": "스카이라이프",
         "plan_name": "골드 2GB+",
         "network_type": "LTE",
         "data": 2,
         "qos": "400kbps",
         "당일": 5900,
         "bigo": "출시: 10/21"
-      },
-      {
-        "operator": "스카이라이프",
-        "plan_name": "모두 충분 7GB+(모아진)",
-        "network_type": "LTE",
-        "data": 7,
-        "qos": "1Mbps",
-        "당일": 16700,
-        "bigo": "출시: 10/21"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 11GB",
-        "network_type": "5G",
-        "data": 11,
-        "qos": null,
-        "당일": 15900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 125GB+",
-        "network_type": "5G",
-        "data": "125GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 42100,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 4GB",
-        "network_type": "5G",
-        "data": 4,
-        "qos": null,
-        "당일": 8900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 50GB+",
-        "network_type": "5G",
-        "data": "50GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 37900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 6GB",
-        "network_type": "5G",
-        "data": 6,
-        "qos": null,
-        "당일": 10900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 8GB",
-        "network_type": "5G",
-        "data": 8,
-        "qos": null,
-        "당일": 12900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 직장인 LTE 10GB+",
-        "network_type": "LTE",
-        "data": "10GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 19100,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 100GB+",
-        "network_type": "LTE",
-        "data": "100GB+5Mbps",
-        "qos": "5Mbps",
-        "당일": 39000,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 10GB+",
-        "network_type": "LTE",
-        "data": "10GB+1Mbps",
-        "qos": "1Mbps",
-        "당일": 19100,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 3GB",
-        "network_type": "LTE",
-        "data": 3,
-        "qos": null,
-        "당일": 7900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 71GB+",
-        "network_type": "LTE",
-        "data": "71GB+3Mbps",
-        "qos": "3Mbps",
-        "당일": 33000,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 시니어 2GB+",
-        "network_type": "LTE",
-        "data": "2GB+400Kbps",
-        "qos": "400Kbps",
-        "당일": 8900,
-        "bigo": "출시: 10/4"
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 시니어 4GB+",
-        "network_type": "LTE",
-        "data": "4GB+400Kbps",
-        "qos": "400Kbps",
-        "당일": 10900,
-        "bigo": "출시: 10/4"
       },
       {
         "operator": "SK세븐모바일",
@@ -1364,52 +1193,622 @@
     ],
     "hiddenPlans": [
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 125GB+",
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 14GB+",
         "network_type": "5G",
-        "전일": 46100
+        "전일": 33100
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 50GB+",
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 50GB+",
         "network_type": "5G",
-        "전일": 41900
+        "전일": 38500
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 5G 95GB+",
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 70GB+",
         "network_type": "5G",
-        "전일": 44900
+        "전일": 39700
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 셀럽 15GB+",
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 70GB+(밀리의서재)",
         "network_type": "5G",
-        "전일": 20000
+        "전일": 39800
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 멤버십 데이터 업 LTE 10GB+",
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 90GB+",
+        "network_type": "5G",
+        "전일": 40900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 90GB+(밀리의서재)",
+        "network_type": "5G",
+        "전일": 41000
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 안심 10GB+",
+        "network_type": "5G",
+        "전일": 18900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 모두 충분 안심 6GB+",
+        "network_type": "5G",
+        "전일": 15900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 슬림 10GB/200분",
+        "network_type": "5G",
+        "전일": 10900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 슬림 20GB/200분",
+        "network_type": "5G",
+        "전일": 18900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 슬림 3GB/200분",
+        "network_type": "5G",
+        "전일": 7900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 슬림 6GB/200분",
+        "network_type": "5G",
+        "전일": 8900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 10GB",
+        "network_type": "5G",
+        "전일": 14900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 15GB",
+        "network_type": "5G",
+        "전일": 17900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 20GB",
+        "network_type": "5G",
+        "전일": 25900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 30GB",
+        "network_type": "5G",
+        "전일": 29900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 3GB",
+        "network_type": "5G",
+        "전일": 8900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "5G 통화 충분 6GB",
+        "network_type": "5G",
+        "전일": 11900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분",
+        "network_type": "5G",
+        "전일": 26300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(모아진)",
+        "network_type": "5G",
+        "전일": 26300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(웨이브)",
+        "network_type": "5G",
+        "전일": 29900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(지니뮤직)",
+        "network_type": "5G",
+        "전일": 29400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(CU)",
+        "network_type": "5G",
+        "전일": 26300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/100분(Pay_5000)",
+        "network_type": "5G",
+        "전일": 28500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/300분",
+        "network_type": "5G",
+        "전일": 27500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/300분(CU)",
+        "network_type": "5G",
+        "전일": 28300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 5GB+/100분",
+        "network_type": "5G",
+        "전일": 14300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 1.5GB+",
+        "network_type": "5G",
+        "전일": 6900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(다이소_5000)",
+        "network_type": "5G",
+        "전일": 23700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(모아진)",
+        "network_type": "5G",
+        "전일": 21400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(밀리의서재)",
+        "network_type": "5G",
+        "전일": 21500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(올리브영_5000)",
+        "network_type": "5G",
+        "전일": 23700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(지니뮤직)",
+        "network_type": "5G",
+        "전일": 24200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(후후안심)",
+        "network_type": "5G",
+        "전일": 21200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(CU)",
+        "network_type": "5G",
+        "전일": 21900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 15GB+(Pay_5000)",
+        "network_type": "5G",
+        "전일": 23700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 2.5GB+",
+        "network_type": "5G",
+        "전일": 11800
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 4.5GB+",
+        "network_type": "5G",
+        "전일": 13200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 일5GB+(왓챠)",
+        "network_type": "5G",
+        "전일": 41100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "슬림 1.5GB/150분",
+        "network_type": "5G",
+        "전일": 3900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 1.5GB",
+        "network_type": "5G",
+        "전일": 6600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 15GB",
+        "network_type": "5G",
+        "전일": 16900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 2.5GB",
+        "network_type": "5G",
+        "전일": 7700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 4.5GB",
+        "network_type": "5G",
+        "전일": 8850
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 6.5GB",
+        "network_type": "5G",
+        "전일": 10900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 4.0GB+",
         "network_type": "LTE",
-        "전일": 18000
+        "전일": 9900
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 멤버십 데이터 업 LTE 17GB+",
+        "operator": "스카이라이프",
+        "plan_name": "골드 500MB+",
+        "network_type": "LTE",
+        "전일": 5900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 2.2GB+/100분",
+        "network_type": "LTE",
+        "전일": 11700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 100GB+(모아진)",
+        "network_type": "LTE",
+        "전일": 39400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+",
+        "network_type": "LTE",
+        "전일": 17900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(다이소_5000)",
+        "network_type": "LTE",
+        "전일": 21500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(모아진)",
+        "network_type": "LTE",
+        "전일": 19300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(밀리의서재)",
+        "network_type": "LTE",
+        "전일": 19400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(올리브영_5000)",
+        "network_type": "LTE",
+        "전일": 21500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(지니뮤직)",
+        "network_type": "LTE",
+        "전일": 22000
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(CU)",
+        "network_type": "LTE",
+        "전일": 19700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(Pay_5000)",
+        "network_type": "LTE",
+        "전일": 21500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11.0GB+(기프티쇼)",
+        "network_type": "LTE",
+        "전일": 36600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11.0GB+(지니뮤직)",
+        "network_type": "LTE",
+        "전일": 35800
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(다이소_5000)",
+        "network_type": "LTE",
+        "전일": 36600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(멜론뮤직)",
+        "network_type": "LTE",
+        "전일": 37500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(모아진)",
+        "network_type": "LTE",
+        "전일": 34200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(밀리의서재)",
+        "network_type": "LTE",
+        "전일": 34300
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(배달의민족)",
+        "network_type": "LTE",
+        "전일": 36600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(올리브영_5000)",
+        "network_type": "LTE",
+        "전일": 36600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(왓챠)",
+        "network_type": "LTE",
+        "전일": 35900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(요기요)",
+        "network_type": "LTE",
+        "전일": 36600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(웨이브)",
+        "network_type": "LTE",
+        "전일": 37800
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(후후안심)",
+        "network_type": "LTE",
+        "전일": 34200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 11GB+(CU)",
+        "network_type": "LTE",
+        "전일": 34200
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 6GB+",
+        "network_type": "LTE",
+        "전일": 14900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(모아진)",
+        "network_type": "LTE",
+        "전일": 16700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(밀리의서재)",
+        "network_type": "LTE",
+        "전일": 16800
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(지니뮤직)",
         "network_type": "LTE",
         "전일": 19500
       },
       {
-        "operator": "우리WON모바일",
-        "plan_name": "우리 삼성월렛머니 자급제 100GB+",
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(후후안심)",
         "network_type": "LTE",
-        "전일": 42000
+        "전일": 16700
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(CU)",
+        "network_type": "LTE",
+        "전일": 17100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 7GB+(Pay_3000)",
+        "network_type": "LTE",
+        "전일": 18100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "복지전용 슬림 1GB/150분",
+        "network_type": "LTE",
+        "전일": 3500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스마트 데이터 충분 10GB+",
+        "network_type": "LTE",
+        "전일": 10800
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스마트 데이터 충분 20GB+",
+        "network_type": "LTE",
+        "전일": 14100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스쿨 8GB+",
+        "network_type": "LTE",
+        "전일": 14900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "슬림 3GB/300분",
+        "network_type": "LTE",
+        "전일": 5900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "안심 골드 2GB+",
+        "network_type": "LTE",
+        "전일": 7400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "웨어러블 Watch",
+        "network_type": "LTE",
+        "전일": 6600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 10GB",
+        "network_type": "LTE",
+        "전일": 13900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 20GB",
+        "network_type": "LTE",
+        "전일": 20100
       },
       {
         "operator": "우리WON모바일",
-        "plan_name": "우리WON 셀럽 71GB+",
+        "plan_name": "우리WON 5G 11GB",
+        "network_type": "5G",
+        "전일": 15900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 125GB+",
+        "network_type": "5G",
+        "전일": 42100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 4GB",
+        "network_type": "5G",
+        "전일": 8900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 50GB+",
+        "network_type": "5G",
+        "전일": 37900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 6GB",
+        "network_type": "5G",
+        "전일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 5G 8GB",
+        "network_type": "5G",
+        "전일": 12900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 15GB+",
+        "network_type": "5G",
+        "전일": 22900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON 직장인 LTE 10GB+",
         "network_type": "LTE",
-        "전일": 30000
+        "전일": 19100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 100GB+",
+        "network_type": "LTE",
+        "전일": 39000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 10GB+",
+        "network_type": "LTE",
+        "전일": 19100
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 3GB",
+        "network_type": "LTE",
+        "전일": 7900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 71GB+",
+        "network_type": "LTE",
+        "전일": 33000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 시니어 2GB+",
+        "network_type": "LTE",
+        "전일": 8900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "우리WON LTE 시니어 4GB+",
+        "network_type": "LTE",
+        "전일": 10900
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 100GB+",
+        "network_type": "LTE",
+        "전일": 40500
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 71GB+",
+        "network_type": "LTE",
+        "전일": 35000
+      },
+      {
+        "operator": "우리WON모바일",
+        "plan_name": "유독 플러스 7GB+",
+        "network_type": "LTE",
+        "전일": 18900
       }
     ],
     "changedPlans": []
