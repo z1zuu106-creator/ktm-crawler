@@ -1,14 +1,14 @@
 {
-  "todayDateStr": "20261028",
-  "prevDateStr": "20261027",
-  "prev2DateStr": "20261026",
-  "prevLabel": "10/27(전일)",
-  "todayLabel": "10/28(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261028.xlsx",
+  "todayDateStr": "20261029",
+  "prevDateStr": "20261028",
+  "prev2DateStr": "20261027",
+  "prevLabel": "10/28(전일)",
+  "todayLabel": "10/29(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261029.xlsx",
   "totalToday": 1073,
   "summary": {
     "newCount": 137,
-    "hiddenCount": 17,
+    "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
       {
@@ -1245,110 +1245,7 @@
         "bigo": "출시: 10/12"
       }
     ],
-    "hiddenPlans": [
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 11GB",
-        "network_type": "5G",
-        "전일": 15900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 125GB+",
-        "network_type": "5G",
-        "전일": 42100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 4GB",
-        "network_type": "5G",
-        "전일": 8900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 50GB+",
-        "network_type": "5G",
-        "전일": 37900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 6GB",
-        "network_type": "5G",
-        "전일": 10900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 5G 8GB",
-        "network_type": "5G",
-        "전일": 12900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 15GB+",
-        "network_type": "5G",
-        "전일": 22900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON 직장인 LTE 10GB+",
-        "network_type": "LTE",
-        "전일": 19100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 100GB+",
-        "network_type": "LTE",
-        "전일": 39000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 10GB+",
-        "network_type": "LTE",
-        "전일": 19100
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 3GB",
-        "network_type": "LTE",
-        "전일": 7900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 71GB+",
-        "network_type": "LTE",
-        "전일": 33000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 시니어 2GB+",
-        "network_type": "LTE",
-        "전일": 8900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "우리WON LTE 시니어 4GB+",
-        "network_type": "LTE",
-        "전일": 10900
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 100GB+",
-        "network_type": "LTE",
-        "전일": 40500
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 71GB+",
-        "network_type": "LTE",
-        "전일": 35000
-      },
-      {
-        "operator": "우리WON모바일",
-        "plan_name": "유독 플러스 7GB+",
-        "network_type": "LTE",
-        "전일": 18900
-      }
-    ],
+    "hiddenPlans": [],
     "changedPlans": []
   }
 }
