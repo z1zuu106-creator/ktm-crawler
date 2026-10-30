@@ -141,7 +141,7 @@
         "operator": "유모바일",
         "plan_name": "5G (125GB+/통화기본)",
         "network_type": "5G",
-        "data": "125GB+10GB",
+        "data": 125,
         "qos": "5Mbps",
         "당일": 42100,
         "bigo": "출시: 10/22"
@@ -222,7 +222,7 @@
         "operator": "유모바일",
         "plan_name": "5G (50GB+/통화기본)",
         "network_type": "5G",
-        "data": "50GB+10GB",
+        "data": 50,
         "qos": "1Mbps",
         "당일": 37850,
         "bigo": "출시: 10/22"
@@ -258,7 +258,7 @@
         "operator": "유모바일",
         "plan_name": "5G (95GB+/통화기본)",
         "network_type": "5G",
-        "data": "95GB+10GB",
+        "data": 95,
         "qos": "3Mbps",
         "당일": 40900,
         "bigo": "출시: 10/22"
@@ -816,7 +816,7 @@
         "operator": "유모바일",
         "plan_name": "LTE (10GB+/통화기본)",
         "network_type": "LTE",
-        "data": "(10+10)GB",
+        "data": 10,
         "qos": "1Mbps",
         "당일": 18900,
         "bigo": "출시: 10/22"
@@ -852,7 +852,7 @@
         "operator": "유모바일",
         "plan_name": "LTE (15GB+/통화기본)",
         "network_type": "LTE",
-        "data": "(15+10)GB",
+        "data": 15,
         "qos": "1Mbps",
         "당일": 20900,
         "bigo": "출시: 10/22"
@@ -1005,7 +1005,7 @@
         "operator": "유모바일",
         "plan_name": "LTE (7GB+/통화기본)",
         "network_type": "LTE",
-        "data": "(7+10)GB",
+        "data": 7,
         "qos": "1Mbps",
         "당일": 15900,
         "bigo": "출시: 10/22"
@@ -1032,7 +1032,7 @@
         "operator": "유모바일",
         "plan_name": "LTE 스페셜",
         "network_type": "LTE",
-        "data": "11GB+일2GB+10GB",
+        "data": "11GB+일2GB",
         "qos": "3Mbps",
         "당일": 32990,
         "bigo": "출시: 10/22"
@@ -1059,7 +1059,7 @@
         "operator": "유모바일",
         "plan_name": "LTE 스페셜 플러스",
         "network_type": "LTE",
-        "data": "100GB+10GB",
+        "data": 100,
         "qos": "5Mbps",
         "당일": 38200,
         "bigo": "출시: 10/22"
