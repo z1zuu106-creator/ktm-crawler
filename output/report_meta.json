@@ -5,10 +5,10 @@
   "prevLabel": "10/31(전일)",
   "todayLabel": "11/1(당일)",
   "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261101.xlsx",
-  "totalToday": 1080,
+  "totalToday": 1078,
   "summary": {
     "newCount": 8,
-    "hiddenCount": 3,
+    "hiddenCount": 5,
     "changedCount": 0,
     "newPlans": [
       {
@@ -87,21 +87,33 @@
     "hiddenPlans": [
       {
         "operator": "스카이라이프",
-        "plan_name": "모두 충분 100GB+(지니뮤직)",
-        "network_type": "LTE",
-        "전일": 42300
+        "plan_name": "5G 모두 충분 70GB+(밀리의서재)",
+        "network_type": "5G",
+        "전일": 39800
       },
       {
         "operator": "스카이라이프",
-        "plan_name": "모두 충분 11GB+(CU)",
+        "plan_name": "모두 충분 100GB+(CU)",
         "network_type": "LTE",
-        "전일": 34200
+        "전일": 39400
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 10GB+(다이소_5000)",
+        "network_type": "LTE",
+        "전일": 21500
       },
       {
         "operator": "스카이라이프",
         "plan_name": "모두 충분 7GB+(CU)",
         "network_type": "LTE",
         "전일": 17100
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "스쿨 8GB+",
+        "network_type": "LTE",
+        "전일": 14900
       }
     ],
     "changedPlans": []
