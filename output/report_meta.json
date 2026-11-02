@@ -1,15 +1,15 @@
 {
-  "todayDateStr": "20261101",
-  "prevDateStr": "20261031",
-  "prev2DateStr": "20261030",
-  "prevLabel": "10/31(전일)",
-  "todayLabel": "11/1(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261101.xlsx",
+  "todayDateStr": "20261102",
+  "prevDateStr": "20261101",
+  "prev2DateStr": "20261031",
+  "prevLabel": "11/1(전일)",
+  "todayLabel": "11/2(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261102.xlsx",
   "totalToday": 1079,
   "summary": {
-    "newCount": 8,
+    "newCount": 12,
     "hiddenCount": 4,
-    "changedCount": 0,
+    "changedCount": 1,
     "newPlans": [
       {
         "operator": "KT M모바일",
@@ -82,34 +82,78 @@
         "qos": "10Mbps",
         "당일": 47600,
         "bigo": "출시: 11/1"
-      }
-    ],
-    "hiddenPlans": [
+      },
       {
         "operator": "스카이라이프",
         "plan_name": "5G 모두 충분 200GB+",
         "network_type": "5G",
-        "전일": 49200
+        "data": 200,
+        "qos": "10Mbps",
+        "당일": 49200,
+        "bigo": "출시: 11/2"
       },
       {
         "operator": "스카이라이프",
         "plan_name": "데이터 충분 2.2GB+/100분",
         "network_type": "LTE",
-        "전일": 11700
+        "data": 2.2,
+        "qos": "1Mbps",
+        "당일": 11700,
+        "bigo": "출시: 11/2"
       },
       {
         "operator": "스카이라이프",
         "plan_name": "모두 충분 100GB+(웨이브)",
         "network_type": "LTE",
-        "전일": 43000
+        "data": 100,
+        "qos": "5Mbps",
+        "당일": 43000,
+        "bigo": "출시: 11/2"
       },
       {
         "operator": "스카이라이프",
         "plan_name": "슬림 2GB/200분",
         "network_type": "LTE",
-        "전일": 4900
+        "data": 2,
+        "qos": null,
+        "당일": 4900,
+        "bigo": "출시: 11/2"
       }
     ],
-    "changedPlans": []
+    "hiddenPlans": [
+      {
+        "operator": "스카이라이프",
+        "plan_name": "데이터 충분 15GB+/300분",
+        "network_type": "5G",
+        "전일": 27500
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "통화 충분 1.5GB",
+        "network_type": "5G",
+        "전일": 6600
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "골드 4.0GB+",
+        "network_type": "LTE",
+        "전일": 9900
+      },
+      {
+        "operator": "스카이라이프",
+        "plan_name": "모두 충분 100GB+(Pay_5000)",
+        "network_type": "LTE",
+        "전일": 41800
+      }
+    ],
+    "changedPlans": [
+      {
+        "operator": "헬로모바일",
+        "plan_name": "슬림 유심 500MB 50분",
+        "전일": 1700,
+        "당일": 1900,
+        "gap": 200
+      }
+    ]
   }
 }
