@@ -1,15 +1,15 @@
 {
-  "todayDateStr": "20261102",
-  "prevDateStr": "20261101",
-  "prev2DateStr": "20261031",
-  "prevLabel": "11/1(전일)",
-  "todayLabel": "11/2(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261102.xlsx",
+  "todayDateStr": "20261103",
+  "prevDateStr": "20261102",
+  "prev2DateStr": "20261101",
+  "prevLabel": "11/2(전일)",
+  "todayLabel": "11/3(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261103.xlsx",
   "totalToday": 1083,
   "summary": {
     "newCount": 12,
     "hiddenCount": 0,
-    "changedCount": 1,
+    "changedCount": 0,
     "newPlans": [
       {
         "operator": "KT M모바일",
@@ -121,14 +121,6 @@
       }
     ],
     "hiddenPlans": [],
-    "changedPlans": [
-      {
-        "operator": "헬로모바일",
-        "plan_name": "슬림 유심 500MB 50분",
-        "전일": 1700,
-        "당일": 1900,
-        "gap": 200
-      }
-    ]
+    "changedPlans": []
   }
 }
