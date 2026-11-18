@@ -1,13 +1,13 @@
 {
-  "todayDateStr": "20261117",
-  "prevDateStr": "20261116",
-  "prev2DateStr": "20261115",
-  "prevLabel": "11/16(전일)",
-  "todayLabel": "11/17(당일)",
-  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261117.xlsx",
-  "totalToday": 1084,
+  "todayDateStr": "20261118",
+  "prevDateStr": "20261117",
+  "prev2DateStr": "20261116",
+  "prevLabel": "11/17(전일)",
+  "todayLabel": "11/18(당일)",
+  "excelPath": "/__w/ktm-crawler/ktm-crawler/output/요금제현황_20261118.xlsx",
+  "totalToday": 1093,
   "summary": {
-    "newCount": 13,
+    "newCount": 22,
     "hiddenCount": 0,
     "changedCount": 0,
     "newPlans": [
@@ -91,6 +91,87 @@
         "qos": null,
         "당일": 20900,
         "bigo": "출시: 11/5"
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "5G 라이트 15GB 300분",
+        "network_type": "5G",
+        "data": 15,
+        "qos": "2Mbps",
+        "당일": 29000,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "5G 유심 1GB 100분",
+        "network_type": "5G",
+        "data": 1,
+        "qos": null,
+        "당일": 3500,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "5G 유심 2GB 200분",
+        "network_type": "5G",
+        "data": 2,
+        "qos": null,
+        "당일": 4500,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "The 착한 데이터 1.5GB",
+        "network_type": "LTE",
+        "data": 1.5,
+        "qos": null,
+        "당일": 21000,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "헬로모바일",
+        "plan_name": "The 착한 데이터 유심 1.5GB",
+        "network_type": "LTE",
+        "data": 1.5,
+        "qos": null,
+        "당일": 6000,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "5G (125GB+/통화기본) [혜택형]",
+        "network_type": "5G",
+        "data": 125,
+        "qos": "5Mbps",
+        "당일": 42100,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "5G (95GB+/통화기본) [혜택형]",
+        "network_type": "5G",
+        "data": 95,
+        "qos": "3Mbps",
+        "당일": 40900,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "5G 스페셜 [혜택형]",
+        "network_type": "5G",
+        "data": 150,
+        "qos": "5Mbps",
+        "당일": 47300,
+        "bigo": "출시: 11/18"
+      },
+      {
+        "operator": "유모바일",
+        "plan_name": "LTE 스페셜 [혜택형]",
+        "network_type": "LTE",
+        "data": "11GB+일 2GB",
+        "qos": "3Mbps",
+        "당일": 32990,
+        "bigo": "출시: 11/18"
       },
       {
         "operator": "스카이라이프",
